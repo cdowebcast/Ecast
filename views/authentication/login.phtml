@@ -1,26 +1,4 @@
 <?php require __DIR__ . '/../headerlogin.phtml' ?>
-<?php foreach ($newsListing as $news): ?>
-    <div class="alert alert-info">
-        <a class="close" data-dismiss="alert" href="#">&times;</a>
-        <h4 class="alert-heading">
-            <h3><?= $news['headline'] ?></h3>
-        </h4>
-        <?= $news['message'] ?>
-    </div> <!-- /.alert -->
-<?php endforeach;
-
-$wartung = DB::queryFirstRow("SELECT wartungsmodus FROM config WHERE id=%s",'1');
-if($wartung['wartungsmodus'] == 1){?>
-    <div class="alert alert-info">
-        <a class="close" data-dismiss="alert" href="#">&times;</a>
-        <h4 class="alert-heading">
-            <h3><?= _('Wartungsmodus Aktiv') ?></h3>
-        </h4>
-        <?= _('Login ist nur für Administratoren möglich!') ?>
-    </div>
-
-<?php }
-?>
 <div class="login-box">
       <div class="login-logo">
         <a href="#"><b>Ecast</b>Control Panel</a>
