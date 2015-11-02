@@ -287,7 +287,7 @@ $app->post('/station/showstream', function () use ($app) {
             // Ordner löschen
             $config = DB::queryFirstRow("SELECT doc_root FROM config WHERE id=%s", '1');
             $DocRoot = $config['doc_root'];
-            $FolderDir = $DocRoot . "/shoutcastconf/" . $serverPort['PortBase'];
+            $FolderDir = $DocRoot . "/userconf/" . $serverPort['PortBase'];
             function deleteDirectory($dir) {
                 if (!file_exists($dir)) return true;
                 if (!is_dir($dir)) return unlink($dir);
@@ -372,7 +372,7 @@ $app->post('/station/autodj', function () use ($app) {
 
         # Eintragen der Playliste in die DB
         \DB::update('sc_trans_conf', array(
-            'playlistfile' => $_SERVER['DOCUMENT_ROOT'] . '/shoutcastconf/' . $PortBase['PortBase'] . '/' . $changer['2'] . '.lst'
+            'playlistfile' => $_SERVER['DOCUMENT_ROOT'] . '/userconf/' . $PortBase['PortBase'] . '/' . $changer['2'] . '.lst'
         ), "id=%s", $servTrans['sc_trans_id']);
 
         $trans = new core\sp_special\sctrans();

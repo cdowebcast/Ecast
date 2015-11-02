@@ -1,17 +1,5 @@
 <?php
-/**
- * Created by David Schomburg (DashTec - Services)
- *      www.dashtec.de
- *
- *  S:P (StreamersPanel)
- *  Support: http://board.streamerspanel.de
- *
- *  v 4.0.0
- *
- *  Kundennummer:   @KDNUM@
- *  Lizenznummer:   @RECHNR@
- *  Lizenz: http://login.streamerspanel.de/user/terms
- */
+ 
 
 $app->get('/station/add', function() use ($app){
 
@@ -68,7 +56,7 @@ if (isset($_POST['addsrv']) AND $app->config('demo_mod') == false) {
     $config = DB::queryFirstRow("SELECT doc_root FROM config WHERE id=%s", '1');
     $DocRoot = $config['doc_root'];     # Auslesen von doc_root
 
-    $FolderDir = $DocRoot . "/shoutcastconf/" . $_POST['sc_serv']['PortBase'];    # Folder Pfad anlegen
+    $FolderDir = $DocRoot . "/userconf/" . $_POST['sc_serv']['PortBase'];    # Folder Pfad anlegen
 
 
     # Ordner mit Port als Bezeichnung erstellen
