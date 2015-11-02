@@ -1,0 +1,67 @@
+<?php
+/**
+ *  Ecast
+ */
+?>
+<div class="content-wrapper">
+<section class="content">
+<div class="row">
+<div class="col-xs-12">
+              <div class="box">
+                <div class="box-header">
+                  <h3 class="box-title"><i class="fa fa-users"></i> Oyentes Actuales</h3>
+                </div>
+                <div class="box-body table-responsive no-padding">
+                  <table class="table table-hover">
+                    <tbody>
+                    <tr>
+                      <th>IP</th>
+                      <th>Navegador</th>
+                      <th>Tiempo</th>
+                    </tr>
+                    <?php
+                $results = DB::query("SELECT * FROM sc_rel WHERE accounts_id=%s", $_SESSION['account_id']);
+                foreach ($results as $row) {
+                    $account = DB::queryFirstRow("SELECT * FROM sc_serv_conf WHERE id=%s", $row['sc_serv_conf_id']);
+                    $url = 'http://admin:' . $account['Password'] . '@' . $_SERVER['HTTP_HOST'] . ':' . $account['PortBase'] . '/admin/listclients?mount=/autodj';
+                    $xml = @simplexml_load_file($url);
+                    if ($xml === false) {
+                        //echo 'no';
+                    } else {
+                        $oyentes = $xml->source->listener;
+                        foreach ($oyentes as $oyente) {
+                            echo '<tr>';
+                            echo '<td><i class="fa fa-globe"></i> '. $oyente->IP .' </td>';
+                            echo '<td><i class="fa fa-volume-up"></i> '. $oyente->UserAgent .'</td>';
+                            echo '<td><i class="fa fa-clock-o"></i> <strong>'. ($oyente->Connected / 3600) % 60 .'</strong> Horas <strong>'. ($oyente->Connected / 60) % 60 .'</strong> Minutos <strong>'. ($oyente->Connected) % 60 .'</strong> Segundos</td>';
+                            echo '</tr>';
+                        }
+                    }
+                }
+				foreach ($results as $row) {
+                    $account = DB::queryFirstRow("SELECT * FROM sc_serv_conf WHERE id=%s", $row['sc_serv_conf_id']);
+                    $url = 'http://admin:' . $account['Password'] . '@' . $_SERVER['HTTP_HOST'] . ':' . $account['PortBase'] . '/admin/listclients?mount=/live';
+                    $xml = @simplexml_load_file($url);
+                    if ($xml === false) {
+                        //echo 'no';
+                    } else {
+                        $oyentes = $xml->source->listener;
+                        foreach ($oyentes as $oyente) {
+                            echo '<tr>';
+                            echo '<td><i class="fa fa-globe"></i> '. $oyente->IP .' </td>';
+                            echo '<td><i class="fa fa-volume-up"></i> '. $oyente->UserAgent .'</td>';
+                            echo '<td><i class="fa fa-clock-o"></i> <strong>'. ($oyente->Connected / 3600) % 60 .'</strong> Horas <strong>'. ($oyente->Connected / 60) % 60 .'</strong> Minutos <strong>'. ($oyente->Connected) % 60 .'</strong> Segundos</td>';
+                            echo '</tr>';
+                        }
+                    }
+                } 
+                ?>
+                  </tbody></table>
+                </div>
+              </div>
+            </div>
+
+</div>
+</section>
+</div>
+<?php require __DIR__ . '/../footer.phtml' ?>

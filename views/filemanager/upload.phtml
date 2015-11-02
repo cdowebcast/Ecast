@@ -1,0 +1,61 @@
+<?php
+/**
+ *  Ecast
+ */
+?>
+<div class="content-wrapper">
+<section class="content">
+<div class="row">
+<div class="span12">
+                            <div id="uploader_div"></div>
+                            <script type="text/javascript">
+                                $('#uploader_div').ajaxupload({
+                                    remotePath : 'mp3collection/',
+                                    url: '/filemanager/upload',
+                                    flash: 'uploader.swf',
+                                    data: '',
+                                    async: true,
+                                    maxFiles: 9999,
+                                    allowExt:['mp3'],
+                                    success:function(fn){},
+                                    finish:	function(file_names, file_obj){},
+                                    error:	function(err, fn){},
+                                    enable:	true,
+                                    chunkSize:1048576,
+                                    maxConnections:1,
+                                    dropColor:'red',
+                                    dropArea:'self',
+                                    autoStart:false,
+                                    thumbHeight:0,
+                                    thumbWidth:0,
+                                    thumbPostfix:'_thumb',
+                                    thumbPath:'',
+                                    thumbFormat:'',
+                                    maxFileSize:'250M',
+                                    form:null,
+                                    beforeSubmit:function(file_names, file_obj, formsubmitcall){
+                                        formsubmitcall.call(this);
+                                    },
+                                    editFilename:true,
+                                    sortable:false,
+                                    beforeUpload:function(filename, file){return true;},
+                                    beforeUploadAll:function(files){return true;},
+                                    onSelect: function(files){},
+                                    onInit:	function(AU){},
+                                    language:	'auto',
+                                    uploadDir:false,
+                                    removeOnSuccess:true,
+                                    removeOnError:false,
+                                    infoBox:true,
+                                    bootstrap:false
+                                });
+                            </script>
+                        </div>
+
+</div>
+</section>
+</div>
+
+
+
+

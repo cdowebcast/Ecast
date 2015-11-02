@@ -1,0 +1,89 @@
+<div class="content-wrapper">
+  <section class="content">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="box">
+          <div class="box-header">
+            <h3 class="box-title"><i class="fa fa-users"></i> Informacion general</h3>
+          </div>
+          <div class="box-body table-responsive no-padding">
+            <table class="table table-hover">
+              <tbody>
+                <tr>
+                  <th>Usuario</th>
+                  <th>Configuracion</th>
+                  <th>Server (Iniciar/Detener)</th>
+                  <th>Ajustes</th>
+                </tr>
+                <?php
+                            $results = DB::query("SELECT * FROM sc_rel");
+                            foreach ($results as $row) {
+                                echo '<tr><form action="/station/showstream" method="post">';
+                                $sc_serv = DB::queryFirstRow("SELECT * FROM sc_serv_conf WHERE id=%s", $row['sc_serv_conf_id']);
+                                $account = DB::queryFirstRow("SELECT * FROM accounts WHERE id=%s", $row['accounts_id']);
+                                echo "<td>" . $account['vorname'] . " " . $account['nachname'] . "</td>";
+
+                                echo "<td>";
+                                            echo _('Nombre: ') .'<b>'. $row['stream_userName'] .'</b>'."<br>";
+                                            echo _('Oyentes: ') .'<b>'. $sc_serv['MaxUser'] .'</b>'. "<br>";
+                                            if($row['sc_serv_pid'] != '0'){
+                                                echo _('Puerto: ') .'<a href="http://' . $_SERVER["HTTP_HOST"] . ':' . $sc_serv['PortBase'] . '" target="_blank" >'.'<b>'. $sc_serv['PortBase'] .'</b>'. "</a><br>";
+                                            }else{
+                                                echo _('Puerto: ') .$sc_serv['PortBase']. "</a><br>";
+                                            }
+
+                                    $sc_serv_version = DB::queryFirstRow("SELECT * FROM sc_version WHERE id=%s", $row['sc_serv_version_id']);
+                                    $sc_Trans_version = DB::queryFirstRow("SELECT * FROM sc_version WHERE id=%s", $row['sc_trans_version_id'] );
+                                            echo _('Server-Version: ').'<b>'. $sc_serv_version['name'].'</b>'.'<br>';
+                                echo "</td>";
+
+                                ?>
+                </form>
+                
+              <td><form action="/station/showstream" method="post">
+                    <?php if ($row['sc_serv_pid'] == '0') {
+                                            echo '<img src="/image/fuge/status-busy.png" >';
+                                            ?>
+                    <button name="onoffselc" value="<?php echo $row['id'] . '.1' ?>" class="btn btn-success" value="<?php echo $row['id'] . '.0' ?>">
+                    Iniciar</button>
+                    <?php
+                                        } else {
+                                            echo '<img src="/image/fuge/status.png">';
+                                            ?>
+                    <button name="onoffselc" value="<?php echo $row['id'] . '.0' ?>" class="btn btn-danger" value="<?php echo $row['id'] . '.0' ?>">
+                    Detener</button>
+                    <?php
+                                        } ?>
+                  </form></td>
+                <td><form action="/station/showstream" method="post">
+                    <button name="changeConfServ" value="<?php echo $row['id'] . '.clear' ?>" class="btn btn-danger" ><img src="/image/fuge/cross-circle.png" alt="Borrar"></button>
+                    <button name="changeConfServ" value="<?php echo $row['id'] . '.changeUser' ?>" class="btn btn-danger" ><img src="/image/fuge/users.png" ></button>
+                  </form>
+                  <form action="/stationaddeditcontrol/selectStream" method="post">
+                    <button name="streamtoEdit" value="<?php echo $row['id'] . '.edit' ?>" class="btn btn-secondary" ><img src="/image/fuge/pencil.png"></button>
+                  </form></td>
+                <?php
+                                echo '</tr>';
+                            }
+                            ?>
+                
+                  <tr>
+                  <form action="/station/showstream" method="post">
+                      <td>Todos</td>
+                      <td></td>
+                      <td><button type="submit" value="on" name="switch" class="btn btn-success">Iniciar Todos</button>
+                        <button type="submit" value="rebooton" name="switch" class="btn btn-info">Reiniciar Todos</button>
+                        <button type="submit" value="off" name="switch" class="btn btn-danger">Detener Todos</button></td>
+                      <td></td>
+                      </form>
+                    </tr>
+                
+                </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<?php require __DIR__ . '/../footer.phtml' ?>

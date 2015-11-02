@@ -1,0 +1,92 @@
+<?php
+/**
+ * Created by David Schomburg (DashTec - Services)
+ *      www.dashtec.de
+ *
+ *  S:P (StreamersPanel)
+ *  Support: http://board.streamerspanel.de
+ *
+ *  v 4.0.0
+ *
+ *  Kundennummer:   @KDNUM@
+ *  Lizenznummer:   @RECHNR@
+ *  Lizenz: http://login.streamerspanel.de/user/terms
+ */
+?>
+<?php require_once __DIR__ . '/../header.phtml' ?>
+
+<div id="header">
+
+    <div class="container">
+
+        <h1><a href="/"><?php echo _('Streamers:Panel'); ?></a></h1>
+
+        <div id="info">
+
+            <a href="javascript:;" id="info-trigger">
+                <i class="icon-cog"></i>
+            </a>
+
+            <div id="info-menu">
+
+                <div class="info-details">
+
+                    <h4><?php echo _('Willkommen zurück, '); ?><?php echo $_SESSION['USERNAME']; ?></h4>
+
+                    <p>
+                        <a href="/logout"><?= _('Abmelden') ?></a>                    </p>
+                    <br>
+                </div>
+                <!-- /.info-details -->
+
+                <div class="info-avatar">
+
+                    <img src='../../../../img/avatar.jpg' alt="avatar">
+
+                </div>
+                <!-- /.info-avatar -->
+
+            </div>
+            <!-- /#info-menu -->
+
+        </div>
+        <!-- /#info -->
+
+    </div>
+    <!-- /.container -->
+
+</div> <!-- /#header -->
+
+
+<div id="nav">
+
+    <div class="container">
+
+        <a href="javascript:;" class="btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <i class="icon-reorder"></i>
+        </a>
+
+        <div class="nav-collapse">
+
+            <ul class="nav">
+
+                <li class="nav-icon active">
+                    <a href="/">
+                        <i class="icon-home"></i>
+                        <span><?php echo _('Home'); ?></span>
+                    </a>
+                </li>
+
+            </ul>
+
+            <ul class="nav pull-right">
+
+            </ul>
+
+        </div>
+        <!-- /.nav-collapse -->
+
+    </div>
+    <!-- /.container -->
+
+</div> <!-- /#nav -->

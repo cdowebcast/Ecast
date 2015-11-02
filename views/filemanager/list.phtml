@@ -1,0 +1,81 @@
+<?php
+/**
+ *  Ecast
+ */
+?>
+
+<div class="content-wrapper">
+  <section class="content">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="box">
+          <div class="box-header">
+            <h3 class="box-title"><i class="fa fa-music"></i> Archivos Mp3</h3>
+          </div>
+          <div class="box-body table-responsive no-padding">
+            <table class="table table-hover" id="example">
+              <thead>
+                <tr>
+                  <th>Titulo</th>
+                  <th>Tama&ntilde;o</th>
+                  <th>Duracion</th>
+                  <th>Eliminar</th>
+                </tr>
+              </thead>
+              <tbody>
+                <?php
+
+                            $TIMEFUNC = new core\time\time();
+                            $FILESIZE = new core\file\filesize();
+
+                            $Size ='0';
+                            $TimeSecond = '0';
+                            $results = DB::query("SELECT * FROM mp3_usr_rel WHERE user_id=%s", $_SESSION['account_id']);
+                            foreach ($results as $row) {
+                                $mp3titel = DB::query("SELECT * FROM mp3 WHERE id=%s", $row['mp3_id']);
+                                foreach ($mp3titel as $title) {
+                                    echo '<tr><form action="/filemanager/list" method="post">';
+                                    echo "<td>".$title['org_file_titel']."</td> \n";
+                                    $MB = $title['size'] / 1048576;
+                                    echo "<td>".round($MB, 2)." MB</td> \n";
+                                    echo "<td>".$TIMEFUNC->seconds2Time($title['playtime'])."</td> \n";
+                                    echo '<td><button class="btn btn-danger" type="submit" value="'.$row['id'].'" name="DelFromDB" >Borrar</button></td>';
+                                    echo '</form></tr>';
+
+                                    $Size += $title['size'];
+                                    $TimeSecond += $title['playtime'];
+
+
+
+
+                                }
+                            }
+
+                            // TODO: Aus der DB und dem Ordner löschen!
+                            ?>
+              <td>Estadisticas Generales </td>
+                <td><?php
+                                        $FileSize = new core\file\filesize();
+                                             $Size =$Size / 1073741824 ;
+                                        echo round($Size, 2) . "GB";
+                                ?></td>
+                <td><?php
+
+
+                                ?></td>
+                <td><?php
+                                            echo $TIMEFUNC->seconds2TimeDay($TimeSecond);
+                                ?></td>
+                <td><?php
+
+
+                                ?></td>
+                  </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<?php require __DIR__ . '/../footer.phtml' ?>

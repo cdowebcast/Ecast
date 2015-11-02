@@ -1,0 +1,107 @@
+<?php
+/**
+ * Created by David Schomburg (DashTec - Services)
+ *      www.dashtec.de
+ *
+ *  S:P (StreamersPanel)
+ *  Support: http://board.streamerspanel.de
+ *
+ *  v 4.0.0
+ *
+ *  Kundennummer:   @KDNUM@
+ *  Lizenznummer:   @RECHNR@
+ *  Lizenz: http://login.streamerspanel.de/user/terms
+ */
+?>
+    <div id="content">
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <div class="widget widget-table">
+                        <div class="widget-header">
+                            <h3>
+                                <i class="icon-th-list"></i>
+                                <?php echo _('Deine Streams'); ?>
+                            </h3>
+                        </div>
+                        <!-- /widget-header -->
+                        <div class="widget-content">
+                            <table class="table table-striped table-bordered table-highlight" id="example">
+                                <thead>
+                                <tr>
+                                    <th><?php echo _('Streamname'); ?></th>
+                                    <th><?php echo _('Port'); ?></th>
+                                    <th><?php echo _('Transcoder (Start/Stop/Neustart)'); ?></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <?php
+                                $results = DB::query("SELECT dj_of_sc_rel_id FROM dj_accounts WHERE dj_accounts_id=%s", $_SESSION['account_id']);
+                                foreach ($results as $row){
+
+                                $sc_rel = DB::queryFirstRow("SELECT * FROM sc_rel WHERE id=%s", $row['dj_of_sc_rel_id']);
+                                    echo '<form action="/station/djfunction" method="post"><tr>';
+                                    $sc_serv = DB::queryFirstRow("SELECT * FROM sc_serv_conf WHERE id=%s", $sc_rel['sc_serv_conf_id']);
+
+                                    ?>
+                                    <td>
+                                        <?= $sc_rel['stream_userName'] ?>
+                                    </td>
+                                    <td>
+                                       <?=  '<a href="http://' . $_SERVER["HTTP_HOST"] . ':' . $sc_serv['PortBase'] . '">' . $sc_serv['PortBase']?>
+                                    </td>
+                                    <td>
+                                        <?php if ($sc_rel['sc_trans_pid'] == '0') {
+                                            echo '<img src="/image/fuge/status-busy.png">';
+
+                                        } else {
+                                            echo '<img src="/image/fuge/status.png" >';
+                                            ?>
+                                            <button name="djSwitch" value="<?php echo $sc_rel['id'] . '.0' ?>" class="btn btn-danger"><?= _('Stoppen') ?></button>
+                                        <?php
+                                        }
+
+                                        if ($sc_rel['sc_serv_pid'] == '0') {
+                                            echo _('Bitte starten Sie den Stream-Server');
+                                        } else {
+
+                                            if($sc_rel['sc_trans_pid'] == '0'){
+
+                                                ?>
+                                                <button name="djSwitch" value="<?php echo $sc_rel['id'] . '.1' ?>" class="btn btn-success"><?= _('Starten') ?></button>
+                                            <?php
+                                            }
+
+
+                                        } ?>
+
+
+                                            <button class="btn btn-success" value="<?= $sc_rel['sc_trans_id'] ?>" name="dj_nextSong"><img src="/image/fuge/control-double.png"></button>
+                                            <button class="btn btn-warning" value="<?= $sc_rel['sc_trans_id'] ?>" name="kickdj">DJ-Kick</button>
+
+
+
+                                        </form>
+
+
+
+                                    </td>
+
+                                    <?php
+                                    echo '</tr>';
+                                }
+                                ?>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /widget-content -->
+                    </div>
+                    <!-- /widget -->
+                </div>
+                <!-- /span12 -->
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /.container -->
+    </div> <!-- /#content -->
+<?php require __DIR__ . '/../footer.phtml' ?>

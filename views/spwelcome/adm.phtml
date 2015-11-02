@@ -1,0 +1,49 @@
+<div class="content-wrapper">
+  <section class="content">
+    <div class="row">
+      <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-yellow">
+          <div class="inner">
+            <h3>
+              <?php
+                        DB::query("SELECT * FROM accounts");
+                        echo DB::count();
+                        ?>
+            </h3>
+            <p>Usuarios</p>
+          </div>
+          <div class="icon"> <i class="fa fa-users"></i> </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-yellow">
+          <div class="inner">
+            <h3>
+              <?php
+                        DB::query("SELECT * FROM mp3");
+                        echo DB::count();
+                        ?>
+            </h3>
+            <p>Mp3</p>
+          </div>
+          <div class="icon"> <i class="fa fa-floppy-o"></i> </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-yellow">
+          <div class="inner">
+            <h3>
+              <?php
+                        DB::query("SELECT * FROM sc_serv_conf");
+                        echo DB::count();
+                        ?>
+            </h3>
+            <p>Servidores</p>
+          </div>
+          <div class="icon"> <i class="fa fa-server"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<?php require __DIR__ . '/../footer.phtml' ?>

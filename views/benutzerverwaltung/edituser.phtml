@@ -1,0 +1,226 @@
+<?php
+/**
+ * Created by David Schomburg (DashTec - Services)
+ *      www.dashtec.de
+ *
+ *  S:P (StreamersPanel)
+ *  Support: http://board.streamerspanel.de
+ *
+ *  v 4.0.0
+ *
+ *  Kundennummer:   @KDNUM@
+ *  Lizenznummer:   @RECHNR@
+ *  Lizenz: http://login.streamerspanel.de/user/terms
+ */
+?>
+<div id="content">
+    <div class="container">
+        <div id="page-title" class="clearfix">
+            <ul class="breadcrumb">
+                <li>
+                    <a href="/">Home</a> <span class="divider">/</span>
+                </li>
+                <li>
+                    <a href="/user/list"><?= _('Benutzerverwaltung') ?></a> <span class="divider">/</span>
+                </li>
+                <li class="active"><?= _('Benutzerverwaltung') ?></li>
+            </ul>
+        </div>
+        <!-- /.page-title -->
+        <form class="form-horizontal" action="/user/edituser" method="post">
+            <div class="row">
+
+                <div class="span8">
+                    <div id="horizontal" class="widget widget-form">
+                        <div class="widget-header">
+                            <h3>
+                                <i class="icon-pencil"></i>
+                                Neuen Stream<?= _('Benutzerverwaltung') ?>
+                            </h3>
+                        </div>
+                        <!-- /widget-header -->
+                        <div class="widget-content">
+                            <fieldset>
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?= _('Kundennummer') ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="kundennummer"
+                                               value="<?php echo $Users['kundennummer'] ?>" id="input01">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?= _('Passwort') ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-xxlarge" name="password"
+                                               placeholder="<?= _('Wenn gewünscht bitte neues Passwort eingeben') ?>" id="input01">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?= _('Vorname') ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="vorname"
+                                               value="<?php echo $Users['vorname'] ?>" id="input01">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?= _('Nachname') ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="nachname"
+                                               value="<?php echo $Users['nachname'] ?>" id="input01">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?= _('Straße') ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="street"
+                                               value="<?php echo $Users['street'] ?>" id="input01">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?= _('Hausnummer') ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="hausnummer"
+                                               value="<?php echo $Users['hausnummer'] ?>" id="input01">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?= _('Ort') ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="ort"
+                                               value="<?php echo $Users['ort'] ?>" id="input01">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?= _('PLZ') ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="plz"
+                                               value="<?php echo $Users['plz'] ?>" id="input01">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?= _('Telefon') ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="telefon"
+                                               value="<?php echo $Users['telefon'] ?>" id="input01">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?= _('Handy') ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="handy"
+                                               value="<?php echo $Users['handy'] ?>" id="input01">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?= _('E-Mail') ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="mail"
+                                               value="<?php echo $Users['mail'] ?>" id="input01">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label"><?= _('Benutzerrechte') ?></label>
+
+                                    <div class="controls">
+                                        <label class="radio">
+                                            <input type="radio" name="usr_grp" id="validateRadio1"
+                                                   value="adm" <?php if ($Users['usr_grp'] == 'adm') {
+                                                echo 'checked=""';
+                                            } ?>>
+                                            <?= _('Administrator') ?>
+                                        </label>
+                                        <label class="radio">
+                                            <input type="radio" name="usr_grp" id="validateRadio2"
+                                                   value="user" <?php if ($Users['usr_grp'] == 'user') {
+                                                echo 'checked=""';
+                                            } ?>>
+                                            <?= _('Stream-Kunde') ?>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">Benutzer - Aktiv?<?= _('Benutzerverwaltung') ?></label>
+
+                                    <div class="controls">
+                                        <label class="radio">
+                                            <input type="radio" name="is_aktiv" id="validateRadio1"
+                                                   value="1" <?php if ($Users['is_aktiv'] == '1') {
+                                                echo 'checked=""';
+                                            } ?>>
+                                           <?= _('Ja') ?>
+                                        </label>
+                                        <label class="radio">
+                                            <input type="radio" name="is_aktiv" id="validateRadio2"
+                                                   value="0" <?php if ($Users['is_aktiv'] == '0') {
+                                                echo 'checked=""';
+                                            } ?>>
+                                            <?= _('Nein') ?>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="loacal"><?= _('Bitte wählen Sie Ihre Sprache') ?></label>
+                                    <div class="controls">
+                                        <select name="local" size="1">
+                                            <option selected value="de_DE"><?= _('Bitte wählen Sie Ihre Sprache') ?></option>
+                                            <option value="de_DE" <?php if($Users['local'] == 'de_DE'){echo 'selected';} ?>><?= _('Deutsch'); ?></option>
+                                            <option value="en_US" <?php if($Users['local'] == 'en_US'){echo 'selected';} ?>><?= _('English'); ?></option>
+                                        </select>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-actions">
+                                    <button type="submit" name="update" class="btn btn-danger btn-large"><i
+                                            class="icon-star"></i><?= _('Speichern') ?>
+                                    </button>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <!-- /widget-content -->
+                </div>
+                <!-- div span8 -->
+
+                <div class="span4">
+                    <div id="formToc" class="widget highlight">
+                        <div class="widget-header">
+                            <h3><?= _('<b>-Hinweise- </b>"Benutzer hinzufügen"') ?></h3>
+                        </div>
+                        <!-- /widget-header -->
+
+                        <div class="widget-content">
+                            <p><?= _('Kundennummern zur Identifikation von verschiedenen Accounts. Diese kann je nach
+                                Einstellungen als Login
+                                verwendet werden.') ?></p>
+                            <br>
+
+                            <p><?= _('Benutzer mit Administrator rechten erhalten vollen Zugriff auf das Panel') ?></p>
+                            <br>
+
+                            <p><?= _('Automatisch erstellte Passwörter werden den Benutzer per Mail zugeschickt.') ?></p>
+                        </div>
+                        <!-- /widget-content -->
+                    </div>
+                    <!-- /widget -->
+                </div>
+                <!-- /.span4 -->
+            </div>
+            <!-- /row -->
+        </form>
+    </div>
+    <!-- /.container -->
+</div> <!-- /#content -->
+<?php require __DIR__ . '/../footer.phtml' ?>

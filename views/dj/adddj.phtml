@@ -1,0 +1,157 @@
+<?php
+/**
+ * Created by David Schomburg (DashTec - Services)
+ *      www.dashtec.de
+ *
+ *  S:P (StreamersPanel)
+ *  Support: http://board.streamerspanel.de
+ *
+ *  v 4.0.0
+ *
+ *  Kundennummer:   @KDNUM@
+ *  Lizenznummer:   @RECHNR@
+ *  Lizenz: http://login.streamerspanel.de/user/terms
+ */
+?>
+    <div id="content">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="span8">
+
+                    <div id="horizontal" class="widget widget-form">
+
+                        <div class="widget-header">
+                            <h3>
+                                <i class="icon-pencil"></i>
+                                <?php echo _('DJ - Hinzufügen'); ?>
+                            </h3>
+                        </div>
+                        <!-- /widget-header -->
+
+                        <div class="widget-content">
+
+                            <form class="form-horizontal" method="post" action="/dj/list">
+                                <fieldset>
+                                    <div class="control-group">
+                                        <label class="control-label" for="input01"><?php echo _('DJ- Name'); ?></label>
+
+                                        <div class="controls">
+                                            <input type="text" class="input-large" name="dj_name" id="input01">
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label" for="input01"><?php echo _('Name'); ?></label>
+
+                                        <div class="controls">
+                                            <input type="text" class="input-large" name="vorname" id="input01">
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label" for="input01"><?php echo _('Nachname'); ?></label>
+
+                                        <div class="controls">
+                                            <input type="text" class="input-large" name="nachname" id="input01">
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label" for="input01"><?php echo _('Straße'); ?></label>
+
+                                        <div class="controls">
+                                            <input type="text" class="input-large" name="street" id="input01">
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label" for="input01"><?php echo _('Hausnummer'); ?></label>
+
+                                        <div class="controls">
+                                            <input type="text" class="input-large" name="hausnummer" id="input01">
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label" for="input01"><?php echo _('Ort'); ?></label>
+
+                                        <div class="controls">
+                                            <input type="text" class="input-large" name="ort" id="input01">
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label" for="input01"><?php echo _('PLZ'); ?></label>
+
+                                        <div class="controls">
+                                            <input type="text" class="input-large" name="plz" id="input01">
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label" for="input01"><?php echo _('Tel'); ?></label>
+
+                                        <div class="controls">
+                                            <input type="text" class="input-large" name="telefon" id="input01">
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label" for="input01"><?php echo _('Mobil'); ?></label>
+
+                                        <div class="controls">
+                                            <input type="text" class="input-large" name="handy" id="input01">
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label" for="input01"><?php echo _('Mail'); ?></label>
+
+                                        <div class="controls">
+                                            <input type="text" class="input-large" name="mail" id="input01">
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label" for="input01"><?php echo _('Skype'); ?></label>
+
+                                        <div class="controls">
+                                            <input type="text" class="input-large" name="skype" id="input01">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-actions">
+                                        <button type="submit" class="btn btn-primary btn-large" name="entryDjUser">
+                                            <?php echo _('Anlegen'); ?>
+                                        </button>
+                                    </div>
+                                </fieldset>
+                            </form>
+
+                        </div>
+                        <!-- /widget-content -->
+
+                    </div>
+
+
+                </div>
+                <!-- /span8 -->
+
+
+                <div class="span4">
+
+                    <div id="formToc" class="widget highlight">
+
+                        <div class="widget-header">
+                            <h3><b><?php echo _('Hints '); ?></b><?php echo _('DJ hinzufügen'); ?></h3>
+                        </div>
+                        <!-- /widget-header -->
+
+                        <div class="widget-content">
+                            <p><?php echo _('DJ-Benutzer Identifikation'); ?></p>
+                        </div>
+                        <!-- /widget-content -->
+                    </div>
+                    <!-- /widget -->
+                </div>
+                <!-- /.span4 -->
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /.container -->
+    </div> <!-- /#content -->
+
+<?php require __DIR__ . '/../footer.phtml' ?>

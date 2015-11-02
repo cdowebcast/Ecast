@@ -1,0 +1,49 @@
+<?php
+/**
+ * Created by David Schomburg (DashTec - Services)
+ *      www.dashtec.de
+ *
+ *  S:P (StreamersPanel)
+ *  Support: http://board.streamerspanel.de
+ *
+ *  v 4.0.0
+ *
+ *  Kundennummer:   @KDNUM@
+ *  Lizenznummer:   @RECHNR@
+ *  Lizenz: http://login.streamerspanel.de/user/terms
+ */
+
+?>
+    <script>
+        $(function () {                       // On DOM ready
+            $('#myModal').modal('show');     // Show the modal
+        });
+    </script>
+
+    <div class="modal fade" id="myModal">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3><?php echo _('DJ - Priorität'); ?></h3>
+            </div>
+            <div class="modal-body">
+                <td>
+                    <form action="/dj/prioset" method="post">
+                        <select name="djprioset" size="1" onchange="this.form.submit()">
+                            <option value=""><?= _('Bitte Priorität wählen') ?></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </form>
+                </td>
+            </div>
+            <div class="modal-footer">
+            </div>
+    </div>

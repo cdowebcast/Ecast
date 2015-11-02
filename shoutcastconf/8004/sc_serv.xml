@@ -1,0 +1,94 @@
+<icecast>
+    <limits>
+        <clients>250</clients>
+        <sources>3</sources>
+        <threadpool>5</threadpool>
+        <queue-size>102400</queue-size>
+        <client-timeout>30</client-timeout>
+        <header-timeout>15</header-timeout>
+        <source-timeout>10</source-timeout>
+        <burst-on-connect>1</burst-on-connect>
+        <burst-size>65535</burst-size>
+    </limits>
+
+    <authentication>
+        <source-password>edinedin</source-password>
+        <relay-password>edinedin</relay-password>
+        <admin-user>admin</admin-user>
+        <admin-password>edinedin</admin-password>
+    </authentication>
+
+
+    <hostname>45.58.36.48</hostname>
+<port>8004</port>
+<bind-address>127.0.0.1</bind-address>
+<shoutcast-mount>/autodj</shoutcast-mount>
+<listen-socket>
+<port>8004</port>
+</listen-socket>
+<listen-socket>
+<port>8005</port>
+<shoutcast-compat>1</shoutcast-compat>
+</listen-socket>
+
+    <mount>
+        <mount-name>/stream</mount-name>
+        <intro></intro>
+        <fallback-mount>/live</fallback-mount>
+        <fallback-override>1</fallback-override>
+        <fallback-when-full>0</fallback-when-full>
+        <no-yp>1</no-yp>
+    </mount>
+
+    <mount>
+        <mount-name>/live</mount-name>
+   <intro></intro>
+        <fallback-mount>/autodj</fallback-mount>
+        <fallback-override>1</fallback-override>
+        <fallback-when-full>0</fallback-when-full>
+        <no-yp>1</no-yp>
+    </mount>
+
+    <mount>
+        <mount-name>/autodj</mount-name>
+        <bitrate>64</bitrate>
+        <intro></intro>
+      <fallback-mount></fallback-mount>
+      <fallback-override>1</fallback-override>
+      <fallback-when-full>0</fallback-when-full>            
+        <no-yp>1</no-yp>
+   <charset>UTF-8</charset>
+    </mount>
+
+
+   <fileserve>1</fileserve>
+
+
+    <paths>
+        <basedir>/var/www/html/shoutcastconf/8004/</basedir>
+        <logdir>/var/www/html/shoutcastconf/8004/var/log</logdir>
+        <webroot>/var/www/html/shoutcastconf/8004/web</webroot>
+        <adminroot>/var/www/html/shoutcastconf/8004/admin</adminroot>
+        <pidfile>var/run/server.pid</pidfile>
+        <!--
+        <alias source="/foo" dest="/bar"/>
+          -->
+        <alias source="/" dest="/status.xsl"/>
+    </paths>
+
+    <logging>
+        <accesslog>access.log</accesslog>
+        <errorlog>error.log</errorlog>
+        <playlistlog>playlist.log</playlistlog>
+         <loglevel>1</loglevel>
+<logsize>512</logsize>
+    </logging>
+
+    <security>
+        <chroot>0</chroot>
+        <changeowner>
+            <user>apache</user>
+            <group>apache</group>
+        </changeowner>
+    </security>
+</icecast> 

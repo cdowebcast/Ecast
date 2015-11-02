@@ -1,0 +1,181 @@
+<?php require_once __DIR__ . '/../header.phtml' ?>
+
+<div class="content-wrapper">
+  <section class="content">
+    <div class="row">
+    
+    
+
+
+    <div id="content">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="span8">
+
+                <div id="horizontal" class="widget widget-form">
+
+                    <div class="widget-header">
+                        <h3>
+                            <i class="icon-pencil"></i>
+                            <?= _('Neuen Benutzer hinzufügen'); ?>
+                        </h3>
+                    </div>
+                    <!-- /widget-header -->
+
+                    <div class="widget-content">
+
+                        <form class="form-horizontal" method="post" action="/benutzerverwaltung/adduser">
+                            <fieldset>
+                                <div class="control-group warning">
+                                    <label class="control-label" for="input01"><?= _('Kundennummer'); ?></label>
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="kundennummer" id="input01">
+                                        <span class="help-inline"><?= _('Kundennummer ist der Benutzername') ?></span>
+                                    </div>
+                                </div>
+                                <div class="control-group warning">
+                                    <label class="control-label" for="input01"><?= _('Passwort'); ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="password" id="input01">
+
+                                    </div>
+                                </div>
+                                <div class="control-group warning">
+                                    <label class="control-label" for="input01"><?= _('Vorname'); ?></label>
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="vorname" id="input01">
+                                        <span class="help-inline"><?= _('Feld wird benötig!') ?></span>
+                                    </div>
+                                </div>
+                                <div class="control-group warning">
+                                    <label class="control-label" for="input01"><?= _('Nachname'); ?></label>
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="nachname" id="input01">
+                                        <span class="help-inline"><?= _('Feld wird benötig!') ?></span>
+
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?= _('Straße'); ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="street" id="input01">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?= _('Hausnummer'); ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="hausnummer" id="input01">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?= _('PLZ'); ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="plz" id="input01">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?= _('Ort'); ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="ort" id="input01">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?= _('Tel'); ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="telefon" id="input01">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?= _('Handy'); ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="handy" id="input01">
+                                    </div>
+                                </div>
+                                <div class="control-group warning">
+                                    <label class="control-label" for="input01"><?= _('Mail'); ?></label>
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="mail" id="input01">
+                                        <span class="help-inline"><?= _('Feld wird benötig!') ?></span>
+                                        <p class="help-block"><?= _('Wird benötigt bei der Automatischen erstellung des
+                                            Passwortes!'); ?></p>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label"><?= _('Benutzerrechte'); ?></label>
+
+                                    <div class="controls">
+                                        <label class="radio">
+                                            <input type="radio" name="usr_grp" id="validateRadio1" value="user">
+                                            <?= _('Benutzer (Starten und Stoppen der Streams, Playlisten bearbeiten, DJ
+                                            anlegen, löschen)') ?>
+                                        </label>
+                                        <label class="radio">
+                                            <input type="radio" name="usr_grp" id="validateRadio2" value="adm">
+                                            <?= _('Admin (Volle Adminrechte)') ?>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-actions">
+                                    <button type="submit" class="btn btn-primary btn-large" name="registeruser"><?= _('Benutzer hinzufügen'); ?>
+                                    </button>
+                                </div>
+                            </fieldset>
+                        </form>
+
+                    </div>
+                    <!-- /widget-content -->
+
+                </div>
+
+
+            </div>
+            <!-- /span8 -->
+
+
+            <div class="span4">
+
+                <div id="formToc" class="widget highlight">
+
+                    <div class="widget-header">
+                        <h3><?= _('<b>-Hinweise- </b>"Benutzer hinzufügen"') ?></h3>
+                    </div>
+                    <!-- /widget-header -->
+
+                    <div class="widget-content">
+
+                        <p><?= _('Kundennummern zur Identifikation von verschiedenen Accounts. Diese kann je nach Einstellungen
+                            als Login verwendet werden.')?></p>
+
+                        <br>
+
+                        <p><?= _('Benutzer mit Administrator rechten erhalten vollen Zugriff auf das Panel') ?></p>
+
+                        <br>
+
+                        <p><?= _('Automatisch erstellte Passwörter werden den Benutzer per Mail zugeschickt.')?></p>
+                    </div>
+                    <!-- /widget-content -->
+                </div>
+                <!-- /widget -->
+            </div>
+            <!-- /.span4 -->
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /.container -->
+</div> <!-- /#content -->
+
+</div>
+  </section>
+</div>
+<?php require __DIR__ . '/../footer.phtml' ?>

@@ -1,0 +1,239 @@
+<?php
+/**
+ * Created by David Schomburg (DashTec - Services)
+ *      www.dashtec.de
+ *
+ *  S:P (StreamersPanel)
+ *  Support: http://board.streamerspanel.de
+ *
+ *  v 4.0.0
+ *
+ *  Kundennummer:   @KDNUM@
+ *  Lizenznummer:   @RECHNR@
+ *  Lizenz: http://login.streamerspanel.de/user/terms
+ */
+?><div id="content">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="span8">
+
+                <div id="horizontal" class="widget widget-form">
+
+                    <div class="widget-header">
+                        <h3>
+                            <i class="icon-pencil"></i>
+                            <?= _('S:P Server - Einstellungen'); ?>
+                        </h3>
+                    </div>
+                    <!-- /widget-header -->
+
+                    <div class="widget-content">
+
+                        <form class="form-horizontal" method="post" action="/server/conf">
+                            <fieldset>
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?=  _('S:P Titel'); ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large"
+                                               value="<?=  $server['sp_titel']; ?>" name="sp_titel" id="input01">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?=  _('URL'); ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large"
+                                               value="<?= $_SERVER['SERVER_NAME']; ?>" name="SERVER_NAME"
+                                               id="input01">
+
+                                        <p class="help-block"><?=  _('ohne http://www.'); ?></p>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?=  _('Server document root'); ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-xxlarge"
+                                               value="<?=  $server['doc_root']; ?>" name="doc_root" id="input01">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?=  _('IP'); ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="server_ip"
+                                               value="<?=  $server['server_ip']; ?>" id="input01">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?=  _('ssh - Username'); ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large"
+                                               value="<?=  $server['root_user']; ?>" name="root_user"
+                                               id="input01">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?=  _('ssh - Password'); ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" placeholder="wird nicht angezeigt!"
+                                               name="root_password" id="input01">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?=  _('ssh - Port'); ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large"
+                                               value="<?=  $server['ssh_port']; ?>" name="ssh_port" id="input01">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?=  _('Server-Mail-Adresse'); ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large"
+                                               value="<?=  $server['adminMail']; ?>" name="adminMail"
+                                               id="input01">
+
+                                        <p class="help-block"><?=  _('Informationen über neue Tickets'); ?></p>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="loacal"><?= _('Bitte wählen Sie Ihre Sprache') ?></label>
+                                    <div class="controls">
+                                        <select name="local" size="1">
+                                            <option  value="de_DE"><?= _('Bitte wählen Sie Ihre Sprache') ?></option>
+                                            <option value="de_DE"  <?php if($server['default_local'] == 'de_DE'){echo 'selected';} ?>><?= _('Deutsch'); ?></option>
+
+                                        </select>
+                                    </div>
+                                </div>
+
+
+                                <div class="control-group">
+                                    <label class="control-label" for="loacal"><?= _('Wartungsmodus aktiv?') ?></label>
+                                    <div class="controls">
+                                        <label class="radio">
+                                            <input type="radio" name="wartungsmodus" id="validateRadio1" value="1" <?php if($server['wartungsmodus'] == '1'){echo 'checked=""';} ?>>
+                                            <?php echo _('Ein'); ?>
+                                        </label>
+                                        <label class="radio">
+                                            <input type="radio" name="wartungsmodus" id="validateRadio2" value="0" <?php if($server['wartungsmodus'] == '0'){echo 'checked=""';} ?>>
+                                            <?php echo _('Aus'); ?>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="form-actions">
+                                    <button type="submit" class="btn btn-primary btn-large" name="saveserverconf">
+                                        <?=  _('Speichern'); ?>
+                                    </button>
+                                </div>
+                            </fieldset>
+                        </form>
+
+                    </div>
+                    <!-- /widget-content -->
+
+                </div>
+
+
+            </div>
+            <!-- /span8 -->
+
+
+            <div class="span4">
+
+                <div id="formToc" class="widget highlight">
+
+                    <div class="widget-header">
+                        <h3><b>-Hinweise- </b>"Streamers:Panel - Konfiguration"</h3>
+                    </div>
+                    <!-- /widget-header -->
+                    <div class="widget-content">
+                        <p>Das Root-Passwort wird aus Sicherheitsgründen <b>NICHT</b> angezeigt!</p>
+
+                    </div>
+                    <!-- /widget-content -->
+                </div>
+                <!-- /widget -->
+            </div>
+            <!-- /.span4 -->
+            <div class="span4">
+                <div class="widget widget-accordion">
+
+                    <div class="widget-header">
+
+                        <h3>
+                            <?=  _('Server Information'); ?>
+                        </h3>
+                    </div>
+                    <!-- /.widget-header -->
+
+                    <div class="widget-content">
+
+                        <div class="accordion" id="sample-accordion">
+                            <div class="accordion-group">
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#sample-accordion"
+                                       href="#collapseOne">
+                                        Webserver
+                                    </a>
+
+                                    <i class="icon-plus toggle-icon"></i>
+                                </div>
+                                <div id="collapseOne" class="accordion-body in collapse">
+                                    <div class="accordion-inner">
+                                        <p>
+                                            PHPVersion: <?= phpversion()  ?><br>
+                                            Apache:  <?=  $_SERVER['SERVER_SOFTWARE']  ?><br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-group">
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#sample-accordion"
+                                       href="#collapseTwo">
+                                        <?=  _('Unterstützte Module'); ?>
+                                    </a>
+
+                                    <i class="icon-plus toggle-icon"></i>
+                                </div>
+                                <div id="collapseTwo" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        <?     $loaded_extensions = get_loaded_extensions();
+                                        natcasesort($loaded_extensions);
+                                        foreach ($loaded_extensions as $loaded_extension) {
+                                            echo (phpversion($loaded_extension) !== FALSE ? $loaded_extension . ' (' . phpversion($loaded_extension) . ')' : $loaded_extension) . '<br>';
+                                        }
+
+                                        ?>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- /.widget-content -->
+
+                </div>
+                <!-- /.widget -->
+
+            </div>
+            <!-- /widget -->
+        </div>
+        <!-- /.span4 -->
+    </div>
+    <!-- /row -->
+</div> <!-- /.container -->
+</div> <!-- /#content -->
+<?php require __DIR__ . '/../footer.phtml' ?>

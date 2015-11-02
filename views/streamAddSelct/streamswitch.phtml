@@ -1,0 +1,66 @@
+<?php
+/**
+ * Created by David Schomburg (DashTec - Services)
+ *      www.dashtec.de
+ *
+ *  S:P (StreamersPanel)
+ *  Support: http://board.streamerspanel.de
+ *
+ *  v 4.0.0
+ *
+ *  Kundennummer:   @KDNUM@
+ *  Lizenznummer:   @RECHNR@
+ *  Lizenz: http://login.streamerspanel.de/user/terms
+ */
+?>
+    <div id="content">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="span6">
+                    <form action="/station/add" method="post">
+
+                        <div class="widget toolbar-bottom">
+
+                            <div class="widget-header">
+                                <h3> <?= _('Support'); ?></h3>
+                            </div>
+                            <!-- /.widget-header -->
+
+                            <div class="widget-content">
+
+                                <select name="addstreamswitch" size="1" onchange="this.form.submit()">
+                                    <option value=""><? echo _('Bitte Stream-Server wählen') ?></option>
+                                    <?php
+                                    $results = DB::query("SELECT * FROM sc_version WHERE typ=%s", 'serv');
+                                    foreach ($results as $row) {
+                                    echo ' <option value="' . $row['id'] . '">' . $row['name']  . "</option>";
+                                    }
+
+                                    ?>
+                                </select>
+
+                            </div>
+                            <!-- /.widget-content -->
+
+                            <div class="widget-toolbar">
+
+                            </div>
+                            <!-- /.widget-toolbar -->
+
+                        </div>
+                        <!-- /.widget -->
+                    </form>
+                </div>
+                <!-- /.span6 -->
+
+            </div>
+            <!-- /.row -->
+
+        </div>
+        <!-- /.container -->
+
+    </div> <!-- /#content -->
+<?php require __DIR__ . '/../footer.phtml' ?>

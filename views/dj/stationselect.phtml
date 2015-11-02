@@ -1,0 +1,47 @@
+<?php
+/**
+ * Created by David Schomburg (DashTec - Services)
+ *      www.dashtec.de
+ *
+ *  S:P (StreamersPanel)
+ *  Support: http://board.streamerspanel.de
+ *
+ *  v 4.0.0
+ *
+ *  Kundennummer:   @KDNUM@
+ *  Lizenznummer:   @RECHNR@
+ *  Lizenz: http://login.streamerspanel.de/user/terms
+ */
+
+?>
+    <script>
+        $(function () {                       // On DOM ready
+            $('#myModal').modal('show');     // Show the modal
+        });
+    </script>
+
+    <div class="modal fade" id="myModal">
+        <form action="/dj/list" method="post">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3><?php echo _('Stream wählen'); ?></h3>
+            </div>
+            <div class="modal-body">
+                <td>
+                    <form action="/dj/list" method="post">
+                        <select name="entryDjtoStream" size="1" onchange="this.form.submit()">
+                            <option value=""></option>
+                            <?php
+                            $results = DB::query("SELECT * FROM sc_rel WHERE accounts_id=%s", $_SESSION['account_id']);
+                            foreach ($results as $row) {
+                                echo '<option value="' . $row['id'] . ' ">' . $row['stream_userName'] . '</option>';
+                            }
+                            ?>
+                        </select>
+                    </form>
+                </td>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </form>
+    </div>

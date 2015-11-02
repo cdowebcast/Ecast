@@ -1,0 +1,1344 @@
+2015-10-30 19:49:56	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94e54d773f.mp3
+2015-10-30 19:50:32	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Musica Alta]
+2015-10-30 19:50:32	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 19:52:45	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249bb7ab79.mp3
+2015-10-30 19:53:21	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñengo Flow - Siente]
+2015-10-30 19:53:21	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 19:57:06	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d95058181ac.mp3
+2015-10-30 19:57:42	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21 + - La Misma Copa]
+2015-10-30 19:57:42	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 20:00:17	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d9659a029b6.mp3
+2015-10-30 20:00:17	I	msg:[RESAMPLER] Resampling 48000/2 == 44100/2
+2015-10-30 20:00:53	I	msg:[SHOUTCASTMETADATA] Metadata string [J Alvarez - La Pregunta]
+2015-10-30 20:00:53	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 20:04:46	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b54a4cf29.mp3
+2015-10-30 20:04:46	I	msg:[RESAMPLER] Deactivated 44100/2 == 44100/2
+2015-10-30 20:05:22	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Lo Que Paso, Paso]
+2015-10-30 20:05:22	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 20:08:17	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f811a600.mp3
+2015-10-30 20:08:52	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui-G 21+ Ft Zion - Se Real]
+2015-10-30 20:08:52	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 20:12:04	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a794d054.mp3
+2015-10-30 20:12:40	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñejo & Dalmata, De La Ghetto, Jamsha & Guelo Star - La Longa (Remix)]
+2015-10-30 20:12:40	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 20:19:03	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24aafce360.mp3
+2015-10-30 20:19:39	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Plan B - Ella Me Pide Something (Remix)]
+2015-10-30 20:19:39	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 20:24:00	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249b11a83f.mp3
+2015-10-30 20:24:36	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Dura Dura]
+2015-10-30 20:24:36	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 20:27:52	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255f62a6a051d7.mp3
+2015-10-30 20:28:28	I	msg:[SHOUTCASTMETADATA] Metadata string [255f62a6a051d7]
+2015-10-30 20:28:28	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 20:30:48	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e247002ba2c.mp3
+2015-10-30 20:31:24	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-30 20:31:24	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 20:34:52	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b4afecfbb.mp3
+2015-10-30 20:35:28	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - King Daddy]
+2015-10-30 20:35:28	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 20:37:23	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94febc086f.mp3
+2015-10-30 20:37:59	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Asi Soy Yo]
+2015-10-30 20:37:59	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 20:40:49	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b152a31b.mp3
+2015-10-30 20:41:25	I	msg:[SHOUTCASTMETADATA] Metadata string [02. Tito El Bambino - Siente El Boom (Remix) (feat. Jowell & Randy)]
+2015-10-30 20:41:25	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 20:43:20	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a9491c3b.mp3
+2015-10-30 20:43:56	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-30 20:43:56	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 20:47:23	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b350b0f2.mp3
+2015-10-30 20:47:59	I	msg:[SHOUTCASTMETADATA] Metadata string [06. Randy - Soy Una Gárgola]
+2015-10-30 20:47:59	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 20:49:56	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f02ea72f.mp3
+2015-10-30 20:50:33	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Una Locura]
+2015-10-30 20:50:33	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 20:52:46	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d922024ddc0.mp3
+2015-10-30 20:53:22	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Descontrol]
+2015-10-30 20:53:22	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 20:55:39	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24afe0e1c8.mp3
+2015-10-30 20:55:39	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-30 20:56:15	I	msg:[SHOUTCASTMETADATA] Metadata string [01. Jowell & Randy - No Te Veo]
+2015-10-30 20:56:15	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 20:59:23	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b5ddb749e.mp3
+2015-10-30 20:59:23	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-30 20:59:59	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee/Zion Y Lennox - Tu Principe]
+2015-10-30 20:59:59	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 21:02:49	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b6117c923.mp3
+2015-10-30 21:02:49	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-30 21:02:49	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-30 21:03:24	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Salud Y Vida]
+2015-10-30 21:03:24	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 21:06:15	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-30 21:06:15	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-30 21:06:15	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-30 21:06:51	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Me Enteré (Ft. Tito "El Bambino")]
+2015-10-30 21:06:51	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 21:09:22	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b6117c923.mp3
+2015-10-30 21:09:58	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Salud Y Vida]
+2015-10-30 21:09:58	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 21:12:49	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d9659a029b6.mp3
+2015-10-30 21:12:49	I	msg:[RESAMPLER] Resampling 48000/2 == 44100/2
+2015-10-30 21:13:25	I	msg:[SHOUTCASTMETADATA] Metadata string [J Alvarez - La Pregunta]
+2015-10-30 21:13:25	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 21:17:18	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249bb7ab79.mp3
+2015-10-30 21:17:19	I	msg:[RESAMPLER] Deactivated 44100/2 == 44100/2
+2015-10-30 21:17:55	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñengo Flow - Siente]
+2015-10-30 21:17:55	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 21:21:39	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f811a600.mp3
+2015-10-30 21:22:15	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui-G 21+ Ft Zion - Se Real]
+2015-10-30 21:22:15	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 21:25:26	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b4afecfbb.mp3
+2015-10-30 21:26:02	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - King Daddy]
+2015-10-30 21:26:02	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 21:27:57	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24aafce360.mp3
+2015-10-30 21:28:33	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Plan B - Ella Me Pide Something (Remix)]
+2015-10-30 21:28:33	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 21:32:54	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d922024ddc0.mp3
+2015-10-30 21:33:29	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Descontrol]
+2015-10-30 21:33:29	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 21:35:47	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b152a31b.mp3
+2015-10-30 21:36:22	I	msg:[SHOUTCASTMETADATA] Metadata string [02. Tito El Bambino - Siente El Boom (Remix) (feat. Jowell & Randy)]
+2015-10-30 21:36:22	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 21:38:18	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b5ddb749e.mp3
+2015-10-30 21:38:54	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee/Zion Y Lennox - Tu Principe]
+2015-10-30 21:38:54	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 21:41:44	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d950fb13280.mp3
+2015-10-30 21:42:19	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ Ft J Alvarez - Otro Panorama]
+2015-10-30 21:42:19	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 21:45:04	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e247002ba2c.mp3
+2015-10-30 21:45:40	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-30 21:45:40	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 21:49:07	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249b11a83f.mp3
+2015-10-30 21:49:43	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Dura Dura]
+2015-10-30 21:49:43	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 21:53:00	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a9491c3b.mp3
+2015-10-30 21:53:36	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-30 21:53:36	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 21:57:03	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b350b0f2.mp3
+2015-10-30 21:57:38	I	msg:[SHOUTCASTMETADATA] Metadata string [06. Randy - Soy Una Gárgola]
+2015-10-30 21:57:38	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 21:59:36	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255f62a6a051d7.mp3
+2015-10-30 22:00:12	I	msg:[SHOUTCASTMETADATA] Metadata string [255f62a6a051d7]
+2015-10-30 22:00:12	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 22:02:32	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94febc086f.mp3
+2015-10-30 22:03:08	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Asi Soy Yo]
+2015-10-30 22:03:08	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 22:05:58	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a794d054.mp3
+2015-10-30 22:06:34	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñejo & Dalmata, De La Ghetto, Jamsha & Guelo Star - La Longa (Remix)]
+2015-10-30 22:06:34	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 22:12:57	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d95058181ac.mp3
+2015-10-30 22:13:33	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21 + - La Misma Copa]
+2015-10-30 22:13:33	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 22:16:08	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24afe0e1c8.mp3
+2015-10-30 22:16:44	I	msg:[SHOUTCASTMETADATA] Metadata string [01. Jowell & Randy - No Te Veo]
+2015-10-30 22:16:44	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 22:19:52	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f02ea72f.mp3
+2015-10-30 22:19:52	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-30 22:20:27	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Una Locura]
+2015-10-30 22:20:27	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 22:22:41	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94e54d773f.mp3
+2015-10-30 22:22:41	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-30 22:23:17	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Musica Alta]
+2015-10-30 22:23:17	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 22:25:30	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b54a4cf29.mp3
+2015-10-30 22:25:30	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-30 22:25:30	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-30 22:26:06	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Lo Que Paso, Paso]
+2015-10-30 22:26:06	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 22:29:01	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-30 22:29:01	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-30 22:29:01	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-30 22:29:37	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Me Enteré (Ft. Tito "El Bambino")]
+2015-10-30 22:29:37	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 22:32:08	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b152a31b.mp3
+2015-10-30 22:32:44	I	msg:[SHOUTCASTMETADATA] Metadata string [02. Tito El Bambino - Siente El Boom (Remix) (feat. Jowell & Randy)]
+2015-10-30 22:32:44	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 22:34:39	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a794d054.mp3
+2015-10-30 22:35:15	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñejo & Dalmata, De La Ghetto, Jamsha & Guelo Star - La Longa (Remix)]
+2015-10-30 22:35:15	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 22:41:39	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f02ea72f.mp3
+2015-10-30 22:41:39	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-30 22:42:14	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Una Locura]
+2015-10-30 22:42:14	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 22:44:28	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f811a600.mp3
+2015-10-30 22:44:28	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-30 22:45:04	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui-G 21+ Ft Zion - Se Real]
+2015-10-30 22:45:04	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 22:48:15	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d95058181ac.mp3
+2015-10-30 22:48:15	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-30 22:48:15	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-30 22:48:51	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21 + - La Misma Copa]
+2015-10-30 22:48:51	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 22:51:25	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-30 22:51:25	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-30 22:51:25	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-30 22:52:01	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Me Enteré (Ft. Tito "El Bambino")]
+2015-10-30 22:52:01	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 22:54:32	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b5ddb749e.mp3
+2015-10-30 22:55:08	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee/Zion Y Lennox - Tu Principe]
+2015-10-30 22:55:08	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 22:57:58	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e247002ba2c.mp3
+2015-10-30 22:58:34	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-30 22:58:34	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 23:02:02	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b54a4cf29.mp3
+2015-10-30 23:02:38	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Lo Que Paso, Paso]
+2015-10-30 23:02:38	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 23:05:33	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94e54d773f.mp3
+2015-10-30 23:06:08	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Musica Alta]
+2015-10-30 23:06:08	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 23:08:21	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b6117c923.mp3
+2015-10-30 23:08:57	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Salud Y Vida]
+2015-10-30 23:08:57	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 23:11:48	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24afe0e1c8.mp3
+2015-10-30 23:12:23	I	msg:[SHOUTCASTMETADATA] Metadata string [01. Jowell & Randy - No Te Veo]
+2015-10-30 23:12:23	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 23:15:32	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94febc086f.mp3
+2015-10-30 23:16:08	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Asi Soy Yo]
+2015-10-30 23:16:08	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 23:18:58	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249bb7ab79.mp3
+2015-10-30 23:19:34	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñengo Flow - Siente]
+2015-10-30 23:19:34	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 23:23:18	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249b11a83f.mp3
+2015-10-30 23:23:55	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Dura Dura]
+2015-10-30 23:23:55	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 23:27:11	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b4afecfbb.mp3
+2015-10-30 23:27:47	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - King Daddy]
+2015-10-30 23:27:47	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 23:29:42	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24aafce360.mp3
+2015-10-30 23:30:18	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Plan B - Ella Me Pide Something (Remix)]
+2015-10-30 23:30:18	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 23:34:39	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d9659a029b6.mp3
+2015-10-30 23:34:39	I	msg:[RESAMPLER] Resampling 48000/2 == 44100/2
+2015-10-30 23:35:15	I	msg:[SHOUTCASTMETADATA] Metadata string [J Alvarez - La Pregunta]
+2015-10-30 23:35:15	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 23:39:08	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d950fb13280.mp3
+2015-10-30 23:39:08	I	msg:[RESAMPLER] Deactivated 44100/2 == 44100/2
+2015-10-30 23:39:44	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ Ft J Alvarez - Otro Panorama]
+2015-10-30 23:39:44	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 23:42:29	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b350b0f2.mp3
+2015-10-30 23:43:05	I	msg:[SHOUTCASTMETADATA] Metadata string [06. Randy - Soy Una Gárgola]
+2015-10-30 23:43:05	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 23:45:02	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a9491c3b.mp3
+2015-10-30 23:45:38	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-30 23:45:38	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 23:49:06	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d922024ddc0.mp3
+2015-10-30 23:49:41	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Descontrol]
+2015-10-30 23:49:41	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 23:51:58	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255f62a6a051d7.mp3
+2015-10-30 23:52:34	I	msg:[SHOUTCASTMETADATA] Metadata string [255f62a6a051d7]
+2015-10-30 23:52:34	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 23:54:54	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b350b0f2.mp3
+2015-10-30 23:55:30	I	msg:[SHOUTCASTMETADATA] Metadata string [06. Randy - Soy Una Gárgola]
+2015-10-30 23:55:30	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-30 23:57:27	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24afe0e1c8.mp3
+2015-10-30 23:58:03	I	msg:[SHOUTCASTMETADATA] Metadata string [01. Jowell & Randy - No Te Veo]
+2015-10-30 23:58:03	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 00:01:11	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b5ddb749e.mp3
+2015-10-31 00:01:47	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee/Zion Y Lennox - Tu Principe]
+2015-10-31 00:01:47	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 00:04:37	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249b11a83f.mp3
+2015-10-31 00:05:13	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Dura Dura]
+2015-10-31 00:05:13	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 00:08:29	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b54a4cf29.mp3
+2015-10-31 00:09:04	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Lo Que Paso, Paso]
+2015-10-31 00:09:04	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 00:12:00	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a794d054.mp3
+2015-10-31 00:12:36	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñejo & Dalmata, De La Ghetto, Jamsha & Guelo Star - La Longa (Remix)]
+2015-10-31 00:12:36	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 00:18:59	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d950fb13280.mp3
+2015-10-31 00:19:35	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ Ft J Alvarez - Otro Panorama]
+2015-10-31 00:19:35	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 00:22:20	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255f62a6a051d7.mp3
+2015-10-31 00:22:20	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 00:22:56	I	msg:[SHOUTCASTMETADATA] Metadata string [255f62a6a051d7]
+2015-10-31 00:22:56	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 00:25:15	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b152a31b.mp3
+2015-10-31 00:25:15	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 00:25:51	I	msg:[SHOUTCASTMETADATA] Metadata string [02. Tito El Bambino - Siente El Boom (Remix) (feat. Jowell & Randy)]
+2015-10-31 00:25:51	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 00:27:46	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94febc086f.mp3
+2015-10-31 00:27:46	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 00:27:46	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 00:28:22	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Asi Soy Yo]
+2015-10-31 00:28:22	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 00:31:12	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 00:31:12	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 00:31:12	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 00:31:48	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Me Enteré (Ft. Tito "El Bambino")]
+2015-10-31 00:31:48	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 00:34:19	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b6117c923.mp3
+2015-10-31 00:34:55	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Salud Y Vida]
+2015-10-31 00:34:55	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 00:37:46	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24aafce360.mp3
+2015-10-31 00:38:21	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Plan B - Ella Me Pide Something (Remix)]
+2015-10-31 00:38:21	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 00:42:43	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d95058181ac.mp3
+2015-10-31 00:43:19	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21 + - La Misma Copa]
+2015-10-31 00:43:19	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 00:45:54	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b4afecfbb.mp3
+2015-10-31 00:46:30	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - King Daddy]
+2015-10-31 00:46:30	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 00:48:25	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d922024ddc0.mp3
+2015-10-31 00:49:00	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Descontrol]
+2015-10-31 00:49:00	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 00:51:18	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a9491c3b.mp3
+2015-10-31 00:51:54	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 00:51:54	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 00:55:21	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e247002ba2c.mp3
+2015-10-31 00:55:57	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 00:55:57	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 00:59:25	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f811a600.mp3
+2015-10-31 01:00:00	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui-G 21+ Ft Zion - Se Real]
+2015-10-31 01:00:00	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 01:03:12	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f02ea72f.mp3
+2015-10-31 01:03:48	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Una Locura]
+2015-10-31 01:03:48	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 01:06:01	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d9659a029b6.mp3
+2015-10-31 01:06:01	I	msg:[RESAMPLER] Resampling 48000/2 == 44100/2
+2015-10-31 01:06:37	I	msg:[SHOUTCASTMETADATA] Metadata string [J Alvarez - La Pregunta]
+2015-10-31 01:06:37	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 01:10:31	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94e54d773f.mp3
+2015-10-31 01:10:31	I	msg:[RESAMPLER] Deactivated 44100/2 == 44100/2
+2015-10-31 01:11:06	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Musica Alta]
+2015-10-31 01:11:06	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 01:13:20	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249bb7ab79.mp3
+2015-10-31 01:13:56	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñengo Flow - Siente]
+2015-10-31 01:13:56	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 01:17:40	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b5ddb749e.mp3
+2015-10-31 01:18:16	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee/Zion Y Lennox - Tu Principe]
+2015-10-31 01:18:16	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 01:21:06	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d922024ddc0.mp3
+2015-10-31 01:21:41	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Descontrol]
+2015-10-31 01:21:41	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 01:23:59	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d950fb13280.mp3
+2015-10-31 01:24:35	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ Ft J Alvarez - Otro Panorama]
+2015-10-31 01:24:35	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 01:27:19	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24aafce360.mp3
+2015-10-31 01:27:55	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Plan B - Ella Me Pide Something (Remix)]
+2015-10-31 01:27:55	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 01:32:16	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d9659a029b6.mp3
+2015-10-31 01:32:16	I	msg:[RESAMPLER] Resampling 48000/2 == 44100/2
+2015-10-31 01:32:52	I	msg:[SHOUTCASTMETADATA] Metadata string [J Alvarez - La Pregunta]
+2015-10-31 01:32:52	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 01:36:46	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b4afecfbb.mp3
+2015-10-31 01:36:46	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 01:36:46	I	msg:[RESAMPLER] Deactivated 44100/2 == 44100/2
+2015-10-31 01:37:22	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - King Daddy]
+2015-10-31 01:37:22	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 01:39:17	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b152a31b.mp3
+2015-10-31 01:39:17	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 01:39:53	I	msg:[SHOUTCASTMETADATA] Metadata string [02. Tito El Bambino - Siente El Boom (Remix) (feat. Jowell & Randy)]
+2015-10-31 01:39:53	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 01:41:48	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b6117c923.mp3
+2015-10-31 01:41:48	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 01:41:48	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 01:42:23	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Salud Y Vida]
+2015-10-31 01:42:23	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 01:45:15	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 01:45:15	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 01:45:15	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 01:45:51	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Me Enteré (Ft. Tito "El Bambino")]
+2015-10-31 01:45:51	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 01:48:22	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255f62a6a051d7.mp3
+2015-10-31 01:48:58	I	msg:[SHOUTCASTMETADATA] Metadata string [255f62a6a051d7]
+2015-10-31 01:48:58	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 01:51:17	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94e54d773f.mp3
+2015-10-31 01:51:53	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Musica Alta]
+2015-10-31 01:51:53	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 01:54:06	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f02ea72f.mp3
+2015-10-31 01:54:42	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Una Locura]
+2015-10-31 01:54:42	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 01:56:56	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d95058181ac.mp3
+2015-10-31 01:57:32	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21 + - La Misma Copa]
+2015-10-31 01:57:32	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 02:00:06	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f811a600.mp3
+2015-10-31 02:00:42	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui-G 21+ Ft Zion - Se Real]
+2015-10-31 02:00:42	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 02:03:53	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b54a4cf29.mp3
+2015-10-31 02:04:29	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Lo Que Paso, Paso]
+2015-10-31 02:04:29	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 02:07:24	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94febc086f.mp3
+2015-10-31 02:07:59	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Asi Soy Yo]
+2015-10-31 02:07:59	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 02:10:50	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249b11a83f.mp3
+2015-10-31 02:11:26	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Dura Dura]
+2015-10-31 02:11:26	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 02:14:42	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e247002ba2c.mp3
+2015-10-31 02:15:18	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 02:15:18	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 02:18:46	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a9491c3b.mp3
+2015-10-31 02:19:22	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 02:19:22	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 02:22:49	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24afe0e1c8.mp3
+2015-10-31 02:23:25	I	msg:[SHOUTCASTMETADATA] Metadata string [01. Jowell & Randy - No Te Veo]
+2015-10-31 02:23:25	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 02:26:33	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a794d054.mp3
+2015-10-31 02:27:09	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñejo & Dalmata, De La Ghetto, Jamsha & Guelo Star - La Longa (Remix)]
+2015-10-31 02:27:09	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 02:33:33	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b350b0f2.mp3
+2015-10-31 02:34:09	I	msg:[SHOUTCASTMETADATA] Metadata string [06. Randy - Soy Una Gárgola]
+2015-10-31 02:34:09	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 02:36:06	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249bb7ab79.mp3
+2015-10-31 02:36:42	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñengo Flow - Siente]
+2015-10-31 02:36:42	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 02:40:26	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b54a4cf29.mp3
+2015-10-31 02:41:02	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Lo Que Paso, Paso]
+2015-10-31 02:41:02	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 02:43:57	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94febc086f.mp3
+2015-10-31 02:44:33	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Asi Soy Yo]
+2015-10-31 02:44:33	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 02:47:23	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b4afecfbb.mp3
+2015-10-31 02:47:59	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - King Daddy]
+2015-10-31 02:47:59	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 02:49:54	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249bb7ab79.mp3
+2015-10-31 02:50:30	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñengo Flow - Siente]
+2015-10-31 02:50:30	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 02:54:15	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b350b0f2.mp3
+2015-10-31 02:54:50	I	msg:[SHOUTCASTMETADATA] Metadata string [06. Randy - Soy Una Gárgola]
+2015-10-31 02:54:50	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 02:56:48	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249b11a83f.mp3
+2015-10-31 02:57:24	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Dura Dura]
+2015-10-31 02:57:24	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 03:00:40	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a794d054.mp3
+2015-10-31 03:01:16	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñejo & Dalmata, De La Ghetto, Jamsha & Guelo Star - La Longa (Remix)]
+2015-10-31 03:01:16	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 03:07:39	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d95058181ac.mp3
+2015-10-31 03:08:15	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21 + - La Misma Copa]
+2015-10-31 03:08:15	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 03:10:50	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b6117c923.mp3
+2015-10-31 03:11:26	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Salud Y Vida]
+2015-10-31 03:11:26	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 03:14:17	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e247002ba2c.mp3
+2015-10-31 03:14:17	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 03:14:52	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 03:14:52	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 03:18:20	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b152a31b.mp3
+2015-10-31 03:18:20	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 03:18:56	I	msg:[SHOUTCASTMETADATA] Metadata string [02. Tito El Bambino - Siente El Boom (Remix) (feat. Jowell & Randy)]
+2015-10-31 03:18:56	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 03:20:51	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d922024ddc0.mp3
+2015-10-31 03:20:51	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 03:20:51	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 03:21:27	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Descontrol]
+2015-10-31 03:21:27	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 03:23:44	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 03:23:44	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 03:23:44	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 03:24:20	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Me Enteré (Ft. Tito "El Bambino")]
+2015-10-31 03:24:20	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 03:26:51	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24afe0e1c8.mp3
+2015-10-31 03:27:27	I	msg:[SHOUTCASTMETADATA] Metadata string [01. Jowell & Randy - No Te Veo]
+2015-10-31 03:27:27	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 03:30:35	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255f62a6a051d7.mp3
+2015-10-31 03:31:11	I	msg:[SHOUTCASTMETADATA] Metadata string [255f62a6a051d7]
+2015-10-31 03:31:11	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 03:33:31	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f811a600.mp3
+2015-10-31 03:34:07	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui-G 21+ Ft Zion - Se Real]
+2015-10-31 03:34:07	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 03:37:18	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b5ddb749e.mp3
+2015-10-31 03:37:54	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee/Zion Y Lennox - Tu Principe]
+2015-10-31 03:37:54	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 03:40:43	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24aafce360.mp3
+2015-10-31 03:41:20	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Plan B - Ella Me Pide Something (Remix)]
+2015-10-31 03:41:20	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 03:45:41	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94e54d773f.mp3
+2015-10-31 03:46:17	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Musica Alta]
+2015-10-31 03:46:17	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 03:48:29	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a9491c3b.mp3
+2015-10-31 03:49:05	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 03:49:05	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 03:52:33	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d950fb13280.mp3
+2015-10-31 03:53:09	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ Ft J Alvarez - Otro Panorama]
+2015-10-31 03:53:09	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 03:55:53	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f02ea72f.mp3
+2015-10-31 03:56:29	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Una Locura]
+2015-10-31 03:56:29	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 03:58:43	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d9659a029b6.mp3
+2015-10-31 03:58:43	I	msg:[RESAMPLER] Resampling 48000/2 == 44100/2
+2015-10-31 03:59:19	I	msg:[SHOUTCASTMETADATA] Metadata string [J Alvarez - La Pregunta]
+2015-10-31 03:59:19	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 04:03:12	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a794d054.mp3
+2015-10-31 04:03:12	I	msg:[RESAMPLER] Deactivated 44100/2 == 44100/2
+2015-10-31 04:03:48	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñejo & Dalmata, De La Ghetto, Jamsha & Guelo Star - La Longa (Remix)]
+2015-10-31 04:03:48	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 04:10:12	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e247002ba2c.mp3
+2015-10-31 04:10:47	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 04:10:47	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 04:14:16	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b5ddb749e.mp3
+2015-10-31 04:14:51	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee/Zion Y Lennox - Tu Principe]
+2015-10-31 04:14:51	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 04:17:41	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249b11a83f.mp3
+2015-10-31 04:18:17	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Dura Dura]
+2015-10-31 04:18:17	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 04:21:33	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b54a4cf29.mp3
+2015-10-31 04:22:08	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Lo Que Paso, Paso]
+2015-10-31 04:22:08	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 04:25:04	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94e54d773f.mp3
+2015-10-31 04:25:40	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Musica Alta]
+2015-10-31 04:25:40	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 04:27:53	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94febc086f.mp3
+2015-10-31 04:27:53	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 04:28:29	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Asi Soy Yo]
+2015-10-31 04:28:29	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 04:31:19	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d9659a029b6.mp3
+2015-10-31 04:31:19	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 04:31:19	I	msg:[RESAMPLER] Resampling 48000/2 == 44100/2
+2015-10-31 04:31:55	I	msg:[SHOUTCASTMETADATA] Metadata string [J Alvarez - La Pregunta]
+2015-10-31 04:31:55	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 04:35:48	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255f62a6a051d7.mp3
+2015-10-31 04:35:48	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 04:35:48	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 04:35:48	I	msg:[RESAMPLER] Deactivated 44100/2 == 44100/2
+2015-10-31 04:36:23	I	msg:[SHOUTCASTMETADATA] Metadata string [255f62a6a051d7]
+2015-10-31 04:36:23	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 04:38:44	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 04:38:44	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 04:38:44	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 04:39:20	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Me Enteré (Ft. Tito "El Bambino")]
+2015-10-31 04:39:20	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 04:41:51	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24afe0e1c8.mp3
+2015-10-31 04:42:26	I	msg:[SHOUTCASTMETADATA] Metadata string [01. Jowell & Randy - No Te Veo]
+2015-10-31 04:42:26	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 04:45:35	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24aafce360.mp3
+2015-10-31 04:46:11	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Plan B - Ella Me Pide Something (Remix)]
+2015-10-31 04:46:11	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 04:50:32	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b350b0f2.mp3
+2015-10-31 04:51:08	I	msg:[SHOUTCASTMETADATA] Metadata string [06. Randy - Soy Una Gárgola]
+2015-10-31 04:51:08	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 04:53:05	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b4afecfbb.mp3
+2015-10-31 04:53:41	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - King Daddy]
+2015-10-31 04:53:41	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 04:55:36	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249bb7ab79.mp3
+2015-10-31 04:56:12	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñengo Flow - Siente]
+2015-10-31 04:56:12	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 04:59:57	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f811a600.mp3
+2015-10-31 05:00:32	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui-G 21+ Ft Zion - Se Real]
+2015-10-31 05:00:32	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 05:03:44	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d950fb13280.mp3
+2015-10-31 05:04:20	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ Ft J Alvarez - Otro Panorama]
+2015-10-31 05:04:20	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 05:07:04	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d922024ddc0.mp3
+2015-10-31 05:07:39	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Descontrol]
+2015-10-31 05:07:39	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 05:09:57	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b6117c923.mp3
+2015-10-31 05:10:32	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Salud Y Vida]
+2015-10-31 05:10:32	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 05:13:24	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b152a31b.mp3
+2015-10-31 05:13:59	I	msg:[SHOUTCASTMETADATA] Metadata string [02. Tito El Bambino - Siente El Boom (Remix) (feat. Jowell & Randy)]
+2015-10-31 05:13:59	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 05:15:55	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a9491c3b.mp3
+2015-10-31 05:16:31	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 05:16:31	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 05:19:58	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d95058181ac.mp3
+2015-10-31 05:20:34	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21 + - La Misma Copa]
+2015-10-31 05:20:34	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 05:23:09	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f02ea72f.mp3
+2015-10-31 05:23:45	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Una Locura]
+2015-10-31 05:23:45	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 05:25:58	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b54a4cf29.mp3
+2015-10-31 05:26:34	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Lo Que Paso, Paso]
+2015-10-31 05:26:34	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 05:29:29	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249bb7ab79.mp3
+2015-10-31 05:30:04	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñengo Flow - Siente]
+2015-10-31 05:30:04	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 05:33:50	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f811a600.mp3
+2015-10-31 05:34:25	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui-G 21+ Ft Zion - Se Real]
+2015-10-31 05:34:25	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 05:37:36	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d9659a029b6.mp3
+2015-10-31 05:37:37	I	msg:[RESAMPLER] Resampling 48000/2 == 44100/2
+2015-10-31 05:38:13	I	msg:[SHOUTCASTMETADATA] Metadata string [J Alvarez - La Pregunta]
+2015-10-31 05:38:13	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 05:42:06	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b152a31b.mp3
+2015-10-31 05:42:06	I	msg:[RESAMPLER] Deactivated 44100/2 == 44100/2
+2015-10-31 05:42:42	I	msg:[SHOUTCASTMETADATA] Metadata string [02. Tito El Bambino - Siente El Boom (Remix) (feat. Jowell & Randy)]
+2015-10-31 05:42:42	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 05:44:37	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94febc086f.mp3
+2015-10-31 05:45:13	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Asi Soy Yo]
+2015-10-31 05:45:13	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 05:48:03	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24aafce360.mp3
+2015-10-31 05:48:38	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Plan B - Ella Me Pide Something (Remix)]
+2015-10-31 05:48:38	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 05:53:00	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d95058181ac.mp3
+2015-10-31 05:53:36	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21 + - La Misma Copa]
+2015-10-31 05:53:36	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 05:56:11	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b6117c923.mp3
+2015-10-31 05:56:47	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Salud Y Vida]
+2015-10-31 05:56:47	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 05:59:37	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b5ddb749e.mp3
+2015-10-31 06:00:13	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee/Zion Y Lennox - Tu Principe]
+2015-10-31 06:00:13	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 06:03:03	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a9491c3b.mp3
+2015-10-31 06:03:38	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 06:03:38	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 06:07:07	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d922024ddc0.mp3
+2015-10-31 06:07:43	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Descontrol]
+2015-10-31 06:07:43	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 06:10:00	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e247002ba2c.mp3
+2015-10-31 06:10:36	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 06:10:36	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 06:14:03	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b4afecfbb.mp3
+2015-10-31 06:14:39	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - King Daddy]
+2015-10-31 06:14:39	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 06:16:34	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b350b0f2.mp3
+2015-10-31 06:17:10	I	msg:[SHOUTCASTMETADATA] Metadata string [06. Randy - Soy Una Gárgola]
+2015-10-31 06:17:10	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 06:19:07	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249b11a83f.mp3
+2015-10-31 06:19:43	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Dura Dura]
+2015-10-31 06:19:43	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 06:23:00	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94e54d773f.mp3
+2015-10-31 06:23:36	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Musica Alta]
+2015-10-31 06:23:36	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 06:25:48	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d950fb13280.mp3
+2015-10-31 06:26:25	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ Ft J Alvarez - Otro Panorama]
+2015-10-31 06:26:25	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 06:29:09	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f02ea72f.mp3
+2015-10-31 06:29:45	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Una Locura]
+2015-10-31 06:29:45	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 06:31:58	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24afe0e1c8.mp3
+2015-10-31 06:31:58	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 06:32:33	I	msg:[SHOUTCASTMETADATA] Metadata string [01. Jowell & Randy - No Te Veo]
+2015-10-31 06:32:33	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 06:35:42	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a794d054.mp3
+2015-10-31 06:35:42	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 06:36:18	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñejo & Dalmata, De La Ghetto, Jamsha & Guelo Star - La Longa (Remix)]
+2015-10-31 06:36:18	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 06:42:42	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255f62a6a051d7.mp3
+2015-10-31 06:42:42	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 06:42:42	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 06:43:17	I	msg:[SHOUTCASTMETADATA] Metadata string [255f62a6a051d7]
+2015-10-31 06:43:17	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 06:45:37	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 06:45:37	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 06:45:37	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 06:46:14	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Me Enteré (Ft. Tito "El Bambino")]
+2015-10-31 06:46:14	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 06:48:45	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24aafce360.mp3
+2015-10-31 06:49:21	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Plan B - Ella Me Pide Something (Remix)]
+2015-10-31 06:49:21	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 06:53:41	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a794d054.mp3
+2015-10-31 06:54:18	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñejo & Dalmata, De La Ghetto, Jamsha & Guelo Star - La Longa (Remix)]
+2015-10-31 06:54:18	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 07:00:41	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d95058181ac.mp3
+2015-10-31 07:01:17	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21 + - La Misma Copa]
+2015-10-31 07:01:17	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 07:03:52	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b5ddb749e.mp3
+2015-10-31 07:04:27	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee/Zion Y Lennox - Tu Principe]
+2015-10-31 07:04:27	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 07:07:17	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b4afecfbb.mp3
+2015-10-31 07:07:52	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - King Daddy]
+2015-10-31 07:07:52	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 07:09:48	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d9659a029b6.mp3
+2015-10-31 07:09:48	I	msg:[RESAMPLER] Resampling 48000/2 == 44100/2
+2015-10-31 07:10:24	I	msg:[SHOUTCASTMETADATA] Metadata string [J Alvarez - La Pregunta]
+2015-10-31 07:10:24	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 07:14:18	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f02ea72f.mp3
+2015-10-31 07:14:18	I	msg:[RESAMPLER] Deactivated 44100/2 == 44100/2
+2015-10-31 07:14:54	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Una Locura]
+2015-10-31 07:14:54	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 07:17:07	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94e54d773f.mp3
+2015-10-31 07:17:43	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Musica Alta]
+2015-10-31 07:17:43	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 07:19:56	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a9491c3b.mp3
+2015-10-31 07:20:32	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 07:20:32	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 07:24:00	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f811a600.mp3
+2015-10-31 07:24:00	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 07:24:36	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui-G 21+ Ft Zion - Se Real]
+2015-10-31 07:24:36	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 07:27:46	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b152a31b.mp3
+2015-10-31 07:27:46	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 07:28:22	I	msg:[SHOUTCASTMETADATA] Metadata string [02. Tito El Bambino - Siente El Boom (Remix) (feat. Jowell & Randy)]
+2015-10-31 07:28:22	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 07:30:18	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e247002ba2c.mp3
+2015-10-31 07:30:18	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 07:30:18	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 07:30:54	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 07:30:54	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 07:34:21	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 07:34:21	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 07:34:21	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 07:34:57	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Me Enteré (Ft. Tito "El Bambino")]
+2015-10-31 07:34:57	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 07:37:28	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249bb7ab79.mp3
+2015-10-31 07:38:04	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñengo Flow - Siente]
+2015-10-31 07:38:04	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 07:41:49	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249b11a83f.mp3
+2015-10-31 07:42:25	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Dura Dura]
+2015-10-31 07:42:25	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 07:45:41	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94febc086f.mp3
+2015-10-31 07:46:17	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Asi Soy Yo]
+2015-10-31 07:46:17	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 07:49:07	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d922024ddc0.mp3
+2015-10-31 07:49:43	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Descontrol]
+2015-10-31 07:49:43	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 07:52:00	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24afe0e1c8.mp3
+2015-10-31 07:52:35	I	msg:[SHOUTCASTMETADATA] Metadata string [01. Jowell & Randy - No Te Veo]
+2015-10-31 07:52:35	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 07:55:44	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b350b0f2.mp3
+2015-10-31 07:56:20	I	msg:[SHOUTCASTMETADATA] Metadata string [06. Randy - Soy Una Gárgola]
+2015-10-31 07:56:20	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 07:58:17	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d950fb13280.mp3
+2015-10-31 07:58:53	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ Ft J Alvarez - Otro Panorama]
+2015-10-31 07:58:53	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 08:01:37	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b6117c923.mp3
+2015-10-31 08:02:13	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Salud Y Vida]
+2015-10-31 08:02:13	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 08:05:04	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255f62a6a051d7.mp3
+2015-10-31 08:05:40	I	msg:[SHOUTCASTMETADATA] Metadata string [255f62a6a051d7]
+2015-10-31 08:05:40	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 08:08:00	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b54a4cf29.mp3
+2015-10-31 08:08:36	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Lo Que Paso, Paso]
+2015-10-31 08:08:36	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 08:11:31	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b4afecfbb.mp3
+2015-10-31 08:12:07	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - King Daddy]
+2015-10-31 08:12:07	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 08:14:01	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249b11a83f.mp3
+2015-10-31 08:14:38	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Dura Dura]
+2015-10-31 08:14:38	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 08:17:54	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b350b0f2.mp3
+2015-10-31 08:18:29	I	msg:[SHOUTCASTMETADATA] Metadata string [06. Randy - Soy Una Gárgola]
+2015-10-31 08:18:29	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 08:20:27	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d950fb13280.mp3
+2015-10-31 08:21:03	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ Ft J Alvarez - Otro Panorama]
+2015-10-31 08:21:03	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 08:23:47	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24aafce360.mp3
+2015-10-31 08:24:23	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Plan B - Ella Me Pide Something (Remix)]
+2015-10-31 08:24:23	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 08:28:44	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d9659a029b6.mp3
+2015-10-31 08:28:44	I	msg:[RESAMPLER] Resampling 48000/2 == 44100/2
+2015-10-31 08:29:19	I	msg:[SHOUTCASTMETADATA] Metadata string [J Alvarez - La Pregunta]
+2015-10-31 08:29:19	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 08:33:14	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b54a4cf29.mp3
+2015-10-31 08:33:14	I	msg:[RESAMPLER] Deactivated 44100/2 == 44100/2
+2015-10-31 08:33:50	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Lo Que Paso, Paso]
+2015-10-31 08:33:50	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 08:36:45	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d922024ddc0.mp3
+2015-10-31 08:37:21	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Descontrol]
+2015-10-31 08:37:21	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 08:39:38	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f811a600.mp3
+2015-10-31 08:40:14	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui-G 21+ Ft Zion - Se Real]
+2015-10-31 08:40:14	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 08:43:24	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24afe0e1c8.mp3
+2015-10-31 08:44:00	I	msg:[SHOUTCASTMETADATA] Metadata string [01. Jowell & Randy - No Te Veo]
+2015-10-31 08:44:00	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 08:47:08	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a9491c3b.mp3
+2015-10-31 08:47:44	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 08:47:44	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 08:51:12	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b6117c923.mp3
+2015-10-31 08:51:48	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Salud Y Vida]
+2015-10-31 08:51:48	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 08:54:39	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94e54d773f.mp3
+2015-10-31 08:55:15	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Musica Alta]
+2015-10-31 08:55:15	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 08:57:28	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d95058181ac.mp3
+2015-10-31 08:57:28	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 08:58:04	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21 + - La Misma Copa]
+2015-10-31 08:58:04	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 09:00:38	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94febc086f.mp3
+2015-10-31 09:00:38	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 09:01:14	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Asi Soy Yo]
+2015-10-31 09:01:14	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 09:04:04	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255f62a6a051d7.mp3
+2015-10-31 09:04:04	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 09:04:04	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 09:04:40	I	msg:[SHOUTCASTMETADATA] Metadata string [255f62a6a051d7]
+2015-10-31 09:04:40	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 09:07:00	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 09:07:00	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 09:07:00	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 09:07:36	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Me Enteré (Ft. Tito "El Bambino")]
+2015-10-31 09:07:36	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 09:10:07	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b5ddb749e.mp3
+2015-10-31 09:10:43	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee/Zion Y Lennox - Tu Principe]
+2015-10-31 09:10:43	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 09:13:33	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f02ea72f.mp3
+2015-10-31 09:14:09	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Una Locura]
+2015-10-31 09:14:09	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 09:16:22	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e247002ba2c.mp3
+2015-10-31 09:16:58	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 09:16:58	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 09:20:26	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b152a31b.mp3
+2015-10-31 09:21:01	I	msg:[SHOUTCASTMETADATA] Metadata string [02. Tito El Bambino - Siente El Boom (Remix) (feat. Jowell & Randy)]
+2015-10-31 09:21:01	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 09:22:57	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a794d054.mp3
+2015-10-31 09:23:33	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñejo & Dalmata, De La Ghetto, Jamsha & Guelo Star - La Longa (Remix)]
+2015-10-31 09:23:33	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 09:29:56	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249bb7ab79.mp3
+2015-10-31 09:30:32	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñengo Flow - Siente]
+2015-10-31 09:30:32	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 09:34:16	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d950fb13280.mp3
+2015-10-31 09:34:53	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ Ft J Alvarez - Otro Panorama]
+2015-10-31 09:34:53	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 09:37:37	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249bb7ab79.mp3
+2015-10-31 09:38:12	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñengo Flow - Siente]
+2015-10-31 09:38:12	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 09:41:57	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d9659a029b6.mp3
+2015-10-31 09:41:57	I	msg:[RESAMPLER] Resampling 48000/2 == 44100/2
+2015-10-31 09:42:33	I	msg:[SHOUTCASTMETADATA] Metadata string [J Alvarez - La Pregunta]
+2015-10-31 09:42:33	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 09:46:27	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d95058181ac.mp3
+2015-10-31 09:46:27	I	msg:[RESAMPLER] Deactivated 44100/2 == 44100/2
+2015-10-31 09:47:03	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21 + - La Misma Copa]
+2015-10-31 09:47:03	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 09:49:38	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249b11a83f.mp3
+2015-10-31 09:50:13	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Dura Dura]
+2015-10-31 09:50:13	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 09:53:30	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b54a4cf29.mp3
+2015-10-31 09:54:06	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Lo Que Paso, Paso]
+2015-10-31 09:54:06	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 09:57:01	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24aafce360.mp3
+2015-10-31 09:57:36	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Plan B - Ella Me Pide Something (Remix)]
+2015-10-31 09:57:36	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 10:01:58	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e247002ba2c.mp3
+2015-10-31 10:01:58	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 10:02:34	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 10:02:34	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 10:06:01	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b350b0f2.mp3
+2015-10-31 10:06:02	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 10:06:38	I	msg:[SHOUTCASTMETADATA] Metadata string [06. Randy - Soy Una Gárgola]
+2015-10-31 10:06:38	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 10:08:34	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255f62a6a051d7.mp3
+2015-10-31 10:08:34	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 10:08:34	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 10:09:10	I	msg:[SHOUTCASTMETADATA] Metadata string [255f62a6a051d7]
+2015-10-31 10:09:10	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 10:11:30	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 10:11:30	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 10:11:30	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 10:12:06	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Me Enteré (Ft. Tito "El Bambino")]
+2015-10-31 10:12:06	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 10:14:37	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a9491c3b.mp3
+2015-10-31 10:15:13	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 10:15:13	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 10:18:41	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d922024ddc0.mp3
+2015-10-31 10:19:16	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Descontrol]
+2015-10-31 10:19:16	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 10:21:34	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94febc086f.mp3
+2015-10-31 10:22:10	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Asi Soy Yo]
+2015-10-31 10:22:10	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 10:25:00	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b6117c923.mp3
+2015-10-31 10:25:36	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Salud Y Vida]
+2015-10-31 10:25:36	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 10:28:27	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b152a31b.mp3
+2015-10-31 10:29:02	I	msg:[SHOUTCASTMETADATA] Metadata string [02. Tito El Bambino - Siente El Boom (Remix) (feat. Jowell & Randy)]
+2015-10-31 10:29:02	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 10:30:57	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f02ea72f.mp3
+2015-10-31 10:31:34	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Una Locura]
+2015-10-31 10:31:34	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 10:33:47	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b5ddb749e.mp3
+2015-10-31 10:34:23	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee/Zion Y Lennox - Tu Principe]
+2015-10-31 10:34:23	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 10:37:13	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f811a600.mp3
+2015-10-31 10:37:49	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui-G 21+ Ft Zion - Se Real]
+2015-10-31 10:37:49	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 10:40:59	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94e54d773f.mp3
+2015-10-31 10:41:35	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Musica Alta]
+2015-10-31 10:41:35	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 10:43:48	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24afe0e1c8.mp3
+2015-10-31 10:44:24	I	msg:[SHOUTCASTMETADATA] Metadata string [01. Jowell & Randy - No Te Veo]
+2015-10-31 10:44:24	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 10:47:32	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b4afecfbb.mp3
+2015-10-31 10:47:32	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 10:48:08	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - King Daddy]
+2015-10-31 10:48:08	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 10:50:03	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a794d054.mp3
+2015-10-31 10:50:03	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 10:50:38	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñejo & Dalmata, De La Ghetto, Jamsha & Guelo Star - La Longa (Remix)]
+2015-10-31 10:50:38	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 10:57:03	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a9491c3b.mp3
+2015-10-31 10:57:03	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 10:57:03	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 10:57:39	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 10:57:39	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 11:01:06	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 11:01:06	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 11:01:06	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 11:01:42	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Me Enteré (Ft. Tito "El Bambino")]
+2015-10-31 11:01:42	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 11:04:13	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d95058181ac.mp3
+2015-10-31 11:04:49	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21 + - La Misma Copa]
+2015-10-31 11:04:49	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 11:07:24	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249bb7ab79.mp3
+2015-10-31 11:08:00	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñengo Flow - Siente]
+2015-10-31 11:08:00	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 11:11:45	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255f62a6a051d7.mp3
+2015-10-31 11:12:20	I	msg:[SHOUTCASTMETADATA] Metadata string [255f62a6a051d7]
+2015-10-31 11:12:20	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 11:14:40	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d9659a029b6.mp3
+2015-10-31 11:14:40	I	msg:[RESAMPLER] Resampling 48000/2 == 44100/2
+2015-10-31 11:15:16	I	msg:[SHOUTCASTMETADATA] Metadata string [J Alvarez - La Pregunta]
+2015-10-31 11:15:16	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 11:19:10	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24aafce360.mp3
+2015-10-31 11:19:10	I	msg:[RESAMPLER] Deactivated 44100/2 == 44100/2
+2015-10-31 11:19:46	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Plan B - Ella Me Pide Something (Remix)]
+2015-10-31 11:19:46	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 11:24:07	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b6117c923.mp3
+2015-10-31 11:24:43	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Salud Y Vida]
+2015-10-31 11:24:43	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 11:27:34	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b5ddb749e.mp3
+2015-10-31 11:28:10	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee/Zion Y Lennox - Tu Principe]
+2015-10-31 11:28:10	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 11:30:59	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94e54d773f.mp3
+2015-10-31 11:31:35	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Musica Alta]
+2015-10-31 11:31:35	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 11:33:48	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b152a31b.mp3
+2015-10-31 11:34:23	I	msg:[SHOUTCASTMETADATA] Metadata string [02. Tito El Bambino - Siente El Boom (Remix) (feat. Jowell & Randy)]
+2015-10-31 11:34:23	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 11:36:19	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24afe0e1c8.mp3
+2015-10-31 11:36:54	I	msg:[SHOUTCASTMETADATA] Metadata string [01. Jowell & Randy - No Te Veo]
+2015-10-31 11:36:54	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 11:40:03	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b4afecfbb.mp3
+2015-10-31 11:40:39	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - King Daddy]
+2015-10-31 11:40:39	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 11:42:34	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f02ea72f.mp3
+2015-10-31 11:43:10	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Una Locura]
+2015-10-31 11:43:10	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 11:45:24	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f811a600.mp3
+2015-10-31 11:46:00	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui-G 21+ Ft Zion - Se Real]
+2015-10-31 11:46:00	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 11:49:11	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d922024ddc0.mp3
+2015-10-31 11:49:46	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Descontrol]
+2015-10-31 11:49:46	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 11:52:04	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d950fb13280.mp3
+2015-10-31 11:52:40	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ Ft J Alvarez - Otro Panorama]
+2015-10-31 11:52:40	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 11:55:24	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249b11a83f.mp3
+2015-10-31 11:55:59	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Dura Dura]
+2015-10-31 11:55:59	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 11:59:16	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b54a4cf29.mp3
+2015-10-31 11:59:51	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Lo Que Paso, Paso]
+2015-10-31 11:59:51	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 12:02:47	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e247002ba2c.mp3
+2015-10-31 12:03:23	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 12:03:23	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 12:06:51	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a794d054.mp3
+2015-10-31 12:07:26	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñejo & Dalmata, De La Ghetto, Jamsha & Guelo Star - La Longa (Remix)]
+2015-10-31 12:07:26	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 12:13:50	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94febc086f.mp3
+2015-10-31 12:14:26	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Asi Soy Yo]
+2015-10-31 12:14:26	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 12:17:16	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b350b0f2.mp3
+2015-10-31 12:17:52	I	msg:[SHOUTCASTMETADATA] Metadata string [06. Randy - Soy Una Gárgola]
+2015-10-31 12:17:52	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 12:19:49	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d922024ddc0.mp3
+2015-10-31 12:20:25	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Descontrol]
+2015-10-31 12:20:25	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 12:22:42	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f02ea72f.mp3
+2015-10-31 12:23:17	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Una Locura]
+2015-10-31 12:23:17	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 12:25:31	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b6117c923.mp3
+2015-10-31 12:26:06	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Salud Y Vida]
+2015-10-31 12:26:06	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 12:28:58	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b5ddb749e.mp3
+2015-10-31 12:29:34	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee/Zion Y Lennox - Tu Principe]
+2015-10-31 12:29:34	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 12:32:23	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a9491c3b.mp3
+2015-10-31 12:32:59	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 12:32:59	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 12:36:27	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249bb7ab79.mp3
+2015-10-31 12:37:03	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñengo Flow - Siente]
+2015-10-31 12:37:03	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 12:40:48	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f811a600.mp3
+2015-10-31 12:41:23	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui-G 21+ Ft Zion - Se Real]
+2015-10-31 12:41:23	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 12:44:34	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255f62a6a051d7.mp3
+2015-10-31 12:45:10	I	msg:[SHOUTCASTMETADATA] Metadata string [255f62a6a051d7]
+2015-10-31 12:45:10	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 12:47:30	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b54a4cf29.mp3
+2015-10-31 12:48:06	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Lo Que Paso, Paso]
+2015-10-31 12:48:06	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 12:51:01	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b350b0f2.mp3
+2015-10-31 12:51:37	I	msg:[SHOUTCASTMETADATA] Metadata string [06. Randy - Soy Una Gárgola]
+2015-10-31 12:51:37	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 12:53:34	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d95058181ac.mp3
+2015-10-31 12:54:09	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21 + - La Misma Copa]
+2015-10-31 12:54:09	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 12:56:45	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b152a31b.mp3
+2015-10-31 12:57:21	I	msg:[SHOUTCASTMETADATA] Metadata string [02. Tito El Bambino - Siente El Boom (Remix) (feat. Jowell & Randy)]
+2015-10-31 12:57:21	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 12:59:16	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d950fb13280.mp3
+2015-10-31 12:59:52	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ Ft J Alvarez - Otro Panorama]
+2015-10-31 12:59:52	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 13:02:36	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b4afecfbb.mp3
+2015-10-31 13:03:12	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - King Daddy]
+2015-10-31 13:03:12	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 13:05:07	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d9659a029b6.mp3
+2015-10-31 13:05:07	I	msg:[RESAMPLER] Resampling 48000/2 == 44100/2
+2015-10-31 13:05:43	I	msg:[SHOUTCASTMETADATA] Metadata string [J Alvarez - La Pregunta]
+2015-10-31 13:05:43	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 13:09:37	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24aafce360.mp3
+2015-10-31 13:09:37	I	msg:[RESAMPLER] Deactivated 44100/2 == 44100/2
+2015-10-31 13:10:13	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Plan B - Ella Me Pide Something (Remix)]
+2015-10-31 13:10:13	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 13:14:34	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94febc086f.mp3
+2015-10-31 13:15:10	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Asi Soy Yo]
+2015-10-31 13:15:10	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 13:17:59	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94e54d773f.mp3
+2015-10-31 13:18:36	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Musica Alta]
+2015-10-31 13:18:36	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 13:20:48	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e247002ba2c.mp3
+2015-10-31 13:21:24	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 13:21:24	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 13:24:52	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249b11a83f.mp3
+2015-10-31 13:24:52	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 13:25:28	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Dura Dura]
+2015-10-31 13:25:28	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 13:28:44	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24afe0e1c8.mp3
+2015-10-31 13:28:44	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 13:29:20	I	msg:[SHOUTCASTMETADATA] Metadata string [01. Jowell & Randy - No Te Veo]
+2015-10-31 13:29:20	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 13:32:28	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a794d054.mp3
+2015-10-31 13:32:28	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 13:32:28	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 13:33:04	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñejo & Dalmata, De La Ghetto, Jamsha & Guelo Star - La Longa (Remix)]
+2015-10-31 13:33:04	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 13:39:28	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 13:39:28	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 13:39:28	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 13:40:03	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Me Enteré (Ft. Tito "El Bambino")]
+2015-10-31 13:40:03	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 13:42:35	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b152a31b.mp3
+2015-10-31 13:43:11	I	msg:[SHOUTCASTMETADATA] Metadata string [02. Tito El Bambino - Siente El Boom (Remix) (feat. Jowell & Randy)]
+2015-10-31 13:43:11	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 13:45:06	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94febc086f.mp3
+2015-10-31 13:45:42	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Asi Soy Yo]
+2015-10-31 13:45:42	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 13:48:31	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249bb7ab79.mp3
+2015-10-31 13:49:07	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñengo Flow - Siente]
+2015-10-31 13:49:07	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 13:52:52	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24afe0e1c8.mp3
+2015-10-31 13:53:28	I	msg:[SHOUTCASTMETADATA] Metadata string [01. Jowell & Randy - No Te Veo]
+2015-10-31 13:53:28	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 13:56:36	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b54a4cf29.mp3
+2015-10-31 13:57:12	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Lo Que Paso, Paso]
+2015-10-31 13:57:12	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 14:00:07	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e247002ba2c.mp3
+2015-10-31 14:00:43	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 14:00:43	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 14:04:11	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24aafce360.mp3
+2015-10-31 14:04:47	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Plan B - Ella Me Pide Something (Remix)]
+2015-10-31 14:04:47	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 14:09:08	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f02ea72f.mp3
+2015-10-31 14:09:44	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Una Locura]
+2015-10-31 14:09:44	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 14:11:57	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f811a600.mp3
+2015-10-31 14:12:33	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui-G 21+ Ft Zion - Se Real]
+2015-10-31 14:12:33	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 14:15:44	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b4afecfbb.mp3
+2015-10-31 14:15:44	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 14:16:20	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - King Daddy]
+2015-10-31 14:16:20	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 14:18:15	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d95058181ac.mp3
+2015-10-31 14:18:15	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 14:18:51	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21 + - La Misma Copa]
+2015-10-31 14:18:51	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 14:21:26	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b6117c923.mp3
+2015-10-31 14:21:26	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 14:21:26	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 14:22:01	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Salud Y Vida]
+2015-10-31 14:22:01	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 14:24:52	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 14:24:52	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 14:24:52	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 14:25:27	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Me Enteré (Ft. Tito "El Bambino")]
+2015-10-31 14:25:27	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 14:27:59	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d950fb13280.mp3
+2015-10-31 14:28:34	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ Ft J Alvarez - Otro Panorama]
+2015-10-31 14:28:34	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 14:31:20	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b350b0f2.mp3
+2015-10-31 14:31:56	I	msg:[SHOUTCASTMETADATA] Metadata string [06. Randy - Soy Una Gárgola]
+2015-10-31 14:31:56	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 14:33:53	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94e54d773f.mp3
+2015-10-31 14:34:28	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Musica Alta]
+2015-10-31 14:34:28	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 14:36:42	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b5ddb749e.mp3
+2015-10-31 14:37:18	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee/Zion Y Lennox - Tu Principe]
+2015-10-31 14:37:18	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 14:40:07	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d922024ddc0.mp3
+2015-10-31 14:40:42	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Descontrol]
+2015-10-31 14:40:42	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 14:43:00	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249b11a83f.mp3
+2015-10-31 14:43:36	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Dura Dura]
+2015-10-31 14:43:36	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 14:46:52	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a794d054.mp3
+2015-10-31 14:47:28	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñejo & Dalmata, De La Ghetto, Jamsha & Guelo Star - La Longa (Remix)]
+2015-10-31 14:47:28	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 14:53:52	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d9659a029b6.mp3
+2015-10-31 14:53:52	I	msg:[RESAMPLER] Resampling 48000/2 == 44100/2
+2015-10-31 14:54:28	I	msg:[SHOUTCASTMETADATA] Metadata string [J Alvarez - La Pregunta]
+2015-10-31 14:54:28	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 14:58:21	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a9491c3b.mp3
+2015-10-31 14:58:21	I	msg:[RESAMPLER] Deactivated 44100/2 == 44100/2
+2015-10-31 14:58:56	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 14:58:56	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 15:02:25	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255f62a6a051d7.mp3
+2015-10-31 15:03:01	I	msg:[SHOUTCASTMETADATA] Metadata string [255f62a6a051d7]
+2015-10-31 15:03:01	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 15:05:21	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b152a31b.mp3
+2015-10-31 15:05:57	I	msg:[SHOUTCASTMETADATA] Metadata string [02. Tito El Bambino - Siente El Boom (Remix) (feat. Jowell & Randy)]
+2015-10-31 15:05:57	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 15:07:52	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255f62a6a051d7.mp3
+2015-10-31 15:08:27	I	msg:[SHOUTCASTMETADATA] Metadata string [255f62a6a051d7]
+2015-10-31 15:08:27	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 15:10:48	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d950fb13280.mp3
+2015-10-31 15:11:24	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ Ft J Alvarez - Otro Panorama]
+2015-10-31 15:11:24	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 15:14:08	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b54a4cf29.mp3
+2015-10-31 15:14:43	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Lo Que Paso, Paso]
+2015-10-31 15:14:43	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 15:17:39	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b5ddb749e.mp3
+2015-10-31 15:18:15	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee/Zion Y Lennox - Tu Principe]
+2015-10-31 15:18:15	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 15:21:04	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24afe0e1c8.mp3
+2015-10-31 15:21:40	I	msg:[SHOUTCASTMETADATA] Metadata string [01. Jowell & Randy - No Te Veo]
+2015-10-31 15:21:40	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 15:24:48	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d922024ddc0.mp3
+2015-10-31 15:25:24	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Descontrol]
+2015-10-31 15:25:24	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 15:27:41	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249bb7ab79.mp3
+2015-10-31 15:28:17	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñengo Flow - Siente]
+2015-10-31 15:28:17	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 15:32:02	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24aafce360.mp3
+2015-10-31 15:32:38	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Plan B - Ella Me Pide Something (Remix)]
+2015-10-31 15:32:38	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 15:36:59	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b4afecfbb.mp3
+2015-10-31 15:36:59	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 15:37:34	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - King Daddy]
+2015-10-31 15:37:34	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 15:39:30	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a9491c3b.mp3
+2015-10-31 15:39:30	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 15:40:05	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 15:40:05	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 15:43:34	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f02ea72f.mp3
+2015-10-31 15:43:34	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 15:43:34	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 15:44:10	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Una Locura]
+2015-10-31 15:44:10	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 15:46:23	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 15:46:23	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 15:46:23	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 15:46:58	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Me Enteré (Ft. Tito "El Bambino")]
+2015-10-31 15:46:58	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 15:49:30	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94e54d773f.mp3
+2015-10-31 15:50:06	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Musica Alta]
+2015-10-31 15:50:06	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 15:52:19	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a794d054.mp3
+2015-10-31 15:52:55	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñejo & Dalmata, De La Ghetto, Jamsha & Guelo Star - La Longa (Remix)]
+2015-10-31 15:52:55	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 15:59:18	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e247002ba2c.mp3
+2015-10-31 15:59:54	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 15:59:54	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 16:03:22	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d95058181ac.mp3
+2015-10-31 16:03:57	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21 + - La Misma Copa]
+2015-10-31 16:03:57	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 16:06:33	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d9659a029b6.mp3
+2015-10-31 16:06:33	I	msg:[RESAMPLER] Resampling 48000/2 == 44100/2
+2015-10-31 16:07:08	I	msg:[SHOUTCASTMETADATA] Metadata string [J Alvarez - La Pregunta]
+2015-10-31 16:07:08	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 16:11:02	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94febc086f.mp3
+2015-10-31 16:11:02	I	msg:[RESAMPLER] Deactivated 44100/2 == 44100/2
+2015-10-31 16:11:38	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Asi Soy Yo]
+2015-10-31 16:11:38	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 16:14:28	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b6117c923.mp3
+2015-10-31 16:15:04	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Salud Y Vida]
+2015-10-31 16:15:04	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 16:17:55	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b350b0f2.mp3
+2015-10-31 16:18:31	I	msg:[SHOUTCASTMETADATA] Metadata string [06. Randy - Soy Una Gárgola]
+2015-10-31 16:18:31	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 16:20:28	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249b11a83f.mp3
+2015-10-31 16:21:04	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Dura Dura]
+2015-10-31 16:21:04	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 16:24:20	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f811a600.mp3
+2015-10-31 16:24:55	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui-G 21+ Ft Zion - Se Real]
+2015-10-31 16:24:55	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 16:28:07	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b350b0f2.mp3
+2015-10-31 16:28:42	I	msg:[SHOUTCASTMETADATA] Metadata string [06. Randy - Soy Una Gárgola]
+2015-10-31 16:28:42	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 16:30:40	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d950fb13280.mp3
+2015-10-31 16:31:16	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ Ft J Alvarez - Otro Panorama]
+2015-10-31 16:31:16	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 16:34:00	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a9491c3b.mp3
+2015-10-31 16:34:36	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 16:34:36	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 16:38:04	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f02ea72f.mp3
+2015-10-31 16:38:40	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Una Locura]
+2015-10-31 16:38:40	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 16:40:53	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e247002ba2c.mp3
+2015-10-31 16:41:29	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 16:41:29	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 16:44:57	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b152a31b.mp3
+2015-10-31 16:45:32	I	msg:[SHOUTCASTMETADATA] Metadata string [02. Tito El Bambino - Siente El Boom (Remix) (feat. Jowell & Randy)]
+2015-10-31 16:45:32	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 16:47:28	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24aafce360.mp3
+2015-10-31 16:48:04	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Plan B - Ella Me Pide Something (Remix)]
+2015-10-31 16:48:04	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 16:52:25	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f811a600.mp3
+2015-10-31 16:53:00	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui-G 21+ Ft Zion - Se Real]
+2015-10-31 16:53:00	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 16:56:12	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249b11a83f.mp3
+2015-10-31 16:56:48	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Dura Dura]
+2015-10-31 16:56:48	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 17:00:04	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d9659a029b6.mp3
+2015-10-31 17:00:04	I	msg:[RESAMPLER] Resampling 48000/2 == 44100/2
+2015-10-31 17:00:40	I	msg:[SHOUTCASTMETADATA] Metadata string [J Alvarez - La Pregunta]
+2015-10-31 17:00:40	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 17:04:33	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d95058181ac.mp3
+2015-10-31 17:04:33	I	msg:[RESAMPLER] Deactivated 44100/2 == 44100/2
+2015-10-31 17:05:09	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21 + - La Misma Copa]
+2015-10-31 17:05:09	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 17:07:44	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b6117c923.mp3
+2015-10-31 17:08:19	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Salud Y Vida]
+2015-10-31 17:08:19	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 17:11:11	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b54a4cf29.mp3
+2015-10-31 17:11:11	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 17:11:47	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Lo Que Paso, Paso]
+2015-10-31 17:11:47	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 17:14:42	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94febc086f.mp3
+2015-10-31 17:14:42	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 17:15:18	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Asi Soy Yo]
+2015-10-31 17:15:18	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 17:18:07	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255f62a6a051d7.mp3
+2015-10-31 17:18:07	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 17:18:08	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 17:18:44	I	msg:[SHOUTCASTMETADATA] Metadata string [255f62a6a051d7]
+2015-10-31 17:18:44	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 17:21:03	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 17:21:03	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 17:21:03	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 17:21:38	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Me Enteré (Ft. Tito "El Bambino")]
+2015-10-31 17:21:38	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 17:24:10	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24afe0e1c8.mp3
+2015-10-31 17:24:46	I	msg:[SHOUTCASTMETADATA] Metadata string [01. Jowell & Randy - No Te Veo]
+2015-10-31 17:24:46	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 17:27:54	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d922024ddc0.mp3
+2015-10-31 17:28:30	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Descontrol]
+2015-10-31 17:28:30	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 17:30:47	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b5ddb749e.mp3
+2015-10-31 17:31:23	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee/Zion Y Lennox - Tu Principe]
+2015-10-31 17:31:23	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 17:34:13	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249bb7ab79.mp3
+2015-10-31 17:34:49	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñengo Flow - Siente]
+2015-10-31 17:34:49	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 17:38:33	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a794d054.mp3
+2015-10-31 17:39:10	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñejo & Dalmata, De La Ghetto, Jamsha & Guelo Star - La Longa (Remix)]
+2015-10-31 17:39:10	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 17:45:33	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b4afecfbb.mp3
+2015-10-31 17:46:09	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - King Daddy]
+2015-10-31 17:46:09	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 17:48:04	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94e54d773f.mp3
+2015-10-31 17:48:40	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Musica Alta]
+2015-10-31 17:48:40	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 17:50:53	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b6117c923.mp3
+2015-10-31 17:51:29	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Salud Y Vida]
+2015-10-31 17:51:29	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 17:54:20	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f811a600.mp3
+2015-10-31 17:54:56	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui-G 21+ Ft Zion - Se Real]
+2015-10-31 17:54:56	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 17:58:06	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d922024ddc0.mp3
+2015-10-31 17:58:42	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Descontrol]
+2015-10-31 17:58:42	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 18:00:59	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94e54d773f.mp3
+2015-10-31 18:01:35	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Musica Alta]
+2015-10-31 18:01:35	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 18:03:48	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255f62a6a051d7.mp3
+2015-10-31 18:03:48	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 18:04:24	I	msg:[SHOUTCASTMETADATA] Metadata string [255f62a6a051d7]
+2015-10-31 18:04:24	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 18:06:44	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b54a4cf29.mp3
+2015-10-31 18:06:44	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 18:07:20	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Lo Que Paso, Paso]
+2015-10-31 18:07:20	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 18:10:15	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e247002ba2c.mp3
+2015-10-31 18:10:15	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 18:10:15	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 18:10:51	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 18:10:51	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 18:14:19	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 18:14:19	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 18:14:19	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 18:14:55	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Me Enteré (Ft. Tito "El Bambino")]
+2015-10-31 18:14:55	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 18:17:26	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a794d054.mp3
+2015-10-31 18:18:01	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñejo & Dalmata, De La Ghetto, Jamsha & Guelo Star - La Longa (Remix)]
+2015-10-31 18:18:01	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 18:24:25	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249bb7ab79.mp3
+2015-10-31 18:25:01	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñengo Flow - Siente]
+2015-10-31 18:25:01	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 18:28:46	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a9491c3b.mp3
+2015-10-31 18:29:22	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Pa' Que Te Quites La Ropa]
+2015-10-31 18:29:22	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 18:32:49	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d9659a029b6.mp3
+2015-10-31 18:32:49	I	msg:[RESAMPLER] Resampling 48000/2 == 44100/2
+2015-10-31 18:33:25	I	msg:[SHOUTCASTMETADATA] Metadata string [J Alvarez - La Pregunta]
+2015-10-31 18:33:25	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 18:37:19	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b5ddb749e.mp3
+2015-10-31 18:37:19	I	msg:[RESAMPLER] Deactivated 44100/2 == 44100/2
+2015-10-31 18:37:54	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee/Zion Y Lennox - Tu Principe]
+2015-10-31 18:37:54	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 18:40:44	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24aafce360.mp3
+2015-10-31 18:41:21	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Plan B - Ella Me Pide Something (Remix)]
+2015-10-31 18:41:21	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 18:45:41	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f02ea72f.mp3
+2015-10-31 18:46:17	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Una Locura]
+2015-10-31 18:46:17	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 18:48:31	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d95058181ac.mp3
+2015-10-31 18:49:07	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21 + - La Misma Copa]
+2015-10-31 18:49:07	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 18:51:42	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d950fb13280.mp3
+2015-10-31 18:52:18	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ Ft J Alvarez - Otro Panorama]
+2015-10-31 18:52:18	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 18:55:02	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24afe0e1c8.mp3
+2015-10-31 18:55:37	I	msg:[SHOUTCASTMETADATA] Metadata string [01. Jowell & Randy - No Te Veo]
+2015-10-31 18:55:37	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 18:58:46	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b4afecfbb.mp3
+2015-10-31 18:59:22	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - King Daddy]
+2015-10-31 18:59:22	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 19:01:17	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94febc086f.mp3
+2015-10-31 19:01:53	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Asi Soy Yo]
+2015-10-31 19:01:53	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 19:04:42	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e249b11a83f.mp3
+2015-10-31 19:05:19	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan - Dura Dura]
+2015-10-31 19:05:19	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 19:08:35	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b350b0f2.mp3
+2015-10-31 19:09:11	I	msg:[SHOUTCASTMETADATA] Metadata string [06. Randy - Soy Una Gárgola]
+2015-10-31 19:09:11	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 19:11:08	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24b152a31b.mp3
+2015-10-31 19:11:44	I	msg:[SHOUTCASTMETADATA] Metadata string [02. Tito El Bambino - Siente El Boom (Remix) (feat. Jowell & Randy)]
+2015-10-31 19:11:44	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 19:13:39	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d9659a029b6.mp3
+2015-10-31 19:13:39	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 19:13:39	I	msg:[RESAMPLER] Resampling 48000/2 == 44100/2
+2015-10-31 19:14:15	I	msg:[SHOUTCASTMETADATA] Metadata string [J Alvarez - La Pregunta]
+2015-10-31 19:14:15	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 19:18:08	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b4afecfbb.mp3
+2015-10-31 19:18:08	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 19:18:09	I	msg:[RESAMPLER] Deactivated 44100/2 == 44100/2
+2015-10-31 19:18:45	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - King Daddy]
+2015-10-31 19:18:45	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 19:20:40	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94f811a600.mp3
+2015-10-31 19:20:40	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 19:20:40	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 19:21:16	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui-G 21+ Ft Zion - Se Real]
+2015-10-31 19:21:16	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 19:24:26	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 19:24:26	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 19:24:26	W	msg:RVAD tag not supported in file /var/www/html/mp3collection/255fe12f1b958c.mp3
+2015-10-31 19:25:02	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Me Enteré (Ft. Tito "El Bambino")]
+2015-10-31 19:25:02	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 19:27:33	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255f62a6a051d7.mp3
+2015-10-31 19:28:09	I	msg:[SHOUTCASTMETADATA] Metadata string [255f62a6a051d7]
+2015-10-31 19:28:09	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 19:30:29	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b5ddb749e.mp3
+2015-10-31 19:31:05	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee/Zion Y Lennox - Tu Principe]
+2015-10-31 19:31:05	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 19:33:54	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255e24a794d054.mp3
+2015-10-31 19:34:31	I	msg:[SHOUTCASTMETADATA] Metadata string [J King & Maximan Ft. Ñejo & Dalmata, De La Ghetto, Jamsha & Guelo Star - La Longa (Remix)]
+2015-10-31 19:34:31	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 19:40:54	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d6b6117c923.mp3
+2015-10-31 19:41:30	I	msg:[SHOUTCASTMETADATA] Metadata string [Daddy Yankee - Salud Y Vida]
+2015-10-31 19:41:30	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 19:44:21	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94febc086f.mp3
+2015-10-31 19:44:56	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Asi Soy Yo]
+2015-10-31 19:44:56	I	msg:[SHOUTCASTMETADATA] Sending metadata
+2015-10-31 19:47:46	I	msg:[DECODE] Next file is /var/www/html/mp3collection/255d94e54d773f.mp3
+2015-10-31 19:48:22	I	msg:[SHOUTCASTMETADATA] Metadata string [Lui G 21+ - Musica Alta]
+2015-10-31 19:48:22	I	msg:[SHOUTCASTMETADATA] Sending metadata

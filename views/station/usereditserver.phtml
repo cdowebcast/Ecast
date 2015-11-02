@@ -1,0 +1,271 @@
+<?php
+/**
+ * Created by David Schomburg (DashTec - Services)
+ *      www.dashtec.de
+ *
+ *  S:P (StreamersPanel)
+ *  Support: http://board.streamerspanel.de
+ *
+ *  v 4.0.0
+ *
+ *  Kundennummer:   @KDNUM@
+ *  Lizenznummer:   @RECHNR@
+ *  Lizenz: http://login.streamerspanel.de/user/terms
+ */
+?>
+<div id="content">
+<div class="container">
+<div id="page-title" class="clearfix">
+    <ul class="breadcrumb">
+        <li>
+            <a href="/"><?php echo _('Home'); ?></a> <span class="divider">/</span>
+        </li>
+        <li>
+            <a href="/station/showstream"><?php echo _('View'); ?></a> <span class="divider">/</span>
+        </li>
+        <li class="active"><?php echo _('Server bearbeiten'); ?></li>
+    </ul>
+</div>
+<!-- /.page-title -->
+<div class="row">
+<div class="span8">
+<div id="control" class="widget widget-form">
+<div class="widget-header">
+    <h3>
+        <i class="icon-pencil"></i>
+        <?php echo _('Edit Stream Server'); ?>
+    </h3>
+</div>
+<!-- /widget-header -->
+<div class="widget-content">
+    <form class="form-horizontal" method="post" action="/station/showstream">
+        <fieldset>
+            <div class="control-group">
+                <label class="control-label" for="input01"><?php echo _('Streamname'); ?></label>
+
+                <div class="controls">
+                    <input type="text" class="input-large" name="stream_userName"
+                           value="<?php echo $sc_rel['stream_userName']; ?>" id="input01">
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="input01"><?php echo _('Shoutcast MP3 license'); ?></label>
+
+                <div class="controls">
+                    <input type="text" class="input-large" name="unlockkeyname" id="input01"
+                           value="<?php echo $sc_trans['unlockkeyname']; ?>"
+                           placeholder="unlockkeyname">
+                    <input type="text" class="input-large" name="unlockkeycode" id="input01"
+                           value="<?php echo $sc_trans['unlockkeycode']; ?>"
+                           placeholder="unlockkeycode">
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="input01"><?php echo _('Stream Titel'); ?></label>
+
+                <div class="controls">
+                    <input type="text" class="input-large" name="streamtitle"
+                           value="<? echo $sc_trans['streamtitle']; ?>" id="input01">
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="input01"><?php echo _('Stream URL'); ?></label>
+
+                <div class="controls">
+                    <input type="text" class="input-large" name="streamurl"
+                           value="<? echo $sc_trans['streamurl']; ?>" id="input01">
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="input01"><?php echo _('IRC'); ?></label>
+
+                <div class="controls">
+                    <input type="text" class="input-large" name="irc"
+                           value="<? echo $sc_trans['irc']; ?>" id="input01">
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="input01"><?php echo _('ICQ'); ?></label>
+
+                <div class="controls">
+                    <input type="text" class="input-large" name="icq"
+                           value="<? echo $sc_trans['icq']; ?>" id="input01">
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="input01"><?php echo _('AIM'); ?></label>
+
+                <div class="controls">
+                    <input type="text" class="input-large" name="aim"
+                           value="<? echo $sc_trans['aim']; ?>" id="input01">
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="input01"><?php echo _('DJ Password'); ?></label>
+
+                <div class="controls">
+                    <input type="text" class="input-large" name="djpassword"
+                           value="<? echo $sc_trans['djpassword']; ?>" id="input01">
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label"><?php echo _('Encoder'); ?></label>
+
+                <div class="controls">
+                    <label class="radio">
+                        <input type="radio" name="encoder_1" id="validateRadio1"
+                               value="mp3"  <?php if ($sc_trans['encoder_1'] == 'mp3') {
+                            echo 'checked=""';
+                        } ?> >
+                        <?php echo _('MP3'); ?>
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="encoder_1" id="validateRadio2"
+                               value="aac" <?php if ($sc_trans['encoder_1'] == 'aac') {
+                            echo 'checked=""';
+                        } ?>>
+                        <?php echo _('AAC'); ?>
+                    </label>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label"><?php echo _('Shuffle'); ?></label>
+
+                <div class="controls">
+                    <label class="radio">
+                        <input type="radio" name="shuffle" id="validateRadio12"
+                               value="1"  <?php if ($sc_trans['shuffle'] == '1') {
+                            echo 'checked=""';
+                        } ?>  >
+                        <?php echo _('Ja'); ?>
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="shuffle" id="validateRadio23"
+                               value="0" <?php if ($sc_trans['shuffle'] == '0') {
+                            echo 'checked=""';
+                        } ?>>
+                        <?php echo _('Nein'); ?>
+                    </label>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label"><?php echo _('Public Server'); ?></label>
+
+                <div class="controls">
+                    <label class="radio">
+                        <input type="radio" name="PublicServer" id="validateRadio122"
+                               value="public" <?php if ($sc_serv['PublicServer'] == 'public') {
+                            echo 'checked=""';
+                        } ?>>
+                        <?php echo _('Ja'); ?>
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="PublicServer" id="validateRadio233"
+                               value="never" <?php if ($sc_serv['PublicServer'] == 'never') {
+                            echo 'checked=""';
+                        } ?> >
+                        <?php echo _('Nein'); ?>
+                    </label>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label"><?php echo _('Public Transcoder'); ?></label>
+
+                <div class="controls">
+                    <label class="radio">
+                        <input type="radio" name="public" id="validateRadio1222"
+                               value="1" <?php if ($sc_trans['public'] == '1') {
+                            echo 'checked=""';
+                        } ?>>
+                        <?php echo _('Ja'); ?>
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="public" id="validateRadio2333"
+                               value="0" <?php if ($sc_trans['public'] == '0') {
+                            echo 'checked=""';
+                        } ?>>
+                        <?php echo _('Nein'); ?>
+                    </label>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="input01"><?php echo _('Genre'); ?></label>
+
+                <div class="controls">
+                    <input type="text" class="input-large" name="genre"
+                           value="<? echo $sc_trans['genre']; ?>" id="input01">
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="input01"><?php echo _('URL Format'); ?></label>
+
+                <div class="controls">
+                    <input type="text" class="input-large" name="URLFormat"
+                           value="<? echo $sc_serv['URLFormat']; ?>" id="input01">
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="input01"><?php echo _('Titel-Format'); ?></label>
+
+                <div class="controls">
+                    <input type="text" class="input-large" name="TitleFormat"
+                           value="<? echo $sc_serv['TitleFormat']; ?>" id="input01">
+                    Justin Radio: %s
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="input01"><?php echo _('DJ Password'); ?></label>
+
+                <div class="controls">
+                    <input type="text" class="input-large" name="djpassword"
+                           value="<? echo $sc_trans['djpassword']; ?>" id="input01">
+                </div>
+            </div>
+            <div class="form-actions">
+                <!--      <button type="submit" name="servconfandreboot" class="btn btn-danger btn-large"><i class="icon-star"></i> Speichern und Neustart</button> -->
+                <button type="submit" name="servconfsave" class="btn btn-primary btn-large">
+                    <?php echo _('Save'); ?>
+                </button>
+
+            </div>
+
+        </fieldset>
+    </form>
+</div>
+<!-- /widget-content -->
+</div>
+<!-- /.widget -->
+</div>
+<!-- /span8 -->
+<div class="span4">
+    <div id="formToc" class="widget highlight">
+        <div class="widget-header">
+            <h3><?php echo _('Stream bearbeiten'); ?></h3>
+        </div>
+        <!-- /widget-header -->
+        <div class="widget-content">
+            <p>
+                <b><?php echo _('Einstellungen sichern und Neustart'); ?></b> <br>
+
+            </p>
+
+            <p>
+                <b><?php echo _('Speichern ohne Neustart'); ?></b><br>
+
+            </p>
+            <br>
+
+            <p>
+            </p>
+        </div>
+        <!-- /widget-content -->
+    </div>
+    <!-- /widget -->
+</div>
+<!-- /.span4 -->
+</div>
+<!-- /row -->
+</div>
+<!-- /.container -->
+</div> <!-- /#content -->
+<?php require __DIR__ . '/../footer.phtml' ?>

@@ -1,0 +1,81 @@
+<div class="content-wrapper">
+<section class="content">
+<div class="row">
+<?php
+
+
+                            $results = DB::query("SELECT * FROM sc_rel WHERE accounts_id=%s", $_SESSION['account_id']);
+                            foreach ($results as $row) {
+                                echo '<form action="/station/showstream" method="post"><tr>';
+                                $sc_serv = DB::queryFirstRow("SELECT * FROM sc_serv_conf WHERE id=%s", $row['sc_serv_conf_id']);
+                                $sc_trans = DB::queryFirstRow("SELECT * FROM sc_trans_conf WHERE id=%s", $row['sc_trans_id']);
+                                $account = DB::queryFirstRow("SELECT * FROM accounts WHERE id=%s", $row['accounts_id']);
+
+                                echo '<div class="col-md-3 col-sm-6 col-xs-12">';
+                                echo '<div class="info-box"><span class="info-box-icon bg-aqua"><i class="fa fa-envelope-o"></i></span>';
+                                echo '<div class="info-box-content">';
+                                echo '<span class="info-box-text">Puerto '.$row['stream_userName'].'</span>';
+                                echo '<span class="info-box-number">Puerto '.$sc_trans['djport'].'</span>';
+                                echo '<span class="info-box-number">Puerto '.$sc_trans['adminport'].'</span>';
+                                echo '</div></div>';
+                                echo '</div>';
+
+                                echo '<div class="col-md-3 col-sm-6 col-xs-12">';
+                                echo '<div class="info-box"><span class="info-box-icon bg-aqua"><i class="fa fa-envelope-o"></i></span>';
+                                echo '<div class="info-box-content">';
+                                echo '<span class="info-box-text">Max Oyentes</span>';
+                                echo '<span class="info-box-number">' . $sc_serv['MaxUser'] . '</span>';
+                                echo '</div></div>';
+                                echo '</div>';
+
+                                echo '<div class="col-md-3 col-sm-6 col-xs-12">';
+                                echo '<div class="info-box"><span class="info-box-icon bg-aqua"><i class="fa fa-envelope-o"></i></span>';
+                                echo '<div class="info-box-content">';
+                                echo '<span class="info-box-text">URL</span>';
+                                echo '<span class="info-box-number"><a href="http://' . $_SERVER["HTTP_HOST"] . ':' . $sc_serv['PortBase'] . '">' . $sc_serv['PortBase'] . '</a></span>';
+                                echo '</div></div>';
+                                echo '</div>';
+                                echo '</form>';
+
+                                ?>
+
+
+                                <form action="/station/showstream" method="post">
+                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="info-box"><span class="info-box-icon bg-aqua"><i class="fa fa-envelope-o"></i></span>
+                                    <div class="info-box-content">
+                                        <?php if ($row['sc_serv_pid'] == '0') {
+                                            echo '<img src="/image/fuge/status-busy.png" >';
+                                     ?>
+                                    <button name="onoffselc" value="<?php echo $row['id'] . '.1' ?>" class="btn btn-success">Iniciar</button>
+                                     <?php
+                                    } else {
+                                            echo '<img src="/image/fuge/status.png">';
+                                            ?>
+                                            <button name="onoffselc" value="<?php echo $row['id'] . '.0' ?>" class="btn btn-danger">Detener</button>
+
+                                        <?php
+                                        } ?>
+                                    </div>
+                                </div>
+                                </div>
+                                </form>
+
+                                <form action="/stationaddeditcontrol/selectStream" method="post">
+                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="info-box"><span class="info-box-icon bg-aqua"><i class="fa fa-envelope-o"></i></span>
+                                    <div class="info-box-content">
+                                        <span class="info-box-text">Editar</span>
+                                        <button class="btn btn-warning" name="streamtoEdit" value="<?php echo $row['id'] . '.edit' ?>" ><img src="/image/fuge/pencil.png" ></button>
+                                    </div>
+                                </div>
+                                </div>
+
+                                <?php
+                            }
+                            ?>
+
+</div>
+</section>
+</div>
+<?php require __DIR__ . '/../footer.phtml' ?>

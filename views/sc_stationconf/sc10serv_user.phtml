@@ -1,0 +1,95 @@
+<?php
+/**
+ * Created by David Schomburg (DashTec - Services)
+ *      www.dashtec.de
+ *
+ *  S:P (StreamersPanel)
+ *  Support: http://board.streamerspanel.de
+ *
+ *  v 4.0.0
+ *
+ *  Kundennummer:   @KDNUM@
+ *  Lizenznummer:   @RECHNR@
+ *  Lizenz: http://login.streamerspanel.de/user/terms
+ */
+
+?>
+
+<div id="content">
+    <div class="container">
+        <form class="form-horizontal" action="/station/useredit" method="post">
+            <div class="row">
+
+                <div class="span8">
+                    <div id="horizontal" class="widget widget-form">
+                        <div class="widget-header">
+                            <h3>
+                                <i class="icon-pencil"></i>
+                                <?php echo _('Streamserver v1.9.x'); ?>
+                            </h3>
+                        </div>
+                        <!-- /widget-header --><?php
+                        /*
+                         *      Beginn Konfiguration S:P Angaben
+                         */
+                        ?>
+                        <div class="widget-content">
+                            <fieldset>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?php echo _('Stream Name'); ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="sc_rel[stream_userName]" id="input01" <?php if(!empty($selectTempName['stream_userName'])){echo  'value="'.$selectTempName['stream_userName'].'"';} ?>>
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?php echo _('Password'); ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="sc_serv[Password]" id="input01" <?php if(!empty($sc_server['Password'])){echo  'value="'.$sc_server['Password'].'"';} ?>>
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?php echo _('Admin Password'); ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="sc_serv[AdminPassword]" id="input01" <?php if(!empty($sc_server['AdminPassword'])){echo  'value="'.$sc_server['AdminPassword'].'"';} ?>>
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?php echo _('Zeige die letzten X Songs'); ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="sc_serv[ShowLastSongs]" id="input01" <?php if(!empty($sc_server['ShowLastSongs'])){echo  'value="'.$sc_server['ShowLastSongs'].'"';} ?>>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?php echo _('Titel Format'); ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="sc_serv[TitleFormat]" id="input01" <?php if(!empty($sc_server['TitleFormat'])){echo  'value="'.$sc_server['TitleFormat'].'"';} ?>>
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label"><?php echo _('Server ist öffentlich'); ?></label>
+
+                                    <div class="controls">
+                                        <label class="radio">
+                                            <input type="radio" name="PublicServer" id="validateRadio1" value="public" <?php if($sc_server['PublicServer'] == 'public'){echo  'checked="checked"';} ?>>
+                                            <?php echo _('Ja'); ?>
+                                        </label>
+                                        <label class="radio">
+                                            <input type="radio" name="PublicServer" id="validateRadio2" value="never" <?php if($sc_server['PublicServer'] == 'never' or empty($sc_server['PublicServer'])){echo  'checked="checked"';} ?>>
+                                            <?php echo _('Nein'); ?>
+                                        </label>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <!-- /widget-content -->

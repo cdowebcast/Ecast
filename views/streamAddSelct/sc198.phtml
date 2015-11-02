@@ -1,0 +1,269 @@
+<?php
+/**
+ * Created by David Schomburg (DashTec - Services)
+ *      www.dashtec.de
+ *
+ *  S:P (StreamersPanel)
+ *  Support: http://board.streamerspanel.de
+ *
+ *  v 4.0.0
+ *
+ *  Kundennummer:   @KDNUM@
+ *  Lizenznummer:   @RECHNR@
+ *  Lizenz: http://login.streamerspanel.de/user/terms
+ */
+?>
+<div id="content">
+<div class="container">
+<form class="form-horizontal" action="/station/add" method="post">
+<div class="row">
+
+<div class="span8">
+<div id="horizontal" class="widget widget-form">
+    <div class="widget-header">
+        <h3>
+            <i class="icon-pencil"></i>
+            <?php echo _('Neuen ShoutCast 1.9 Server'); ?>
+        </h3>
+    </div>
+    <!-- /widget-header -->
+    <div class="widget-content">
+        <fieldset>
+            <div class="control-group">
+                <label class="control-label" for="select01"><?php echo _('Stream zum benutzer hinzufügen'); ?></label>
+
+                <div class="controls">
+                    <select id="select01" name="usr_id">
+                        <?php
+                        $results = DB::query("SELECT * FROM accounts WHERE usr_grp=%s", 'user');
+                        foreach ($results as $row) {
+                            echo ' <option value=' . $row['id'] . '>' . $row['kundennummer'] . ' ' . $row['vorname'] . ' ' . $row['nachname'] . ' ' . "</option>";
+                        }
+                        ?>
+                    </select>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label" for="select01"><?php echo _('ShoutCast Transcoder'); ?></label>
+
+                <div class="controls">
+                    <select id="select01" name="sc_trans_version">
+                        <option></option>
+                        <?php
+                        $results = DB::query("SELECT * FROM sc_version WHERE typ=%s", 'trans');
+                        foreach ($results as $row) {
+                            echo ' <option value=' . $row['id'] . '>' . $row['name'] . "</option>";
+                        }
+                        ?>
+                    </select>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label" for="select01"><?php echo _('Benutzte Ports'); ?></label>
+
+                <div class="controls">
+                    <?php
+                    $results = DB::query("SELECT djport FROM sc_trans_conf");
+                    foreach ($results as $row) {
+                        echo $row['djport'] . "\n";
+                    }
+
+                    $results = DB::query("SELECT PortBase FROM sc_serv_conf");
+                    foreach ($results as $row) {
+                        echo $row['PortBase'] . "\n";
+                    }
+                    ?>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label" for="input01"><?php echo _('Stream port'); ?></label>
+
+                <div class="controls">
+                    <input type="text" class="input-large" name="PortBase" id="input01">
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label" for="input01"><?php echo _('DJ Port'); ?></label>
+
+                <div class="controls">
+                    <input type="text" class="input-large" name="djport" id="input01">
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label" for="input01"><?php echo _('Maximale Hörer'); ?></label>
+
+                <div class="controls">
+                    <input type="text" class="input-large" name="MaxUser" id="input01">
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label" for="input01"><?php echo _('Passwort'); ?></label>
+
+                <div class="controls">
+                    <input type="text" class="input-large" name="Password" id="input01">
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label" for="input01"><?php echo _('Admin Passwort'); ?></label>
+
+                <div class="controls">
+                    <input type="text" class="input-large" name="AdminPassword" id="input01">
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label" for="select01"><?php echo _('Zeige letzten X Songs'); ?></label>
+
+                <div class="controls">
+                    <select id="select01" name="ShowLasSongs">
+                        <option><?php echo _('8'); ?></option>
+                        <option><?php echo _('12'); ?></option>
+                        <option><?php echo _('32'); ?></option>
+                        <option><?php echo _('64'); ?></option>
+                        <option><?php echo _('128'); ?></option>
+                        <option><?php echo _('256'); ?></option>
+                        <option><?php echo _('512'); ?></option>
+                        <option><?php echo _('128'); ?></option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label"><?php echo _('Server ist öffentlich'); ?></label>
+
+                <div class="controls">
+                    <label class="radio">
+                        <input type="radio" name="PublicServer" id="validateRadio1" value="public">
+                        <?php echo _('Ja'); ?>
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="PublicServer" id="validateRadio2" value="never">
+                        <?php echo _('Nein'); ?>
+                    </label>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+</div>
+<!-- /widget-content -->
+
+
+<div id="appendprepend" class="widget widget-form">
+
+    <div class="widget-header">
+        <h3>
+            <i class="icon-pencil"></i>
+            <?php echo _('Transcoder Setup'); ?>
+        </h3>
+    </div>
+    <!-- /widget-header -->
+
+    <div class="widget-content">
+        <fieldset>
+            <div class="control-group">
+                <label class="control-label"><?php echo _('Streaming als'); ?></label>
+
+                <div class="controls">
+                    <label class="radio">
+                        <input type="radio" name="encoder_1" id="validateRadio1" value="mp3">
+                        <?php echo _('MP3'); ?> <?php echo _('Lizenz von ShoutCast wird benötigt'); ?>
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="encoder_1" id="validateRadio2" value="aacp">
+                        <?php echo _('AAC'); ?>
+                    </label>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label" for="select01"><?php echo _('Bitrate'); ?></label>
+
+                <div class="controls">
+                    <select id="select01" name="bitrate_1"> <?php //TODO: NAAA?? Option was? ?>
+                        <option><?php echo _('128000'); ?></option>
+
+                    </select>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label" for="select01"><?php echo _('Samplerate'); ?></label>
+
+                <div class="controls">
+                    <select id="select01" name="samplerate_1">
+                        <option><?php echo _('44100'); ?></option>
+
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="control-group">
+                <label class="control-label" for="select01"><?php echo _('Kanäle'); ?></label>
+
+                <div class="controls">
+                    <select id="select01" name="channels_1">
+                        <option><?php echo _('1'); ?></option>
+                        <option><?php echo _('2'); ?></option>
+                        <option><?php echo _('3'); ?></option>
+
+                    </select>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label" for="input01"><?php echo _('DJ-Password'); ?></label>
+
+                <div class="controls">
+                    <input type="text" class="input-large" name="djpassword" id="input01">
+                </div>
+            </div>
+
+
+            <div class="form-actions">
+                <button type="submit" name="addsrv" class="btn btn-danger btn-large"><i class="icon-star"></i>
+                    <?php echo _('Save'); ?>
+                </button>
+            </div>
+        </fieldset>
+    </div>
+    <!-- /widget-content -->
+</div>
+</div>
+<!-- div span8 -->
+
+<div class="span4">
+    <div id="formToc" class="widget highlight">
+        <div class="widget-header">
+            <h3><b> <?php echo _('Bitte beachten'); ?></b></h3>
+        </div>
+        <!-- /widget-header -->
+
+        <div class="widget-content">
+            <p>
+                <?php echo _('Anlegen eines ShoutCast v1.x Servers'); ?>
+                <?= _('Die Auswahl MP3 ist nur möglich wenn eine Lizenz vorhanden ist.') ?>
+            </p>
+            <p>
+            </p>
+
+        </div>
+        <!-- /widget-content -->
+    </div>
+    <!-- /widget -->
+</div>
+<!-- /.span4 -->
+</div>
+<!-- /row -->
+</form>
+</div>
+<!-- /.container -->
+</div> <!-- /#content -->
+<?php require __DIR__ . '/../footer.phtml' ?>

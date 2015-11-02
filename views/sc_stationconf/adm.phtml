@@ -1,0 +1,178 @@
+<?php require_once __DIR__ . '/../header.phtml' ?>
+
+<div class="content-wrapper">
+  <section class="content">
+    <div class="row">
+    
+    
+
+    <div id="appendprepend" class="widget widget-form">
+
+        <div class="widget-header">
+            <h3>
+                <i class="icon-pencil"></i>
+                <?php echo _('Transcoder Einstellungen'); ?>
+            </h3>
+        </div>
+        <!-- /widget-header -->
+
+        <div class="widget-content">
+            <fieldset>
+                <div class="control-group">
+                    <label class="control-label" for="select01"><?php echo _('Kanäle'); ?></label>
+
+                    <div class="controls">
+                        <select id="select01" name="sc_trans[channels]">
+                            <option><?php echo _('1'); ?></option>
+                            <option><?php echo _('2'); ?></option>
+                            <option><?php echo _('3'); ?></option>
+
+                        </select>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label"><?php echo _('Streamt als (Encoder 1)'); ?></label>
+
+                    <div class="controls">
+                        <label class="radio">
+                            <input type="radio" name="sc_trans[encoder_1]" id="validateRadio1" value="mp3" <?php if(isset($sc_trans['encoder_1']) == 'mp3'){echo 'checked="checked"';} ?>>
+                            <?php echo _('MP3'); ?> <?php echo _('License from Shoutcast (required license)'); ?>
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="sc_trans[encoder_1]" id="validateRadio2" value="aac"  <?php if(isset($sc_trans['encoder_1']) == 'aac' or empty($sc_trans['encoder_1'])){echo 'checked="checked"';} ?>>
+                            <?php echo _('AAC'); ?>
+                        </label>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="input01"><?php echo _('Samplerate 1'); ?></label>
+
+                    <div class="controls">
+                        <input type="text" class="input-large" name="sc_trans[bitrate_1]" value="<?php if(isset($sc_trans['bitrate_1'])){echo $sc_trans['bitrate_1']; }else{echo '128000';} ?>" id="input01">
+                    </div>
+                </div>
+
+
+
+                <div class="control-group">
+                    <label class="control-label"><?php echo _('Streamt als (Encoder 2)'); ?></label>
+
+                    <div class="controls">
+                        <label class="radio">
+                            <input type="radio" name="sc_trans[encoder_2]" id="validateRadio1" value="mp3" <?php if(isset($sc_trans['encoder_2']) == 'mp3'){echo 'checked="checked"';} ?>>
+                            <?php echo _('MP3'); ?> <?php echo _('License from Shoutcast (required license)'); ?>
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="sc_trans[encoder_2]" id="validateRadio2" value="aac"  <?php if(isset($sc_trans['encoder_2']) == 'aac' or empty($sc_trans['encoder_2'])){echo 'checked="checked"';} ?>>
+                            <?php echo _('AAC'); ?>
+                        </label>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="input01"><?php echo _('Bitrate - Stream 2'); ?></label>
+
+                    <div class="controls">
+                        <input type="text" class="input-large" name="sc_trans[bitrate_2]" value="<?php if(isset($sc_trans['bitrate_2'])){echo $sc_trans['samplerate_2']; }else{echo '128000';} ?>" id="input01">
+                    </div>
+                </div>
+
+
+                <div class="control-group">
+                    <label class="control-label" for="input01"><?php echo _('Samplerate'); ?></label>
+
+                    <div class="controls">
+                        <input type="text" class="input-large" name="sc_trans[samplerate]" value="<?php if(isset($sc_trans['samplerate'])){echo $sc_trans['samplerate']; }else{echo '44100';} ?>" id="input01">
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="control-group">
+                    <label class="control-label" for="input01"><?php echo _('Admin - User'); ?></label>
+
+                    <div class="controls">
+                        <input type="text" class="input-large" name="sc_trans[adminuser]" value="<?php if(isset($sc_trans['adminuser'])){echo $sc_trans['adminuser']; }else{echo 'admin';} ?>" id="input01">
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="input01"><?php echo _('Admin - Passwort (Administration des Servers)'); ?></label>
+
+                    <div class="controls">
+                        <input type="text" class="input-large" name="sc_trans[adminpassword]" value="<?php if(isset($sc_trans['adminpassword'])){echo $sc_trans['adminpassword']; } ?>"  id="input01">
+                    </div>
+                </div>
+
+
+
+
+                <div class="control-group">
+                    <label class="control-label" for="input01"><?php echo _('DJ-Password'); ?></label>
+
+                    <div class="controls">
+                        <input type="text" class="input-large" name="sc_trans[djpassword]" id="input01">
+                    </div>
+                </div>
+
+
+                <div class="form-actions">
+                   <?php
+                   if (!isset($_SESSION['stationAddmerker'])){
+                   ?>
+                       <button type="submit" name="admeditServ" class="btn btn-danger btn-large"><i class="icon-star"></i>
+                           <?php echo _('Speichern'); ?>
+                       </button>
+                    <?php
+                   }else{?>
+                       <button type="submit" name="addsrv" class="btn btn-danger btn-large"><i class="icon-star"></i>
+                           <?php echo _('Hinzufügen'); ?>
+                       </button>
+                       <?php
+                   }
+                    ?>
+
+
+
+
+
+
+                </div>
+            </fieldset>
+        </div>
+        <!-- /widget-content -->
+    </div>
+    </div>
+    <!-- div span8 -->
+
+    <div class="span4">
+        <div id="formToc" class="widget highlight">
+            <div class="widget-header">
+                <h3><b> <?php echo _('Please note'); ?></b></h3>
+            </div>
+            <!-- /widget-header -->
+
+            <div class="widget-content">
+                <p>
+                    <?php echo _('Anlegen eines ShoutCast v2.0 Servers'); ?>
+                </p>
+            </div>
+            <!-- /widget-content -->
+        </div>
+        <!-- /widget -->
+    </div>
+    <!-- /.span4 -->
+    </div>
+    <!-- /row -->
+    </form>
+    </div>
+    <!-- /.container -->
+    </div> <!-- /#content -->
+    
+    
+</div>
+  </section>
+</div>
+<?php require __DIR__ . '/../footer.phtml' ?>

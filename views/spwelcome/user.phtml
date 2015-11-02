@@ -1,0 +1,199 @@
+<?php
+/**
+ *  Ecast
+ */
+?>
+
+<div class="content-wrapper">
+  <section class="content">
+    <div class="row">
+      <?php
+                                $results = DB::query("SELECT * FROM sc_rel WHERE accounts_id=%s", $_SESSION['account_id']);
+                                foreach ($results as $row) {
+                                    $account = DB::queryFirstRow("SELECT * FROM sc_serv_conf WHERE id=%s", $row['sc_serv_conf_id']);
+
+                                    $wert= 'http://'.$_SERVER['HTTP_HOST'] . ':' . $account['PortBase'];
+                                    //$fp = @fsockopen($_SERVER['HTTP_HOST'], $account['PortBase'], $errno, $errstr, 1);
+                                    //if ($fp)  {
+                                        //fclose($fp);
+                                        //$xmsluser = new \core\sp_special\StationXML();
+                                    //$all = $xmsluser->getXMLParms($account['PortBase'], '123');
+									
+									echo _('<div class="col-md-4">
+        <div class="info-box"> <span class="info-box-icon bg-aqua"><i class="fa fa-music"></i></span>
+          <div class="info-box-content"><object width="100%" height="69" bgcolor="#FFFFFF" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
+      <param name="movie" value="/js/muses.swf" />
+      <param name="flashvars" value="jsevents=false&buffering=5&url='.$wert.'/live&fallback='.$wert.'/live&lang=es&title=Ecast&skin=/js/demo.xml&codec=aac&tracking=false" />
+      <param name="wmode" value="window" />
+      <param name="scale" value="noscale" />
+      <embed src="/js/muses.swf" bgcolor="#FFFFFF" flashvars="jsevents=false&buffering=5&url='.$wert.'/live&fallback='.$wert.'/live&lang=es&title=Ecast&color=red&skin=/js/demo.xml&codec=aac&tracking=false" scale="noscale" wmode="window" type="application/x-shockwave-flash"
+	     width="100%"
+	     height="69" />
+    </object></div>
+        </div>
+      </div>');
+									
+									echo _('<script>(function($){$(document).ready(function(){$.ajaxSetup({cache: false,beforeSend: function() {     $("#song").hide();$("#loading1").show();},complete: function() {$("#loading1").hide();
+                $("#song").show();
+            },
+            success: function() {
+                $("#loading1").hide();
+                $("#song").show();
+            }
+        });
+        var $container = $("#song");
+        $container.load("/stats/song.php?p=' . base64_encode($account['PortBase']) . '");
+        var refreshId = setInterval(function()
+        {
+            $container.load("/stats/song.php?p=' . base64_encode($account['PortBase']) . '");
+        }, 25000);
+    });
+})(jQuery);
+</script>
+<div class="col-md-4">
+  <div class="box box-success box-solid">
+    <div class="box-header with-border">
+      <h3 class="box-title">Cancion Actual</h3>
+      <div class="box-tools pull-right">
+      </div>
+    </div>
+    <div class="box-body"><strong id="song"></strong></div>
+    <div id="loading1" class="overlay"> <i class="fa fa-refresh fa-spin"></i> </div>
+  </div>
+</div>
+'); 
+
+echo _('<script>(function($){$(document).ready(function(){$.ajaxSetup({cache: false,beforeSend: function() { $("#oyente").hide();$("#loading2").show();},complete: function() {$("#loading2").hide();
+                $("#oyente").show();
+            },
+            success: function() {
+                $("#loading2").hide();
+                $("#oyente").show();
+            }
+        });
+        var $container = $("#oyente");
+        $container.load("/stats/oyente.php?p=' . base64_encode($account['PortBase']) . '");
+        var refreshId = setInterval(function()
+        {
+            $container.load("/stats/oyente.php?p=' . base64_encode($account['PortBase']) . '");
+        }, 30000);
+    });
+})(jQuery);
+</script>
+<div class="col-md-2">
+  <div class="box box-success box-solid">
+    <div class="box-header with-border">
+      <h3 class="box-title">Oyentes Actuales</h3>
+      <div class="box-tools pull-right"> </div>
+    </div>
+    <div class="box-body"><strong id="oyente"></strong></div>
+    <div id="loading2" class="overlay"> <i class="fa fa-refresh fa-spin"></i> </div>
+  </div>
+</div>
+<div class="col-md-2">
+  <div class="box box-success box-solid">
+    <div class="box-header with-border">
+      <h3 class="box-title">Escuchar Con</h3>
+      <div class="box-tools pull-right"> </div>
+    </div>
+    <div class="box-body"><a href="/play.php?p=' .$account['PortBase'] . '&ext=.m3u"><img src="/img/wina.png" alt=""/></a> <a href="/play.php?p=' .$account['PortBase'] . '&ext=.asx"><img src="/img/win.png" alt=""/></a> <a href="/play.php?p=' .$account['PortBase'] . '&ext=.qtl"><img src="/img/qt.png" alt=""/></a> </div>
+  </div>
+</div>'); 
+
+                                    }
+									//}
+                                    ?>
+      <div class="col-md-12">
+        <div class="box">
+          <div class="box-header">
+            <h3 class="box-title">Ultimas 5 Canciones</h3>
+          </div>
+          <?php
+                  $results = DB::query("SELECT * FROM sc_rel WHERE accounts_id=%s", $_SESSION['account_id']);
+                  foreach ($results as $row) {
+                    $account = DB::queryFirstRow("SELECT * FROM sc_serv_conf WHERE id=%s", $row['sc_serv_conf_id']);
+					
+					echo '<script>(function($){$(document).ready(function(){$.ajaxSetup({cache: false,beforeSend: function() { $("#canciones").hide();$("#loading3").show();},complete: function() {$("#loading3").hide();
+                $("#canciones").show();
+            },
+            success: function() {
+                $("#loading3").hide();
+                $("#canciones").show();
+            }
+        });
+        var $container = $("#canciones");
+        $container.load("/stats/canciones.php?p=' . base64_encode($account['PortBase']) . '");
+        var refreshId = setInterval(function()
+        {
+            $container.load("/stats/canciones.php?p=' . base64_encode($account['PortBase']) . '");
+        }, 60000);
+    });
+})(jQuery);
+</script>';
+                    
+                  }
+                  ?>
+          <div id="canciones" class="box-body table-responsive no-padding">
+            <div id="loading3" class="overlay"> <i class="fa fa-refresh fa-spin"></i> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="info-box"> <span class="info-box-icon bg-red"><i class="fa fa-files-o"></i></span>
+          <div class="info-box-content"> <span class="info-box-text">Archivos Mp3</span> <span class="info-box-number">
+            <?php
+                        DB::query("SELECT * FROM mp3_usr_rel WHERE user_id=%s", $_SESSION['account_id']);
+                        echo DB::count();
+                        ?>
+            </span> </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="box box-solid">
+          <div class="box-header with-border"> <i class="fa fa-text-width"></i>
+            <h3 class="box-title">Tiempo de Reproduccion</h3>
+          </div>
+          <div class="box-body">
+            <?php
+
+                        $TIMEFUNC = new core\time\time();
+                        $Size ='0';
+                        $TimeSecond = '0';
+                        $results = DB::query("SELECT * FROM mp3_usr_rel WHERE user_id=%s", $_SESSION['account_id']);
+                        foreach ($results as $row) {
+                            $mp3titel = DB::query("SELECT * FROM mp3 WHERE id=%s", $row['mp3_id']);
+                            foreach ($mp3titel as $title) {
+                                $Size += $title['size'];
+                                #$TimeSecond += $TIMEFUNC->seconds2Time($title['playtime']);
+                                $TimeSecond += $title['playtime'];
+                            }
+                        }
+
+                        echo $TIMEFUNC->seconds2TimeDay($TimeSecond);
+
+                        ?>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="box box-solid">
+          <div class="box-header with-border"> <i class="fa fa-text-width"></i>
+            <h3 class="box-title">Uso de Disco</h3>
+          </div>
+          <div class="box-body"> <span class="value">
+            <?php
+
+                        $FileSize = new core\file\filesize();
+                        $FileSize = new core\file\filesize();
+                        $Size =$Size / 1073741824 ;
+                        echo round($Size, 2) . "GB";
+
+
+                        ?>
+            </span> </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<?php require __DIR__ . '/../footer.phtml' ?>

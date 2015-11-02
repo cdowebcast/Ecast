@@ -1,0 +1,52 @@
+<?php require_once __DIR__ . '/../header.phtml' ?>
+<header class="main-header">
+        <a href="/" class="logo">
+          <span class="logo-mini"><b>A</b>LT</span>
+          <span class="logo-lg"><b>Ecast</b> Control Panel</span>
+        </a>
+        <nav class="navbar navbar-static-top" role="navigation">
+          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+          </a>
+          <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav">
+              <li class="dropdown user user-menu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <span class="hidden-xs">Bienvenido <strong><?php echo $_SESSION['USERNAME']; ?></strong> <i class="fa fa-sign-out"></i>
+</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="user-footer">
+                    <div class="pull-right">
+                      <a href="/logout" class="btn btn-default btn-flat">Salir</a>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+        </nav>
+      </header>
+<aside class="main-sidebar">
+        <section class="sidebar">
+          <ul class="sidebar-menu">
+<li class="header"><i class="fa fa-home"></i> Home</li>
+<li><a href="/"><i class="fa fa-arrow-circle-right"></i> Home </a></li>
+
+<li class="header"><i class="fa fa-users"></i> Servidor</li>
+<li><a href="/station/showstream"><i class="fa fa-arrow-circle-right"></i> Streaming</a></li>
+<li><a href="/station/autodj"><i class="fa fa-arrow-circle-right"></i> Auto Dj</a></li>
+
+<li class="header"><i class="fa fa-users"></i> Oyentes</li>
+<li><a href="/station/oyentes"><i class="fa fa-arrow-circle-right"></i> Oyentes </a></li>
+
+<li class="header"><i class="fa fa-music"></i> Musica</li>
+<li><a href="/filemanager/list"><i class="fa fa-arrow-circle-right"></i> Mp3</a></li>
+<li><a href="/filemanager/playlist"><i class="fa fa-arrow-circle-right"></i> Playlist</a></li>
+<li><a href="/filemanager/upload"><i class="fa fa-arrow-circle-right"></i> Agregar Archivos</a></li>
+<li class="header"><i class="fa fa-sign-out"></i> Cerrar Session</li>
+<li><a href="/logout"><i class="fa fa-arrow-circle-right"></i> Salir</a></li>        
+          </ul>
+        </section>
+      </aside>

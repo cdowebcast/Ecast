@@ -1,0 +1,109 @@
+<?php
+/**
+ *  Ecast
+ */
+?>
+
+<div class="content-wrapper">
+  <section class="content">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="box">
+          <div class="box-header">
+            <h3 class="box-title"><i class="fa fa-music"></i> Archivos Mp3</h3>
+          </div>
+          <div class="box-body table-responsive no-padding">
+            <table class="table table-hover" id="example">
+              <tbody>
+                <tr>
+                  <th><?php echo _('Streamname'); ?></th>
+                  <th><?php echo _('Limite Oyentes'); ?></th>
+                  <th><?php echo _('Port'); ?></th>
+                  <th><?php echo _('Estado'); ?></th>
+                  <th><?php echo _('Playlist'); ?></th>
+                  <th><?php echo _('DJ Start/Stop'); ?></th>
+                </tr>
+                <?php
+                                $results = DB::query("SELECT * FROM sc_rel WHERE accounts_id=%s", $_SESSION['account_id']);
+                                foreach ($results as $row) {
+                                    echo '<form action="/station/autodj" method="post"><tr>';
+                                    $account = DB::queryFirstRow("SELECT * FROM sc_serv_conf WHERE id=%s", $row['sc_serv_conf_id']);
+                                    echo '<td><a href="http://' . $_SERVER['HTTP_HOST'] . ':' . $account['PortBase'] . '" target="_blank">Stats</a><br>';
+
+
+                                    $wert= 'http://'.$_SERVER['HTTP_HOST'] . ':' . $account['PortBase'];
+                                    $fp = @fsockopen($_SERVER['HTTP_HOST'], $account['PortBase'], $errno, $errstr, 1);
+                                    if ($fp)  {
+                                        fclose($fp);
+                                        $xmsluser = new \core\sp_special\StationXML();
+                                    $all = $xmsluser->getXMLParms($account['PortBase'], '123');
+                                    echo _('<strong>Oyentes Actuales:</strong> ').$all->oyentes .'<br>';
+                                    echo _('<strong>Pico de Oyentes:</strong> ').$all->picooyentes .'<br>';
+                                    echo _('<strong>Bitrate:</strong> ').$all->bitrate .'<br>';
+                                    echo _('<strong>Cancion Actual:</strong> ').$all->cancion .'<br>';
+                                    }
+                                    echo '</td>';
+
+                                    echo "<td>" . $account['MaxUser'] . "</td> \n";
+                                    echo "<td>" . $account['PortBase'] . "</td> \n";
+                                    ?>
+              <td><?php if ($row['sc_serv_pid'] == '0') {
+                                            echo '<img src="/image/fuge/status-busy.png" alt="">';
+                                        } else {
+                                            echo '<img src="/image/fuge/status.png" alt="">';
+                                        } ?></td>
+                <td><select name="playlstswitch" size="1" onchange="this.form.submit()">
+                    <option></option>
+                    <?php
+                                            $results = DB::query("SELECT * FROM playlist WHERE user_id=%s", $_SESSION['account_id']);
+                                            foreach ($results as $pllst) {
+                                                ?>
+                    <option value="<?php echo $row['id'] . '.' . $pllst['id'] . '.' . $pllst['playlist_name']; ?>"><?php echo $pllst['playlist_name']; ?></option>
+                    <?php
+                                            }
+                                            ?>
+                  </select>
+                  <?php
+                                        $Playlistname = DB::queryFirstRow("SELECT playlist_name FROM playlist WHERE id=%s", $row['play_list_id']);
+                                        echo '<br>'._('Playlist Actual: ').'<b>'.$Playlistname['playlist_name'].'</b>';
+                                        ?></td>
+                <td><?php if ($row['sc_trans_pid'] == '0') {
+                                            echo '<img src="/image/fuge/status-busy.png">';
+
+                                        } else {
+                                            echo '<img src="/image/fuge/status.png" >';
+                                            ?>
+                  <button name="djSwitch" value="<?php echo $row['id'] . '.0' ?>" class="btn btn-danger">
+                  <?= _('Detener') ?>
+                  </button>
+                  <?php
+                                        }
+
+                                        if ($row['sc_serv_pid'] == '0') {
+                                            echo _('Inicie Stream Primero');
+                                        } else {
+
+                                            if($row['sc_trans_pid'] == '0'){
+
+                                                ?>
+                  <button name="djSwitch" value="<?php echo $row['id'] . '.1' ?>" class="btn btn-success">
+                  <?= _('Iniciar') ?>
+                  </button>
+                  <?php
+                                            }
+
+
+                                        } ?></td>
+                <?php
+                                    echo '</tr></form>';
+                                }
+                                ?>
+                  </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<?php require __DIR__ . '/../footer.phtml' ?>

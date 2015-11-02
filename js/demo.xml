@@ -1,0 +1,11 @@
+<muses-skin folder="demo" togglePlayStop="true">
+  <bg image="bg.png" x="0" y="0" ></bg>
+  <play image="play.png" x="40" y="44" clickimage="stop.png" bgimage="play.png" />
+  <stop image="stop.png" x="40" y="44" clickimage="play.png" bgimage="stop.png" />
+  <text x="43" y="14" width="132" height="22" color="#000000" font="arial" size="11"  align="center"/>
+  <volume x="60" y="40" width="121" height="30" 
+      holderImage="holder.png"
+	  mode="holder"  
+  />
+  <status imagePlay="statusplay.swf"  x="0" y="0" />
+</muses-skin>

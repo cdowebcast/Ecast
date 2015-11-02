@@ -1,0 +1,174 @@
+<?php
+/**
+ * Created by David Schomburg (DashTec - Services)
+ *      www.dashtec.de
+ *
+ *  S:P (StreamersPanel)
+ *  Support: http://board.streamerspanel.de
+ *
+ *  v 4.0.0
+ *
+ *  Kundennummer:   @KDNUM@
+ *  Lizenznummer:   @RECHNR@
+ *  Lizenz: http://login.streamerspanel.de/user/terms
+ */
+?>
+<div id="content">
+    <div class="container">
+        <form class="form-horizontal" action="/station/add" method="post">
+            <div class="row">
+
+                <div class="span8">
+                    <div id="horizontal" class="widget widget-form">
+                        <div class="widget-header">
+                            <h3>
+                                <i class="icon-pencil"></i>
+                                <?php echo _('Neuen Streamserver v2.0'); ?>
+                            </h3>
+                        </div>
+                        <!-- /widget-header --><?php
+                        /*
+                         *      Beginn Konfiguration S:P Angaben
+                         */
+                        ?>
+                        <div class="widget-content">
+                            <fieldset>
+                                <?php
+
+                                if(isset($_SESSION['stationAddmerker'])){
+
+                                ?>
+                                <div class="control-group">
+                                    <label class="control-label" for="select01"><?php echo _('Stream zum Benutzer hinzufügen'); ?></label>
+
+                                    <div class="controls">
+                                        <select id="select01" name="usr_id">
+                                            <?php
+                                            $results = DB::query("SELECT * FROM accounts WHERE usr_grp=%s", 'user');
+                                            foreach ($results as $row) {
+                                                echo ' <option value=' . $row['id'] . '>' . $row['kundennummer'] . ' ' . $row['vorname'] . ' ' . $row['nachname'] . ' ' . "</option>";
+                                            }
+                                            ?>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="select01"><?php echo _('ShoutCast Transcoder'); ?></label>
+
+                                    <div class="controls">
+                                        <select id="select01" name="sc_trans_version">
+                                            <option></option>
+                                            <?php
+                                            $results = DB::query("SELECT * FROM sc_version WHERE typ=%s", 'trans');
+                                            foreach ($results as $row) {
+                                                echo ' <option value=' . $row['id'] . '>' . $row['name'] . "</option>";
+                                            }
+                                            ?>
+                                        </select>
+                                    </div>
+                                </div>
+                                <?php
+                                /*
+                                 *      Beginn Konfiguration SC_Serv
+                                 */
+                                ?>
+                                <div class="control-group">
+                                    <label class="control-label" for="select01"><?php echo _('Benutzte Ports'); ?></label>
+
+                                    <div class="controls">
+                                        <?php
+                                        $results = DB::query("SELECT djport FROM sc_trans_conf");
+                                        foreach ($results as $row) {
+                                            echo $row['djport'] . "\n";
+                                        }
+
+                                        $results = DB::query("SELECT PortBase FROM sc_serv_conf");
+                                        foreach ($results as $row) {
+                                            echo $row['PortBase'] . "\n";
+                                        }
+                                        ?>
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?php echo _('Stream port'); ?></label>
+
+                                    <div class="controls">
+
+                                        <input type="text" class="input-large" name="sc_serv[PortBase]" value="<?php if(isset($sc_server['PortBase'])) { echo $sc_server['PortBase'];  } ?>" id="input01">
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?php echo _('Admin-Port'); ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="sc_trans[adminport]" id="input01" value="<?php if(isset($sc_trans['encoder'])){echo $sc_trans['encoder']; } ?>"><br>
+                                        <?php echo _('bitte beachte die bereits verwendeten Ports inkl. den neu- angegebenen Streamport'); ?>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?php echo _('DJ-Port'); ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="sc_trans[djport]" id="input01" value="<?php if(isset($sc_trans['djport'])){echo $sc_trans['djport']; } ?>"><br>
+                                        <?php echo _('bitte beachte die bereits verwendeten Ports inkl. den neu- angegebenen Streamport'); ?>
+                                    </div>
+                                </div>
+                                <?php
+                                }
+                                ?>
+
+
+
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?php echo _('Max. Hörer'); ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="sc_serv[MaxUser]" value="<?php if(isset($sc_server['MaxUser'])) { echo $sc_server['MaxUser'];  } ?>" id="input01">
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?php echo _('Password'); ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="sc_serv[Password]" value="<?php if(isset($sc_server['Password'])) { echo $sc_server['Password'];  } ?>" id="input01">
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?php echo _('Admin Password'); ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="sc_serv[AdminPassword]" value="<?php if(isset($sc_server['AdminPassword'])) { echo $sc_server['AdminPassword'];  } ?>" id="input01">
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label" for="input01"><?php echo _('Zeige die letzten X Songs'); ?></label>
+
+                                    <div class="controls">
+                                        <input type="text" class="input-large" name="sc_serv[ShowLastSongs]" value="<?php if(isset($sc_server['ShowLastSongs'])) { echo $sc_server['ShowLastSongs'];  } ?>" id="input01">
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label"><?php echo _('Server ist öffentlich'); ?></label>
+
+                                    <div class="controls">
+                                        <label class="radio">
+                                            <input type="radio" name="RelayPublic" id="validateRadio1" value="public" <?php if(isset($sc_server['ShowLastSongs']) == 'public'){echo 'checked="checked"';} ?>>
+                                            <?php echo _('Ja'); ?>
+                                        </label>
+                                        <label class="radio">
+                                            <input type="radio" name="RelayPublic" id="validateRadio2" value="never" <?php if(isset($sc_server['ShowLastSongs']) == 'never' or empty($sc_server['ShowLastSongs'])){echo 'checked="checked"';} ?>>
+                                            <?php echo _('Nein'); ?>
+                                        </label>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <!-- /widget-content -->

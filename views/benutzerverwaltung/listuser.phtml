@@ -1,0 +1,84 @@
+<?php require_once __DIR__ . '/../header.phtml' ?>
+
+<div class="content-wrapper">
+  <section class="content">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="box">
+          <div class="box-header">
+            <h3 class="box-title"><i class="fa fa-users"></i> Usuarios</h3>
+          </div>
+          <div class="box-body table-responsive no-padding">
+            <table class="table table-hover">
+              <tbody>
+                <tr>
+                  <th>ID Cliente</th>
+                  <th>Nombre</th>
+                  <th>Direccion, Tel, Email</th>
+                  <th>Usuario DJ (creado / max.)</th>
+                  <th>Grupo</th>
+                  <th>Estado</th>
+                  <th>Configuracion</th>
+                </tr>
+                <?php
+                            foreach ($Users as $row) {
+                                echo '<tr><form action="/user/list" method="post">';
+                                echo "<td>" . $row['kundennummer'] . "</td> \n";
+                                echo "<td>" . $row['vorname'] . ' ' . $row['nachname'] . "</td> \n";
+                                echo "<td>" . $row['street'] . ' ' . $row['hausnummer'] . ', <br> ' . $row['plz'] . ' ' . $row['ort'] . "<br>".$row['handy'] .'|'. $row['mail']."</td> \n";
+
+                                DB::query("SELECT * FROM dj_accounts WHERE dj_of_user_id=%s", $row['id']);
+                                $counter = DB::count();
+                                if($row['dj_limit_count'] == NULL){
+                                    $maxusers = _('unlim.');
+                                }else{
+                                    $maxusers = $row['dj_limit_count'];
+                                }
+
+                            if ($row['usr_grp'] == 'user') {
+                                echo "<td>" . $counter . ' / '. $maxusers ."</td> \n";
+                            }else{
+                                echo "<td></td> \n";
+                            }
+
+                                if ($row['usr_grp'] == 'adm') {
+                                    echo "<td>"._('Admininstrador')."</td> \n";
+                                } elseif ($row['usr_grp'] == 'user') {
+                                    echo "<td>"._('Usuario')."</td> \n";
+                                } elseif ($row['usr_grp'] == 'dj') {
+                                    echo "<td>"._('DJ')."</td> \n";
+                                }
+                                ?>
+              <td><?php if ($row['is_aktiv'] == '1' AND $row['usr_grp'] != 'adm' ) {?>
+                  <button class="btn btn-danger" value="<?php echo $row['id'] . '.0' ?>" name="is_aktiv" >Bloquear</button>
+                  <?php
+                                    }
+                                    if ($row['is_aktiv'] == '0') {
+                                        ?>
+                  <button class="btn btn-success" value="<?php echo $row['id'] . '.1' ?>" name="is_aktiv" >Desbloquear</button>
+                  <?php
+                                    }
+
+                                    ?></td>
+                <td><button class="btn btn-secondary" value="<?php echo $row['id'] . '.edituser' ?>" name="useredit" ><img src="/image/fuge/pencil.png"></button>
+                  <button class="btn btn-warning" value="<?php echo $row['id'] . '.changePass' ?>" name="useredit" ><img src="/image/fuge/key.png"></button>
+                  <?php if ($row['usr_grp'] == 'user') {?>
+                  <button class="btn btn-group" value="<?php echo $row['id'] . '.djuserlimit' ?>" name="useredit" ><img src="/image/fuge/users.png"></button>
+                  <?php }if ($row['usr_grp'] != 'adm' ) {?>
+                  <button class="btn btn-danger" value="<?php echo $row['id'] . '.deluser' ?>" name="useredit" ><img src="/image/fuge/cross-circle.png" ></button>
+                  <?php
+                                    }
+?></td>
+                <?php
+                                echo '</form></tr>';
+                            }
+                            ?>
+                  </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<?php require __DIR__ . '/../footer.phtml' ?>
