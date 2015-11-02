@@ -1,5 +1,4 @@
 <?php
-# Feedback System wenn der Benutzer ein Admin ist!
 if ($_SESSION['usr_grp'] == 'adm'){
 ?>
 <aside>
@@ -61,18 +60,11 @@ echo
 <div id="footer">
 	<div class="container">
 
-		  &copy;  <a href="http://board.streamerspanel.com/">board.streamerspanel.com</a>
-         <small>   &raquo; <a href="http://changelog.streamerspanel.com/" target="_blank">Changelog</a></small>
+		  &copy;  <a href="#">link</a>
+         <small>   &raquo; <a href="#" target="_blank">link</a></small>
          &raquo; '.$specialFooter.'
 
  <br />
-
- <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">StreamersPanel</span> von
- <a xmlns:cc="http://creativecommons.org/ns#" href="http://board.streamerspanel.de" property="cc:attributionName" rel="cc:attributionURL">
- David Schomburg</a> ist lizenziert unter einer
-
- <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
- Creative Commons Namensnennung - Nicht kommerziell - Keine Bearbeitungen 4.0 International Lizenz</a>.
 
 	</div> <!-- /.container -->
 

@@ -1,23 +1,4 @@
-<?php
-/**
-* Created by David Schomburg (DashTec - Services)
-*      www.dashtec.de
-*
-*  S:P (StreamersPanel)
-*  Support: http://board.streamerspanel.de
-*
-*  v 4.0.0
-*
-*  Kundennummer:   @KDNUM@
-*  Lizenznummer:   @RECHNR@
-*  Lizenz: http://login.streamerspanel.de/user/terms
-*/
-?>
-
-
-        Ordern für Konfigurationen der einzelnen - Ports/Streams für die
-
-            -   sc_serv.conf            FORMAT->    PORT_sc_serv.conf
+﻿            -   sc_serv.conf            FORMAT->    PORT_sc_serv.conf
             -   sc_trans.conf           FORMAT->    PORT_sc_serv.conf
             -   playlist.lst            FORMAT->    PLAYLISTid.lst
 
