@@ -4,7 +4,7 @@ $port = $_REQUEST['p'];
 $puerto = base64_decode($port);
 
 echo '<table class="table table-hover"><tbody><tr><th>Nombre</th><th>Fecha</th></tr>';
-$file = file("/var/www/html/shoutcastconf/" . $puerto . "/var/log/playlist.log");
+$file = file("/var/www/html/userconf/" . $puerto . "/var/log/playlist.log");
 					$conte = count($file);
 					
 					if($conte < 6) {

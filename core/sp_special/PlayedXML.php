@@ -5,7 +5,7 @@ class PlayedXML {
 
     public function playedXMLParms($port, $passw){
 
-        $file = file('/var/www/html/shoutcastconf/'.$port.'/var/log/playlist.log');
+        $file = file('/var/www/html/userconf/'.$port.'/var/log/playlist.log');
         for ($i = count($file)-6; $i < count($file); $i++) {
             print $file[$i] . "\n";
 

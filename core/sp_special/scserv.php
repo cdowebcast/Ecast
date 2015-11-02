@@ -37,7 +37,7 @@ class scserv
         $SSHConf = $this->getSSHConf();
         $connection = ssh2_connect($SSHConf['ip'], $SSHConf['port']);
         ssh2_auth_password($connection, $SSHConf['user'], $SSHConf['pass']);
-        $ssh2_exec_com = ssh2_exec($connection, '/usr/local/bin/icecast -c ' . $_SERVER['DOCUMENT_ROOT'] . '/shoutcastconf/' . $streamPort . '/sc_serv.xml </dev/null 2>/dev/null >/dev/null & echo $!');
+        $ssh2_exec_com = ssh2_exec($connection, '/usr/local/bin/icecast -c ' . $_SERVER['DOCUMENT_ROOT'] . '/userconf/' . $streamPort . '/sc_serv.xml </dev/null 2>/dev/null >/dev/null & echo $!');
         sleep(1);
 
         $pid = stream_get_contents($ssh2_exec_com);
@@ -54,7 +54,7 @@ class scserv
         $Sc_Serv_conf = \DB::queryFirstRow("SELECT * FROM sc_serv_conf WHERE id=%s", $Sc_serv_conf_id);
 
 # Proof if Dir exist
-        if (is_dir("shoutcastconf/" . $Sc_Serv_conf['PortBase']) == false) {
+        if (is_dir("userconf/" . $Sc_Serv_conf['PortBase']) == false) {
             $this->creatDirHome($Sc_Serv_conf['PortBase']);
         }
 
@@ -63,7 +63,7 @@ class scserv
         $Sc_Serv['conf'] = ''; # Array für die Spalte
 
 # Datei öffnen
-        $datei = fopen("shoutcastconf/" . $Sc_Serv_conf['PortBase'] . "/sc_serv.conf", "w+");
+        $datei = fopen("userconf/" . $Sc_Serv_conf['PortBase'] . "/sc_serv.conf", "w+");
         foreach ($columns as $column) {
             $Sc_Serv['conf'][$column] = $Sc_Serv_conf[$column]; # Speichert alles in einem Array für Fehlerauswerung
         }
@@ -79,13 +79,13 @@ class scserv
     # Create the Home-Dir for StreamId
     private function creatDirHome($StreamPort)
     {
-        mkdir('shoutcastconf/' . $StreamPort, 0755, true);
+        mkdir('userconf/' . $StreamPort, 0755, true);
     }
 
     # Remove the Home Dir
     private function rmDir($StreamPort)
     {
-        $this->rmDirLogic('shoutcastconf/' . $StreamPort);
+        $this->rmDirLogic('userconf/' . $StreamPort);
     }
 
     # Logic for Remove non empty Folder

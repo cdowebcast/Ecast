@@ -21,7 +21,7 @@ class sctrans
         $Sc_Serv_conf = \DB::queryFirstRow("SELECT * FROM sc_trans_conf WHERE id=%s", $Sc_serv_conf_id);
 
 # Proof if Dir exist
-        if (is_dir("shoutcastconf/" . $Sc_Serv_conf['serverport']) == false) {
+        if (is_dir("userconf/" . $Sc_Serv_conf['serverport']) == false) {
             $this->creatDirHome($Sc_Serv_conf['serverport']);
         }
 
@@ -30,7 +30,7 @@ class sctrans
         $Sc_Serv['trans'] = ''; # Array für die Spalte
 
 # Datei öffnen
-        $datei = fopen($_SERVER['DOCUMENT_ROOT'] . '/shoutcastconf/' . $Sc_Serv_conf['serverport'] . '/sc_trans.conf', 'w');
+        $datei = fopen($_SERVER['DOCUMENT_ROOT'] . '/userconf/' . $Sc_Serv_conf['serverport'] . '/sc_trans.conf', 'w');
         foreach ($columns as $column) {
             $Sc_Serv['trans'][$column] = $Sc_Serv_conf[$column]; # Speichert alles in einem Array für Fehlerauswerung
         }
@@ -80,8 +80,8 @@ class sctrans
         $SSHConf = $this->getSSHConf();
         $connection = ssh2_connect($SSHConf['ip'], $SSHConf['port']);
         ssh2_auth_password($connection, $SSHConf['user'], $SSHConf['pass']);
-        $ssh2_exec_com = ssh2_exec($connection, '/var/www/html/shoutcast/sc_trans ' . $_SERVER['DOCUMENT_ROOT'] . '/shoutcastconf/' . $streamPort . '/source.conf </dev/null 2>/dev/null >/dev/null & echo $!');
-        //$ssh2_exec_com = ssh2_exec($connection, $_SERVER['DOCUMENT_ROOT'] . '/shoutcast/' . $sc_trans . ' ' . $_SERVER['DOCUMENT_ROOT'] . '/shoutcastconf/' . $streamPort . '/sc_trans.conf </dev/null 2>/dev/null >/dev/null & echo $!');
+        $ssh2_exec_com = ssh2_exec($connection, '/var/www/html/shoutcast/sc_trans ' . $_SERVER['DOCUMENT_ROOT'] . '/userconf/' . $streamPort . '/source.conf </dev/null 2>/dev/null >/dev/null & echo $!');
+        //$ssh2_exec_com = ssh2_exec($connection, $_SERVER['DOCUMENT_ROOT'] . '/shoutcast/' . $sc_trans . ' ' . $_SERVER['DOCUMENT_ROOT'] . '/userconf/' . $streamPort . '/sc_trans.conf </dev/null 2>/dev/null >/dev/null & echo $!');
         sleep(1);
 
         $pid = stream_get_contents($ssh2_exec_com);
@@ -123,7 +123,7 @@ class sctrans
 
         # Name der Plaliyste
         $playlistname = \DB::queryFirstRow("SELECT playlist_name FROM playlist WHERE id=%s", $playlistid['play_list_id']);
-        $datei = fopen( $_SERVER['DOCUMENT_ROOT'] . '/shoutcastconf/'.$Port.'/'.$playlistname['playlist_name'].'.lst', "w");
+        $datei = fopen( $_SERVER['DOCUMENT_ROOT'] . '/userconf/'.$Port.'/'.$playlistname['playlist_name'].'.lst', "w");
 
         # Abfrage der MP3 ID
         $results = \DB::query("SELECT mp3_id FROM playlist_mp3_rel WHERE playlist_id=%s", $playlistid['play_list_id'] );

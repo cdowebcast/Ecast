@@ -65,10 +65,10 @@
 
 
     <paths>
-        <basedir>/var/www/html/shoutcastconf/8004/</basedir>
-        <logdir>/var/www/html/shoutcastconf/8004/var/log</logdir>
-        <webroot>/var/www/html/shoutcastconf/8004/web</webroot>
-        <adminroot>/var/www/html/shoutcastconf/8004/admin</adminroot>
+        <basedir>/var/www/html/userconf/8004/</basedir>
+        <logdir>/var/www/html/userconf/8004/var/log</logdir>
+        <webroot>/var/www/html/userconf/8004/web</webroot>
+        <adminroot>/var/www/html/userconf/8004/admin</adminroot>
         <pidfile>var/run/server.pid</pidfile>
         <!--
         <alias source="/foo" dest="/bar"/>
