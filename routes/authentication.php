@@ -10,7 +10,7 @@ $app->get('/login', function () use ($app) {
        # die(_('Bitte den "install" Ordner löschen'));
     }
 
-    $newsListing = DB::query("SELECT * FROM news WHERE is_aktiv=%s  AND login_news=%s", '1', '1');
+    //$newsListing = DB::query("SELECT * FROM news WHERE is_aktiv=%s  AND login_news=%s", '1', '1');
     $app->render('authentication/login.phtml', compact('newsListing'));
 })->name('login');
 
