@@ -34,7 +34,7 @@
                                         <?= $sc_rel['stream_userName'] ?>
                                     </td>
                                     <td>
-                                       <?=  '<a href="http://' . $_SERVER["HTTP_HOST"] . ':' . $sc_serv['PortBase'] . '">' . $sc_serv['PortBase']?>
+                                       <?=  '<a href="http://' . $_SERVER["SERVER_NAME"] . ':' . $sc_serv['PortBase'] . '">' . $sc_serv['PortBase']?>
                                     </td>
                                     <td>
                                         <?php if ($sc_rel['sc_trans_pid'] == '0') {

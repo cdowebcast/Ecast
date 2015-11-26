@@ -27,7 +27,7 @@
                                             echo _('Nombre: ') .'<b>'. $row['stream_userName'] .'</b>'."<br>";
                                             echo _('Oyentes: ') .'<b>'. $sc_serv['MaxUser'] .'</b>'. "<br>";
                                             if($row['sc_serv_pid'] != '0'){
-                                                echo _('Puerto: ') .'<a href="http://' . $_SERVER["HTTP_HOST"] . ':' . $sc_serv['PortBase'] . '" target="_blank" >'.'<b>'. $sc_serv['PortBase'] .'</b>'. "</a><br>";
+                                                echo _('Puerto: ') .'<a href="http://' . $_SERVER["SERVER_NAME"] . ':' . $sc_serv['PortBase'] . '" target="_blank" >'.'<b>'. $sc_serv['PortBase'] .'</b>'. "</a><br>";
                                             }else{
                                                 echo _('Puerto: ') .$sc_serv['PortBase']. "</a><br>";
                                             }

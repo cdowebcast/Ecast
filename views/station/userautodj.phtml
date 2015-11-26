@@ -28,11 +28,11 @@
                                 foreach ($results as $row) {
                                     echo '<form action="/station/autodj" method="post"><tr>';
                                     $account = DB::queryFirstRow("SELECT * FROM sc_serv_conf WHERE id=%s", $row['sc_serv_conf_id']);
-                                    echo '<td><a href="http://' . $_SERVER['HTTP_HOST'] . ':' . $account['PortBase'] . '" target="_blank">Stats</a><br>';
+                                    echo '<td><a href="http://' . $_SERVER['SERVER_NAME'] . ':' . $account['PortBase'] . '" target="_blank">Stats</a><br>';
 
 
-                                    $wert= 'http://'.$_SERVER['HTTP_HOST'] . ':' . $account['PortBase'];
-                                    $fp = @fsockopen($_SERVER['HTTP_HOST'], $account['PortBase'], $errno, $errstr, 1);
+                                    $wert= 'http://'.$_SERVER['SERVER_NAME'] . ':' . $account['PortBase'];
+                                    $fp = @fsockopen($_SERVER['SERVER_NAME'], $account['PortBase'], $errno, $errstr, 1);
                                     if ($fp)  {
                                         fclose($fp);
                                         $xmsluser = new \core\sp_special\StationXML();

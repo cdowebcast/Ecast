@@ -23,7 +23,7 @@
                 $results = DB::query("SELECT * FROM sc_rel WHERE accounts_id=%s", $_SESSION['account_id']);
                 foreach ($results as $row) {
                     $account = DB::queryFirstRow("SELECT * FROM sc_serv_conf WHERE id=%s", $row['sc_serv_conf_id']);
-                    $url = 'http://admin:' . $account['Password'] . '@' . $_SERVER['HTTP_HOST'] . ':' . $account['PortBase'] . '/admin/listclients?mount=/autodj';
+                    $url = 'http://admin:' . $account['Password'] . '@' . $_SERVER['SERVER_NAME'] . ':' . $account['PortBase'] . '/admin/listclients?mount=/autodj';
                     $xml = @simplexml_load_file($url);
                     if ($xml === false) {
                         //echo 'no';
@@ -40,7 +40,7 @@
                 }
 				foreach ($results as $row) {
                     $account = DB::queryFirstRow("SELECT * FROM sc_serv_conf WHERE id=%s", $row['sc_serv_conf_id']);
-                    $url = 'http://admin:' . $account['Password'] . '@' . $_SERVER['HTTP_HOST'] . ':' . $account['PortBase'] . '/admin/listclients?mount=/live';
+                    $url = 'http://admin:' . $account['Password'] . '@' . $_SERVER['SERVER_NAME'] . ':' . $account['PortBase'] . '/admin/listclients?mount=/live';
                     $xml = @simplexml_load_file($url);
                     if ($xml === false) {
                         //echo 'no';

@@ -12,8 +12,8 @@
                                 foreach ($results as $row) {
                                     $account = DB::queryFirstRow("SELECT * FROM sc_serv_conf WHERE id=%s", $row['sc_serv_conf_id']);
 
-                                    $wert= 'http://'.$_SERVER['HTTP_HOST'] . ':' . $account['PortBase'];
-                                    //$fp = @fsockopen($_SERVER['HTTP_HOST'], $account['PortBase'], $errno, $errstr, 1);
+                                    $wert= 'http://'.$_SERVER['SERVER_NAME'] . ':' . $account['PortBase'];
+                                    //$fp = @fsockopen($_SERVER['SERVER_NAME'], $account['PortBase'], $errno, $errstr, 1);
                                     //if ($fp)  {
                                         //fclose($fp);
                                         //$xmsluser = new \core\sp_special\StationXML();
