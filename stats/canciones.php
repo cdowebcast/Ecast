@@ -1,9 +1,10 @@
 <?php
 header('Content-type: text/html; charset=utf-8');
+date_default_timezone_set('America/Bogota');
 $port = $_REQUEST['p'];
 $puerto = base64_decode($port);
 
-echo '<table class="table table-hover"><tbody><tr><th>Nombre</th><th>Fecha</th></tr>';
+echo '<table class="table table-hover"><tbody><tr><th>Nombre</th><th>Hora</th></tr>';
 $file = file("/var/www/html/userconf/" . $puerto . "/var/log/playlist.log");
 					$conte = count($file);
 					
@@ -20,7 +21,7 @@ $file = file("/var/www/html/userconf/" . $puerto . "/var/log/playlist.log");
 
                       echo "<tr>";
                       echo "<td><i class=\"fa fa-music\"></i> ". utf8_encode($cancionsola[3]) ."</td>";
-                      echo "<td><i class=\"fa fa-clock-o\"></i> $cancionsola[0]</td>";
+                      echo "<td><i class=\"fa fa-clock-o\"></i> ". date('g:i a',strtotime($cancionsola[0])) ." </td>";
                       echo "</tr>";
                     }
 					}
