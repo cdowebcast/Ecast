@@ -53,7 +53,7 @@ $app->post('/archivos/playlist', function () use ($app) {
         $SPMenu->MenuInclude($app);
         $app->render('archivos/editplaylist.phtml');
         $sp_growl = new core\sp_special\growl();
-        $sp_growl->writeGrowl('success', _('Titel von der Playliste gelöscht'),'');
+        $sp_growl->writeGrowl('success', _('Canciones Eliminadas'),'');
     }
 
     if(isset($_POST['addTitleToplst'])){
@@ -130,7 +130,7 @@ $app->post('/archivos/playlist', function () use ($app) {
         $SPMenu->MenuInclude($app);
         $app->render('archivos/playlist.phtml');
         $sp_growl = new core\sp_special\growl();
-        $sp_growl->writeGrowl('warning', _('Bitte einen Namen angeben'), _('Playliste kann nicht angelegt werden!'));
+        $sp_growl->writeGrowl('warning', _('Ingrese un nombre'), _('No se udo crear la lista'));
     }
 
     # Playliste löschen
