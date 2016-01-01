@@ -39,7 +39,7 @@ require_once __DIR__ . '/routes/support.php';
 require_once __DIR__ . '/routes/sp.php';
 require_once __DIR__ . '/routes/news.php';
 require_once __DIR__ . '/routes/station.php';
-require_once __DIR__ . '/routes/filemanager.php';
+require_once __DIR__ . '/routes/archivos.php';
 require_once __DIR__ . '/routes/server.php';
 require_once __DIR__ . '/routes/benutzerverwaltung.php';
 require_once __DIR__ . '/routes/dj.php';
