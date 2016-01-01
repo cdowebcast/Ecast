@@ -1,143 +1,111 @@
 <?php
- 
-
-
+/**
+ *  Ecast
+ */
 ?>
 
 
-    <div id="appendprepend" class="widget widget-form">
-
+      <div id="appendprepend" class="widget widget-form">
         <div class="widget-header">
-            <h3>
-                <i class="icon-pencil"></i>
-                <?php echo _('Transcoder Einstellungen'); ?>
-            </h3>
+          <h3> <i class="icon-pencil"></i>Ajutes Transcoder </h3>
         </div>
         <!-- /widget-header -->
-
+        
         <div class="widget-content">
-            <fieldset>
-                <div class="control-group">
-                    <label class="control-label"><?php echo _('Streamt als (Encoder 1'); ?></label>
-
-                    <div class="controls">
-                        <label class="radio">
-                            <input type="radio" name="sc_trans[encoder_1]" id="validateRadio1" value="mp3" <?php if($sc_trans['encoder_1'] == 'mp3'){echo  'checked="checked"';} ?>>
-                            <?php echo _('MP3'); ?> <?php echo _('License from Shoutcast (required license)'); ?>
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="sc_trans[encoder_1]" id="validateRadio2" value="aac" <?php if($sc_trans['encoder_1'] == 'aac'){echo  'checked="checked"';} ?>>
-                            <?php echo _('AAC'); ?>
-                        </label>
-                    </div>
-                </div>
-
-                <div class="control-group">
-                    <label class="control-label"><?php echo _('Streamt als (Encoder 2'); ?></label>
-
-                    <div class="controls">
-                        <label class="radio">
-                            <input type="radio" name="sc_trans[encoder_2]" id="validateRadio3" value="mp3" <?php if($sc_trans['encoder_2'] == 'mp3'){echo  'checked="checked"';} ?>>
-                            <?php echo _('MP3'); ?> <?php echo _('License from Shoutcast (required license)'); ?>
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="sc_trans[encoder_2]" id="validateRadio4" value="aac" <?php if($sc_trans['encoder_2'] == 'aac'){echo  'checked="checked"';} ?>>
-                            <?php echo _('AAC'); ?>
-                        </label>
-                    </div>
-                </div>
-
-                <div class="control-group">
-                    <label class="control-label" for="input01"><?php echo _('Unlockkeyname'); ?></label>
-
-                    <div class="controls">
-                        <input type="text" class="input-large" name="sc_trans[unlockkeyname]" <?php if(!empty($sc_trans['unlockkeyname'])){echo  'value="'.$sc_trans['unlockkeyname'].'"';} ?> id="input01">
-                    </div>
-                </div>
-
-                <div class="control-group">
-                    <label class="control-label" for="input01"><?php echo _('Unlockkeycode'); ?></label>
-
-                    <div class="controls">
-                        <input type="text" class="input-large" name="sc_trans[unlockkeycode]" <?php if(!empty($sc_trans['unlockkeycode'])){echo  'value="'.$sc_trans['unlockkeycode'].'"';} ?> id="input01">
-                    </div>
-                </div>
-
-
-                <div class="control-group">
-                    <label class="control-label" for="input01"><?php echo _('Stream URL'); ?></label>
-
-                    <div class="controls">
-                        <input type="text" class="input-large" name="sc_trans[streamurl]" <?php if(!empty($sc_trans['streamurl'])){echo  'value="'.$sc_trans['streamurl'].'"';} ?> id="input01">
-                    </div>
-                </div>
-
-                <div class="control-group">
-                    <label class="control-label" for="input01"><?php echo _('Genre'); ?></label>
-
-                    <div class="controls">
-                        <input type="text" class="input-large" name="sc_trans[genre]" <?php if(!empty($sc_trans['genre'])){echo  'value="'.$sc_trans['genre'].'"';} ?> id="input01">
-                    </div>
-                </div>
-
-                <div class="control-group">
-                    <label class="control-label" for="input01"><?php echo _('AIM'); ?></label>
-
-                    <div class="controls">
-                        <input type="text" class="input-large" name="sc_trans[aim]" <?php if(!empty($sc_trans['aim'])){echo  'value="'.$sc_trans['aim'].'"';} ?> id="input01">
-                    </div>
-                </div>
-
-                <div class="control-group">
-                    <label class="control-label" for="input01"><?php echo _('ICQ'); ?></label>
-
-                    <div class="controls">
-                        <input type="text" class="input-large" name="sc_trans[icq]" <?php if(!empty($sc_trans['icq'])){echo  'value="'.$sc_trans['icq'].'"';} ?> id="input01">
-                    </div>
-                </div>
-
-                <div class="control-group">
-                    <label class="control-label" for="input01"><?php echo _('IRC'); ?></label>
-
-                    <div class="controls">
-                        <input type="text" class="input-large" name="sc_trans[irc]" <?php if(!empty($sc_trans['irc'])){echo  'value="'.$sc_trans['irc'].'"';} ?> id="input01">
-                    </div>
-                </div>
-
-
-                <div class="control-group">
-                    <label class="control-label"><?php echo _('Shuffle'); ?></label>
-
-                    <div class="controls">
-                        <label class="radio">
-                            <input type="radio" name="sc_trans[shuffle]" id="validateRadio1" value="1" <?php if($sc_trans['shuffle'] == '1'){echo  'checked="checked"';} ?>>
-                            <?php echo _('Ja'); ?>
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="sc_trans[shuffle]" id="validateRadio2" value="0" <?php if($sc_trans['shuffle'] == '0' or empty($sc_server['shuffle'])){echo  'checked="checked"';} ?>>
-                            <?php echo _('Nein'); ?>
-                        </label>
-                    </div>
-                </div>
-
-
-
-
-                <div class="form-actions">
-                    <button type="submit" name="addsrv" class="btn btn-danger btn-large"><i class="icon-star"></i>
-                        Guardar
-                    </button>
-                </div>
-            </fieldset>
+          <fieldset>
+            <div class="control-group">
+              <label class="control-label"><?php echo _('Streamt als (Encoder 1'); ?></label>
+              <div class="controls">
+                <label class="radio">
+                  <input type="radio" name="sc_trans[encoder_1]" id="validateRadio1" value="mp3" <?php if($sc_trans['encoder_1'] == 'mp3'){echo  'checked="checked"';} ?>>
+                  <?php echo _('MP3'); ?> <?php echo _('License from Shoutcast (required license)'); ?> </label>
+                <label class="radio">
+                  <input type="radio" name="sc_trans[encoder_1]" id="validateRadio2" value="aac" <?php if($sc_trans['encoder_1'] == 'aac'){echo  'checked="checked"';} ?>>
+                  <?php echo _('AAC'); ?> </label>
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label"><?php echo _('Streamt als (Encoder 2'); ?></label>
+              <div class="controls">
+                <label class="radio">
+                  <input type="radio" name="sc_trans[encoder_2]" id="validateRadio3" value="mp3" <?php if($sc_trans['encoder_2'] == 'mp3'){echo  'checked="checked"';} ?>>
+                  <?php echo _('MP3'); ?> <?php echo _('License from Shoutcast (required license)'); ?> </label>
+                <label class="radio">
+                  <input type="radio" name="sc_trans[encoder_2]" id="validateRadio4" value="aac" <?php if($sc_trans['encoder_2'] == 'aac'){echo  'checked="checked"';} ?>>
+                  <?php echo _('AAC'); ?> </label>
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="input01"><?php echo _('Unlockkeyname'); ?></label>
+              <div class="controls">
+                <input type="text" class="input-large" name="sc_trans[unlockkeyname]" <?php if(!empty($sc_trans['unlockkeyname'])){echo  'value="'.$sc_trans['unlockkeyname'].'"';} ?> id="input01">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="input01"><?php echo _('Unlockkeycode'); ?></label>
+              <div class="controls">
+                <input type="text" class="input-large" name="sc_trans[unlockkeycode]" <?php if(!empty($sc_trans['unlockkeycode'])){echo  'value="'.$sc_trans['unlockkeycode'].'"';} ?> id="input01">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="input01"><?php echo _('Stream URL'); ?></label>
+              <div class="controls">
+                <input type="text" class="input-large" name="sc_trans[streamurl]" <?php if(!empty($sc_trans['streamurl'])){echo  'value="'.$sc_trans['streamurl'].'"';} ?> id="input01">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="input01"><?php echo _('Genre'); ?></label>
+              <div class="controls">
+                <input type="text" class="input-large" name="sc_trans[genre]" <?php if(!empty($sc_trans['genre'])){echo  'value="'.$sc_trans['genre'].'"';} ?> id="input01">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="input01"><?php echo _('AIM'); ?></label>
+              <div class="controls">
+                <input type="text" class="input-large" name="sc_trans[aim]" <?php if(!empty($sc_trans['aim'])){echo  'value="'.$sc_trans['aim'].'"';} ?> id="input01">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="input01"><?php echo _('ICQ'); ?></label>
+              <div class="controls">
+                <input type="text" class="input-large" name="sc_trans[icq]" <?php if(!empty($sc_trans['icq'])){echo  'value="'.$sc_trans['icq'].'"';} ?> id="input01">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="input01"><?php echo _('IRC'); ?></label>
+              <div class="controls">
+                <input type="text" class="input-large" name="sc_trans[irc]" <?php if(!empty($sc_trans['irc'])){echo  'value="'.$sc_trans['irc'].'"';} ?> id="input01">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label"><?php echo _('Shuffle'); ?></label>
+              <div class="controls">
+                <label class="radio">
+                  <input type="radio" name="sc_trans[shuffle]" id="validateRadio1" value="1" <?php if($sc_trans['shuffle'] == '1'){echo  'checked="checked"';} ?>>
+                  Si </label>
+                <label class="radio">
+                  <input type="radio" name="sc_trans[shuffle]" id="validateRadio2" value="0" <?php if($sc_trans['shuffle'] == '0' or empty($sc_server['shuffle'])){echo  'checked="checked"';} ?>>
+                  No </label>
+              </div>
+            </div>
+            <div class="form-actions">
+              <button type="submit" name="addsrv" class="btn btn-danger btn-large"><i class="icon-star"></i> Guardar </button>
+            </div>
+          </fieldset>
         </div>
-        <!-- /widget-content -->
+        <!-- /widget-content --> 
+      </div>
     </div>
-    </div>
-    <!-- div span8 -->
-    </div>
-    <!-- /row -->
-    </form>
-    </div>
-    <!-- /.container -->
-    </div> <!-- /#content -->
+    <!-- div span8 --> 
+  </div>
+  <!-- /row -->
+  </form>
+  </div>
+  <!-- /.container -->
+  </div>
+  
+  <!-- /#content -->
+  </div>
+</section>
+</div>
 <?php require __DIR__ . '/../footer.phtml' ?>

@@ -19,7 +19,7 @@
     </authentication>
 
 
-    <hostname>45.58.36.48</hostname>
+    <hostname>162.243.111.196</hostname>
 <port>8004</port>
 <bind-address>127.0.0.1</bind-address>
 <shoutcast-mount>/autodj</shoutcast-mount>
@@ -30,15 +30,6 @@
 <port>8005</port>
 <shoutcast-compat>1</shoutcast-compat>
 </listen-socket>
-
-    <mount>
-        <mount-name>/stream</mount-name>
-        <intro></intro>
-        <fallback-mount>/live</fallback-mount>
-        <fallback-override>1</fallback-override>
-        <fallback-when-full>0</fallback-when-full>
-        <no-yp>1</no-yp>
-    </mount>
 
     <mount>
         <mount-name>/live</mount-name>
@@ -53,7 +44,7 @@
         <mount-name>/autodj</mount-name>
         <bitrate>64</bitrate>
         <intro></intro>
-      <fallback-mount></fallback-mount>
+      <fallback-mount>/live</fallback-mount>
       <fallback-override>1</fallback-override>
       <fallback-when-full>0</fallback-when-full>            
         <no-yp>1</no-yp>

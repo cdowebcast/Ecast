@@ -13,7 +13,7 @@
             <h3 class="box-title"><i class="fa fa-list"></i> Archivos Mp3</h3>
           </div>
           <div class="box-body table-responsive no-padding">
-            <form method="post" action="/filemanager/playlist">
+            <form method="post" action="/archivos/playlist">
               <table class="table table-hover" id="example">
                 <thead>
                   <tr>
@@ -27,7 +27,7 @@
                   <?php
                                         $results = DB::query("SELECT * FROM playlist WHERE user_id=%s", $_SESSION['account_id']);
                                         foreach ($results as $row) {
-                                            echo '<tr><form action="/filemanager/playlist" method="post">';
+                                            echo '<tr><form action="/archivos/playlist" method="post">';
                                             echo "<td>" . $row['playlist_name'] . "</td> \n";
                                             DB::query("SELECT * FROM playlist_mp3_rel WHERE playlist_id=%s", $row['id']);
                                             $counter = DB::count();
@@ -55,7 +55,7 @@
             <h3 class="box-title"><i class="fa fa-list"></i> Agregar Playlist</h3>
           </div>
           <div class="box-body table-responsive no-padding">
-            <form method="post" action="/filemanager/playlist">
+            <form method="post" action="/archivos/playlist">
               <input type="text" name="playlist_name" value=""/>
               <input type="submit" name="addplaylst" id="submit_id" value="Agregar"/>
             </form>

@@ -13,7 +13,7 @@
             <h3 class="box-title"><i class="fa fa-music"></i> Canciones en la lista de Reproduccion</h3>
           </div>
           <div class="box-body table-responsive no-padding">
-            <form method="post" action="/filemanager/playlist">
+            <form method="post" action="/archivos/playlist">
               <table class="table table-hover">
                 <tbody>
                   <tr>
@@ -32,7 +32,7 @@
 
                                             $mp3 = DB::query("SELECT * FROM mp3 WHERE id=%s", $title['mp3_id']);
                                             foreach ($mp3 as $mp3tit) {
-                                                echo '<tr><form action="/filemanager/playlist" method="post" >';
+                                                echo '<tr><form action="/archivos/playlist" method="post" >';
                                                 echo "<td>".$mp3tit['org_file_titel']."</td> \n";
                                                 $MB = $mp3tit['size'] / 1048576;
                                                 echo "<td>".round($MB, 2)."MB</td> \n";
@@ -67,7 +67,7 @@
             <h3 class="box-title"><i class="fa fa-music"></i> Canciones en la Carpeta</h3>
           </div>
           <div class="box-body table-responsive no-padding">
-            <form method="post" action="/filemanager/playlist">
+            <form method="post" action="/archivos/playlist">
               <table class="table table-hover">
                 <tbody>
                   <tr>
@@ -82,7 +82,7 @@
                                         foreach ($results as $row) {
                                             $mp3titel = DB::query("SELECT * FROM mp3 WHERE id=%s", $row['mp3_id']);
                                             foreach ($mp3titel as $title) {
-                                                echo '<tr><form action="/filemanager/playlist" method="post">';
+                                                echo '<tr><form action="/archivos/playlist" method="post">';
                                                 echo "<td>".$title['org_file_titel']."</td> \n";
                                                 $MB = $title['size'] / 1048576;
                                                 echo "<td>".round($MB, 2)."MB</td> \n";

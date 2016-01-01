@@ -1,26 +1,26 @@
 <?php
-$app->get('/filemanager/list', function () use ($app) {
+$app->get('/archivos/list', function () use ($app) {
     $SPMenu = new SP\Menu\MenuInclusion();
     $SPMenu->MenuInclude($app);
-    $app->render('filemanager/list.phtml', compact('Users'));
+    $app->render('archivos/list.phtml', compact('Users'));
 })->name('Users');
 
-$app->get('/filemanager/playlist', function () use ($app) {
+$app->get('/archivos/playlist', function () use ($app) {
     $SPMenu = new SP\Menu\MenuInclusion();
     $SPMenu->MenuInclude($app);
-    $app->render('filemanager/playlist.phtml', compact('Users'));
+    $app->render('archivos/playlist.phtml', compact('Users'));
 })->name('Users');
 
-$app->get('/filemanager/upload', function () use ($app) {
+$app->get('/archivos/upload', function () use ($app) {
     $SPMenu = new SP\Menu\MenuInclusion();
     $SPMenu->MenuInclude($app);
-    $app->render('filemanager/upload.phtml', compact('Users'));
+    $app->render('archivos/upload.phtml', compact('Users'));
 })->name('Users');
 
-$app->get('/filemanager/playlist/edit', function () use ($app) {
+$app->get('/archivos/playlist/edit', function () use ($app) {
     $SPMenu = new SP\Menu\MenuInclusion();
     $SPMenu->MenuInclude($app);
-    $app->render('filemanager/editplaylist.phtml', compact('Users'));
+    $app->render('archivos/editplaylist.phtml', compact('Users'));
 })->name('Users');
 
 
@@ -29,19 +29,19 @@ $app->get('/filemanager/playlist/edit', function () use ($app) {
 /*
  *    -Übersicht aller Datein-
  */
-$app->post('/filemanager/list', function () use ($app) {
+$app->post('/archivos/list', function () use ($app) {
 if(isset($_POST['DelFromDB']) and !empty($_POST['DelFromDB'])){
     DB::delete('mp3_usr_rel', "id=%s", $_POST['DelFromDB']);
     $SPMenu = new SP\Menu\MenuInclusion();
     $SPMenu->MenuInclude($app);
-    $app->render('filemanager/list.phtml');
+    $app->render('archivos/list.phtml');
     $sp_growl = new core\sp_special\growl();
     $sp_growl->writeGrowl('success', _('Datei gelöscht'), _('Die Datei wurde gelöscht!'));
 }
 })->name('Users');
 
 
-$app->post('/filemanager/playlist', function () use ($app) {
+$app->post('/archivos/playlist', function () use ($app) {
 /*
  *      Playlist-Edit-Funktionen
  */
@@ -51,7 +51,7 @@ $app->post('/filemanager/playlist', function () use ($app) {
         DB::delete('playlist_mp3_rel', "id=%s", $_POST['delTitleFormEditPlaylist']);
         $SPMenu = new SP\Menu\MenuInclusion();
         $SPMenu->MenuInclude($app);
-        $app->render('filemanager/editplaylist.phtml');
+        $app->render('archivos/editplaylist.phtml');
         $sp_growl = new core\sp_special\growl();
         $sp_growl->writeGrowl('success', _('Titel von der Playliste gelöscht'),'');
     }
@@ -63,7 +63,7 @@ $app->post('/filemanager/playlist', function () use ($app) {
         ));
         $SPMenu = new SP\Menu\MenuInclusion();
         $SPMenu->MenuInclude($app);
-        $app->render('filemanager/editplaylist.phtml');
+        $app->render('archivos/editplaylist.phtml');
     }
 
 
@@ -80,7 +80,7 @@ $app->post('/filemanager/playlist', function () use ($app) {
 
         $SPMenu = new SP\Menu\MenuInclusion();
         $SPMenu->MenuInclude($app);
-        $app->render('filemanager/editplaylist.phtml');
+        $app->render('archivos/editplaylist.phtml');
     }
 
 
@@ -95,14 +95,14 @@ $app->post('/filemanager/playlist', function () use ($app) {
         $_SESSION['playlistactiv'] = $_POST['editPlaylst'];
         $SPMenu = new SP\Menu\MenuInclusion();
         $SPMenu->MenuInclude($app);
-        $app->render('filemanager/editplaylist.phtml', compact('Users'));
+        $app->render('archivos/editplaylist.phtml', compact('Users'));
     }
 
     if (isset($_POST['delFromlstEdit'])){
         DB::delete('playlist_mp3_rel', "id=%s", $_POST['delTitel']['id']);
         $SPMenu = new SP\Menu\MenuInclusion();
         $SPMenu->MenuInclude($app);
-        $app->render('filemanager/editplaylist.phtml', compact('Users'));
+        $app->render('archivos/editplaylist.phtml', compact('Users'));
     }
 
 
@@ -124,11 +124,11 @@ $app->post('/filemanager/playlist', function () use ($app) {
         ));
         $SPMenu = new SP\Menu\MenuInclusion();
         $SPMenu->MenuInclude($app);
-        $app->render('filemanager/playlist.phtml');
+        $app->render('archivos/playlist.phtml');
     }elseif(isset($_POST['addplaylst']) && empty($_POST['playlist_name'])){
         $SPMenu = new SP\Menu\MenuInclusion();
         $SPMenu->MenuInclude($app);
-        $app->render('filemanager/playlist.phtml');
+        $app->render('archivos/playlist.phtml');
         $sp_growl = new core\sp_special\growl();
         $sp_growl->writeGrowl('warning', _('Bitte einen Namen angeben'), _('Playliste kann nicht angelegt werden!'));
     }
@@ -138,7 +138,7 @@ $app->post('/filemanager/playlist', function () use ($app) {
         DB::delete('playlist', "id=%s", $_POST['delPlaylst']);
         $SPMenu = new SP\Menu\MenuInclusion();
         $SPMenu->MenuInclude($app);
-        $app->render('filemanager/playlist.phtml');
+        $app->render('archivos/playlist.phtml');
         $sp_growl = new core\sp_special\growl();
         $sp_growl->writeGrowl('success', _('Playliste gelöscht'), _('Die Playliste wurde entfernt!'));
     }
@@ -153,7 +153,7 @@ $app->post('/filemanager/playlist', function () use ($app) {
  *      POST Datein
  */
 /*
-$app->post('/filemanager/32324234234', function () use ($app) {
+$app->post('/archivos/32324234234', function () use ($app) {
     if (isset($_POST['pllstaction'])){
         $changer = explode("#",$_POST['pllstaction']);
 
@@ -161,21 +161,21 @@ $app->post('/filemanager/32324234234', function () use ($app) {
             DB::delete('playlist', "id=%s", $changer['1']);
             $SPMenu = new SP\Menu\MenuInclusion();
             $SPMenu->MenuInclude($app);
-            $app->render('filemanager/editplaylist.phtml', compact('Users'));
+            $app->render('archivos/editplaylist.phtml', compact('Users'));
         }
 
         if($changer['0'] == 'activ'){
             $_SESSION['playlistactiv'] = $changer['1'];
             $SPMenu = new SP\Menu\MenuInclusion();
             $SPMenu->MenuInclude($app);
-            $app->render('filemanager/editplaylist.phtml', compact('Users'));
+            $app->render('archivos/editplaylist.phtml', compact('Users'));
         }
 
         if($changer['0'] == 'save'){
             #unset($_SESSION['playlistactiv']);
             $SPMenu = new SP\Menu\MenuInclusion();
             $SPMenu->MenuInclude($app);
-            $app->render('filemanager/playlist.phtml', compact('Users'));
+            $app->render('archivos/playlist.phtml', compact('Users'));
         }
     }
     if (isset($_POST['addTitel'])){
@@ -185,13 +185,13 @@ $app->post('/filemanager/32324234234', function () use ($app) {
         ));
         $SPMenu = new SP\Menu\MenuInclusion();
         $SPMenu->MenuInclude($app);
-        $app->render('filemanager/editplaylist.phtml', compact('Users'));
+        $app->render('archivos/editplaylist.phtml', compact('Users'));
     }
 
     if(isset($_POST['savepllst'])){
         $SPMenu = new SP\Menu\MenuInclusion();
         $SPMenu->MenuInclude($app);
-        $app->render('filemanager/playlist.phtml', compact('Users'));
+        $app->render('archivos/playlist.phtml', compact('Users'));
     }
 
 
@@ -199,7 +199,7 @@ $app->post('/filemanager/32324234234', function () use ($app) {
 */
 
 # Upload-Funktionen
-$app->post('/filemanager/upload', function () use ($app) {
+$app->post('/archivos/upload', function () use ($app) {
 /**
  * PHP Real Ajax Uploader 2.7
  * Copyright @Alban Xhaferllari
