@@ -61,34 +61,23 @@ class sctrans
     {
         // Stream Conf
         $sc_serv_rel = \DB::queryFirstRow("SELECT * FROM sc_rel WHERE id=%s", $sc_rel_id);
-
         // StreamDaten
         $sc_serv_id = \DB::queryFirstRow("SELECT * FROM sc_serv_conf WHERE id=%s", $sc_serv_rel['sc_serv_conf_id']);
-
-        // STREAMPORT
+        // Puerto
         $streamPort = $sc_serv_id['PortBase'];
-
         // SSH CONFIG ANLEGEN
         $this->writeSc_TransConf($sc_serv_rel['sc_serv_conf_id']);
-
         $this->writeNewPlaylist($sc_rel_id, $sc_serv_id['PortBase']);
-
         // SC_SERV Version
         $sc_trans = $this->getScTrans($sc_serv_rel['sc_trans_version_id']);
-
         // SSH AUSFÜHREN
         $SSHConf = $this->getSSHConf();
         $connection = ssh2_connect($SSHConf['ip'], $SSHConf['port']);
         ssh2_auth_password($connection, $SSHConf['user'], $SSHConf['pass']);
-        $ssh2_exec_com = ssh2_exec($connection, '/var/www/html/shoutcast/sc_trans ' . $_SERVER['DOCUMENT_ROOT'] . '/userconf/' . $streamPort . '/source.conf </dev/null 2>/dev/null >/dev/null & echo $!');
-        //$ssh2_exec_com = ssh2_exec($connection, $_SERVER['DOCUMENT_ROOT'] . '/shoutcast/' . $sc_trans . ' ' . $_SERVER['DOCUMENT_ROOT'] . '/userconf/' . $streamPort . '/sc_trans.conf </dev/null 2>/dev/null >/dev/null & echo $!');
+        $ssh2_exec_com = ssh2_exec($connection, $_SERVER['DOCUMENT_ROOT'] . '/shoutcast/sc_trans ' . $_SERVER['DOCUMENT_ROOT'] . '/userconf/' . $streamPort . '/source.conf </dev/null 2>/dev/null >/dev/null & echo $!');
         sleep(1);
-
         $pid = stream_get_contents($ssh2_exec_com);
-
-
         $this->setPID($sc_rel_id, $pid);
-
     }
 
     public function killSc_Trans($sc_rel_id)
@@ -118,18 +107,16 @@ class sctrans
 
     public function writeNewPlaylist($sc_rel_id, $Port){
 
-        # ID der Playliste aus der sc_rel
+        # ID de la lista de reproduccion de la sc_rel
         $playlistid = \DB::queryFirstRow("SELECT play_list_id FROM sc_rel WHERE id=%s", $sc_rel_id);
-
-        # Name der Plaliyste
+        # Nombre de la lista de reproduccion
         $playlistname = \DB::queryFirstRow("SELECT playlist_name FROM playlist WHERE id=%s", $playlistid['play_list_id']);
         $datei = fopen( $_SERVER['DOCUMENT_ROOT'] . '/userconf/'.$Port.'/'.$playlistname['playlist_name'].'.lst', "w");
-
-        # Abfrage der MP3 ID
+        # Consulta el ID de MP3
         $results = \DB::query("SELECT mp3_id FROM playlist_mp3_rel WHERE playlist_id=%s", $playlistid['play_list_id'] );
         $MP3TitelSpeicher = '';
         foreach ($results as $row) {
-            #MP3 Dateiname auslesen
+            #Leer nombre del archivo MP3
             $mp3DirTitel = \DB::queryFirstRow("SELECT dir_titel FROM mp3 WHERE id=%s",$row['mp3_id']);
                 $MP3TitelSpeicher[] = $_SERVER['DOCUMENT_ROOT'] . '/mp3collection/'.$mp3DirTitel['dir_titel'];
         }

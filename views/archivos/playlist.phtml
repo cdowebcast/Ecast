@@ -31,7 +31,7 @@
                                             echo "<td>" . $row['playlist_name'] . "</td> \n";
                                             DB::query("SELECT * FROM playlist_mp3_rel WHERE playlist_id=%s", $row['id']);
                                             $counter = DB::count();
-                                            echo "<td>" . $counter . "</td> \n";
+                                            echo "<td>" . $counter . "</td> \n";									
                                             echo "<td> </td> \n";
                                             echo '<td>'; ?>
                 <button class="btn btn-warning" value="<?= $row['id'] ?>" name="editPlaylst" ><img src="/image/fuge/pencil.png" ></button>
@@ -40,6 +40,16 @@
                 
                 <?php
                                             echo '</form></tr>';
+                                        }?>
+										<?php
+										$results = DB::query("SELECT * FROM sc_rel WHERE accounts_id=%s", $_SESSION['account_id']);
+                                        foreach ($results as $row) {
+											$_SESSION['playlist']  = $row['sc_serv_conf_id'];
+																				
+                                        }
+										$results = DB::query("SELECT * FROM sc_serv_conf WHERE id=%s", $_SESSION['playlist']);
+                                        foreach ($results as $row) {
+											$_SESSION['puerto']  = $row['PortBase'];					
                                         }
                                         ?>
                   </tbody>

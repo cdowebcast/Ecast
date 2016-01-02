@@ -43,17 +43,20 @@ if(isset($_POST['DelFromDB']) and !empty($_POST['DelFromDB'])){
 
 $app->post('/archivos/playlist', function () use ($app) {
 /*
- *      Playlist-Edit-Funktionen
+ *      Manejo Playlist
  */
 
-    # Titel von Playlist löschen
+    # Agregar o Quitar del Playlist
     if(isset($_POST['delTitleFormEditPlaylist'])){
         DB::delete('playlist_mp3_rel', "id=%s", $_POST['delTitleFormEditPlaylist']);
         $SPMenu = new SP\Menu\MenuInclusion();
         $SPMenu->MenuInclude($app);
         $app->render('archivos/editplaylist.phtml');
+		$actualizarplaylist = new core\sp_special\sctrans();
+		$actualizarplaylist->writeNewPlaylist($_SESSION['playlist'], $_SESSION['puerto']);
         $sp_growl = new core\sp_special\growl();
         $sp_growl->writeGrowl('success', _('Canciones Eliminadas'),'');
+		
     }
 
     if(isset($_POST['addTitleToplst'])){
@@ -61,13 +64,17 @@ $app->post('/archivos/playlist', function () use ($app) {
             'playlist_id' => $_SESSION['playlistactiv'],
             'mp3_id' => $_POST['addTitleToplst']
         ));
+		
         $SPMenu = new SP\Menu\MenuInclusion();
         $SPMenu->MenuInclude($app);
         $app->render('archivos/editplaylist.phtml');
+		
+		$actualizarplaylist = new core\sp_special\sctrans();
+		$actualizarplaylist->writeNewPlaylist($_SESSION['playlist'], $_SESSION['puerto']);
     }
 
 
-    # AlleTitel in die Playliste aufnehmen
+    # Agergar Todos Al Playlist
     if(isset($_POST['addAllTitelToPlst'])){
         $results = DB::query("SELECT * FROM mp3_usr_rel WHERE user_id=%s", $_SESSION['account_id']);
 
@@ -81,6 +88,8 @@ $app->post('/archivos/playlist', function () use ($app) {
         $SPMenu = new SP\Menu\MenuInclusion();
         $SPMenu->MenuInclude($app);
         $app->render('archivos/editplaylist.phtml');
+		$actualizarplaylist = new core\sp_special\sctrans();
+		$actualizarplaylist->writeNewPlaylist($_SESSION['playlist'], $_SESSION['puerto']);
     }
 
 
@@ -233,6 +242,7 @@ $from 			= 'from@ajaxupload.com';		//What should appear in the from bar, usually
  * RECOMMENDED CONFIGURATION HERE
  * The following parameters can be changed, and is reccomended to change them from here for security reason
  ***********************************************************************************************************/
+
 $upload_path	= isset($_REQUEST['ax-file-path']) && !empty($_REQUEST['ax-file-path']) ?$_REQUEST['ax-file-path']:'';
 $max_file_size	= isset($_REQUEST['ax-max-file-size']) && !empty($_REQUEST['ax-max-file-size']) ?$_REQUEST['ax-max-file-size']:'10M';
 $allow_ext		= (isset($_REQUEST['ax-allow-ext']) && !empty($_REQUEST['ax-allow-ext']))?explode('|', $_REQUEST['ax-allow-ext']):array();
