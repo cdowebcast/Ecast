@@ -1,6 +1,5 @@
 # Ecast
 Panel ECast<br />
-Icecast + AutoDj Control Panel
 ![Home](captura1.jpg "Captura 1")
 <br />
 Requisitos
@@ -9,5 +8,3 @@ Centos 6 o Superior<br />
 Apache Webserver<br />
 PHP 5.6<br />
 Mysql o MariaDB<br />
-Icecast Kh<br />
-SC_trans (aacp autodj)<br />
