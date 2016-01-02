@@ -1,5 +1,6 @@
 # Ecast
-Panel ECast - Icecast + AutoDj Control Panel
+Panel ECast<br />
+Icecast + AutoDj Control Panel
 ![Home](captura1.jpg "Captura 1")
 <br />
 Requisitos
